@@ -8,7 +8,7 @@
     const title = document.createElement("span");
     const arrow = document.createElement("span");
     const safePath = String(publication.url || "");
-    if (!/^(panorama-nuevo-testamento|estudios-biblicos|guias-estudiantes|recursos)\/[a-zA-Z0-9_./-]+\.html$/.test(safePath) || safePath.includes("..")) return null;
+    if (!/^(panorama-nuevo-testamento|estudios-biblicos|guias-estudiantes|recursos)(?:\/[a-zA-Z0-9_-]+)*(?:\/|\.html)$/.test(safePath) || safePath.includes("..")) return null;
     link.href = new URL(safePath, siteRoot).href;
     title.textContent = publication.title || "Publicación sin título";
     arrow.textContent = "↗";
