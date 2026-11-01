@@ -5,5 +5,12 @@
     { "id": "guias-estudiantes", "name": "Guías para estudiantes", "shortName": "Guías", "description": "Material de apoyo para clases, grupos y aprendizaje personal.", "number": "03" },
     { "id": "recursos", "name": "Recursos", "shortName": "Recursos", "description": "Material complementario para enseñar, estudiar y compartir.", "number": "04" }
   ],
-  "publications": []
+  "publications": [
+    {
+      "title": "Panorama del Nuevo Testamento — Clase 1",
+      "description": "Guía de estudio para el estudiante, con citas bíblicas.",
+      "category": "panorama-nuevo-testamento",
+      "url": "panorama-nuevo-testamento/guia-estudio-panorama-nt-clase-1-con-citas.html"
+    }
+  ]
 }
