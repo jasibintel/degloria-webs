@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "id": "panorama-nuevo-testamento", "name": "Panorama del Nuevo Testamento", "shortName": "Nuevo Testamento", "description": "Recorridos y materiales para conocer el contexto y el mensaje del Nuevo Testamento.", "number": "01" },
+    { "id": "estudios-biblicos", "name": "Estudios bíblicos", "shortName": "Estudios bíblicos", "description": "Estudios temáticos y pasajes para profundizar en las Escrituras.", "number": "02" },
+    { "id": "guias-estudiantes", "name": "Guías para estudiantes", "shortName": "Guías", "description": "Material de apoyo para clases, grupos y aprendizaje personal.", "number": "03" },
+    { "id": "recursos", "name": "Recursos", "shortName": "Recursos", "description": "Material complementario para enseñar, estudiar y compartir.", "number": "04" }
+  ],
+  "publications": []
+}
