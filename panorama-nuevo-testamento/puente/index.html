@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Panorama del Nuevo Testamento · Clase 1 · El puente: de Malaquías a Cristo</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+  :root {
+    --primary: #0f172a;
+    --secondary: #334155;
+    --muted: #64748b;
+    --line: #e2e8f0;
+    --soft: #f8fafc;
+    --accent: #d97706;
+    --accent-light: #fef3c7;
+    --blue: #2563eb;
+    --green: #16a34a;
+    --red: #dc2626;
+  }
+
+  * { box-sizing: border-box; }
+  table { max-width:100%; }
+  img { max-width:100%; height:auto; }
+
+  html {
+    font-size: 112.5%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background: #f8fafc;
+    color: var(--secondary);
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+    line-height: 1.5;
+    padding-bottom: 5rem;
+  }
+
+  strong { color: var(--primary); }
+  em { color: inherit; }
+  p { margin: 0 0 1rem; }
+  p:last-child { margin-bottom: 0; }
+  a { color: inherit; }
+
+  h1, h2, h3, h4 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+
+  #progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: var(--accent);
+    z-index: 10000;
+    transition: width 0.1s ease-out;
+  }
+
+  #section-tracker {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    background: rgba(15, 23, 42, 0.92);
+    color: #e2e8f0;
+    border: 1px solid rgba(217, 119, 6, 0.5);
+    border-radius: 999px;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 9999;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.22);
+  }
+
+  #section-tracker.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .tracker-dot {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 999px;
+    background: var(--accent);
+    box-shadow: 0 0 0 4px rgba(217, 119, 6, 0.18);
+  }
+
+  header {
+    background: var(--primary);
+    color: white;
+    padding: 5rem 1.5rem 4rem;
+    border-bottom: 8px solid var(--accent);
+  }
+
+  header > * {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kicker {
+    display: inline-flex;
+    align-items: center;
+    background: var(--accent);
+    color: white;
+    border-radius: 999px;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+  }
+
+  header h1 {
+    color: white;
+    font-size: clamp(2.6rem, 7vw, 4.8rem);
+    margin: 1.25rem auto 0.9rem;
+    letter-spacing: 0;
+  }
+
+  header h1 em { color: var(--accent-light); }
+
+  .subtitle {
+    color: #d1d5db;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.15rem, 2.6vw, 1.75rem);
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.45;
+    margin-bottom: 1.75rem;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.6rem;
+  }
+
+  .meta-row span {
+    background: rgba(51, 65, 85, 0.72);
+    color: #e2e8f0;
+    border-radius: 999px;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .wrap {
+    max-width: 56rem;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 0;
+  }
+
+  .ficha {
+    display: grid;
+    grid-template-columns: 1.08fr 1fr;
+    gap: 1.25rem;
+    margin: 0 0 2.5rem;
+  }
+
+  .ficha-card,
+  .toc-card,
+  .triple-card,
+  .tanaj-col,
+  .thread-card {
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -1px rgba(15, 23, 42, 0.05);
+  }
+
+  .ficha-card {
+    border-top: 4px solid var(--accent);
+    padding: 1.55rem;
+  }
+
+  .ficha-lbl,
+  .subhead,
+  .toc-func,
+  .activity .tag,
+  .principio .lbl,
+  .complementario .lbl,
+  .demo-box .demo-tag,
+  .ab-tag,
+  .tanaj-col .name {
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 800;
+  }
+
+  .ficha ul { padding-left: 1.15rem; margin: 0; }
+  .ficha li { margin-bottom: 0.65rem; color: var(--secondary); }
+  .ab-row { display: flex; flex-direction: column; gap: 0.95rem; }
+  .ab-item p { color: var(--secondary); }
+  .ab-arrow { color: var(--accent); font-size: 1.35rem; text-align: center; }
+
+  .toc-card {
+    padding: 1.5rem;
+    margin: 0 0 2.5rem;
+    border-top: 4px solid var(--accent);
+  }
+
+  .toc-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+  }
+
+  .toc-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .toc-head i { color: var(--accent); }
+  .toc-head span { color: var(--muted); font-size: 0.78rem; font-weight: 700; }
+  .toc-intro { color: var(--muted); font-size: 0.86rem; margin-bottom: 1rem; }
+  .toc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem 1.2rem; }
+
+  .toc-item {
+    display: grid;
+    grid-template-columns: 1.7rem 1fr;
+    gap: 0.75rem;
+    align-items: start;
+    padding: 0.75rem 0.2rem;
+    border-bottom: 1px solid #eef2f7;
+    text-decoration: none;
+  }
+
+  .toc-item:hover .toc-title { color: var(--accent); }
+  .toc-num {
+    width: 1.45rem;
+    height: 1.45rem;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    color: white;
+    font-size: 0.72rem;
+    font-weight: 800;
+  }
+  .toc-title { display: block; color: var(--primary); font-weight: 800; line-height: 1.35; }
+
+  .activity {
+    margin: 1.75rem 0 2.4rem;
+    padding: 1.35rem 1.55rem;
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-left: 5px solid var(--accent);
+    border-radius: 0 0.6rem 0.6rem 0;
+    box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -1px rgba(15, 23, 42, 0.04);
+  }
+
+  .activity p,
+  .activity li { color: var(--secondary); font-size: 0.92rem; }
+  .activity ol, .activity ul { padding-left: 1.35rem; margin: 0.75rem 0 0; }
+  .activity li { margin-bottom: 0.5rem; }
+
+  .seccion-anchor { scroll-margin-top: 5.5rem; }
+  section.mov { padding: 2.6rem 0 2.25rem; border-bottom: 1px solid var(--line); }
+  section.mov:last-of-type { border-bottom: 0; }
+
+  .mov-eyebrow { display: flex; align-items: center; gap: 0.85rem; margin-bottom: 1.25rem; }
+  .mov-num {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent);
+    color: white;
+    font-weight: 800;
+    box-shadow: 0 0 0 4px rgba(217, 119, 6, 0.14);
+  }
+  .mov-tag { color: var(--accent); font-size: 0.78rem; font-weight: 900; letter-spacing: 0.16em; text-transform: uppercase; }
+
+  .question {
+    color: var(--primary);
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: clamp(1.25rem, 2.8vw, 1.8rem);
+    line-height: 1.42;
+    margin-bottom: 1rem;
+  }
+
+  .thesis {
+    color: var(--primary);
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: clamp(1.25rem, 2.7vw, 1.65rem);
+    line-height: 1.45;
+    padding-left: 1.1rem;
+    border-left: 4px solid var(--accent);
+    margin-bottom: 1.6rem;
+  }
+
+  .body-text p { color: var(--secondary); font-size: 1rem; line-height: 1.65; margin-bottom: 1rem; }
+  h3.subhead { margin: 1.8rem 0 0.8rem; color: var(--accent); }
+
+  .pregunta-viva {
+    background: #fffbeb;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 0.55rem 0.55rem 0;
+    padding: 1rem 1.15rem;
+    margin: 1.35rem 0;
+    color: var(--primary);
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 1.02rem;
+    font-style: italic;
+    line-height: 1.55;
+  }
+  .pregunta-viva .pausa { display: block; margin-top: 0.45rem; color: var(--muted); font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 0.66rem; font-style: normal; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; }
+
+  .complementario,
+  .demo-box {
+    background: white;
+    border: 1px solid var(--line);
+    border-left: 5px solid #94a3b8;
+    border-radius: 0 0.55rem 0.55rem 0;
+    padding: 1.25rem 1.35rem;
+    margin: 1.3rem 0;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.07);
+  }
+  .complementario .lbl { color: var(--muted); }
+  .complementario p, .demo-box p { color: var(--secondary); font-size: 0.92rem; line-height: 1.62; }
+
+  .principio {
+    background: var(--primary);
+    color: white;
+    border-left: 5px solid var(--accent);
+    border-radius: 0 0.7rem 0.7rem 0;
+    padding: 1.45rem 1.55rem;
+    margin: 1.6rem 0 0;
+    box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.18), 0 4px 6px -2px rgba(15, 23, 42, 0.12);
+  }
+  .principio p { color: #e2e8f0; font-weight: 500; line-height: 1.65; }
+  .principio strong { color: white; }
+
+  .frase { text-align: center; margin: 2.3rem 0; padding: 1.55rem; }
+  .frase p { color: var(--accent); font-family: 'Merriweather', Georgia, 'Times New Roman', serif; font-size: clamp(1.25rem, 3vw, 1.75rem); font-weight: 700; line-height: 1.45; }
+  .frase p::before { content: "\201C"; }
+  .frase p::after { content: "\201D"; }
+  .transicion { max-width: 46rem; margin: 2rem auto; text-align: center; color: var(--primary); font-style: italic; font-weight: 500; line-height: 1.65; }
+
+  .triple-grid,
+  .threads-grid,
+  .tanaj-grid { display: grid; gap: 1rem; margin: 1.35rem 0; }
+  .triple-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .threads-grid, .tanaj-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .triple-card,
+  .tanaj-col,
+  .thread-card { padding: 1.1rem; border-top: 4px solid var(--accent); }
+  .triple-card { text-align: center; }
+  .tm-name, .tanaj-col h4, .th-name { color: var(--primary); font-family: 'Merriweather', Georgia, 'Times New Roman', serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.4rem; }
+  .tm-q, .books, .th-q, .th-ex, .count { color: var(--secondary); font-size: 0.84rem; line-height: 1.55; }
+  .tanaj-col h4 { text-align: center; font-size: 1.15rem; }
+  .tanaj-col .count { text-align: center; color: var(--muted); margin-bottom: 0.9rem; }
+  .tanaj-col .grp { margin-bottom: 0.9rem; }
+  .thread-card { border-top: 0; border-left: 4px solid var(--accent); }
+  .th-q { color: var(--muted); font-style: italic; margin-bottom: 0.35rem; }
+  .th-ex strong { color: var(--primary); }
+
+  .tl-legend { color: var(--muted); font-size: 0.84rem; font-style: italic; line-height: 1.6; margin: 0.8rem 0 1.2rem; }
+  .tl-wrap { position: relative; background: white; border: 1px solid var(--line); border-radius: 0.75rem; padding: 1.5rem 1.25rem 0.9rem; margin: 1.35rem 0; box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.08); }
+  .tl-line { position: absolute; left: 2.2rem; top: 1.5rem; bottom: 1.4rem; width: 2px; background: linear-gradient(180deg, var(--accent), #cbd5e1 90%, var(--accent)); }
+  .tl-era-node, .tl-node { position: relative; padding: 0 0 1.25rem 3.1rem; }
+  .tl-era-dot, .tl-dot { position: absolute; left: 0.48rem; top: 0.08rem; width: 1.25rem; height: 1.25rem; border-radius: 999px; background: white; border: 3px solid var(--accent); }
+  .tl-era-title, .tl-era { color: var(--primary); font-family: 'Merriweather', Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 1rem; }
+  .tl-era-date { color: var(--accent); font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; font-size: 0.72rem; font-weight: 800; }
+  .tl-era-includes, .tl-gloss { color: var(--secondary); font-size: 0.84rem; line-height: 1.55; margin-top: 0.2rem; }
+  .tl-marker, .tl-preview-label { display: inline-block; margin: 0.15rem 0 1rem 3.1rem; border-top: 1px dashed #f59e0b; padding-top: 0.6rem; color: var(--accent); font-size: 0.68rem; font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; }
+  .tl-preview-label { color: var(--muted); border-top: 0; padding-top: 0; margin-bottom: 0.7rem; }
+  .tl-node.dim .tl-dot { border-color: #94a3b8; }
+  .tl-node.dim .tl-era { color: var(--muted); font-style: italic; }
+
+  .map-box { background: var(--primary); border: 1px solid #334155; border-radius: 0.75rem; padding: 1rem; margin: 1.35rem 0; box-shadow: 0 10px 15px -3px rgba(15, 23, 42, 0.2); }
+  .map-caption { color: #cbd5e1; text-align: center; font-size: 0.78rem; font-style: italic; margin: 0.6rem 0 0; }
+
+  .errores { margin: 1.2rem 0; }
+  .err-item { display: flex; gap: 0.9rem; background: white; border: 1px solid var(--line); border-left: 5px solid var(--red); border-radius: 0 0.55rem 0.55rem 0; padding: 1rem 1.1rem; margin-bottom: 0.85rem; box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06); }
+  .err-x { color: var(--red); font-family: 'Merriweather', Georgia, 'Times New Roman', serif; font-size: 1.35rem; font-weight: 800; line-height: 1; }
+  .err-item p { color: var(--secondary); font-size: 0.92rem; line-height: 1.6; }
+  .err-label { color: var(--primary); font-weight: 800; }
+
+  .review-list { list-style: none; counter-reset: rq; padding-left: 0; margin: 1.1rem 0; }
+  .review-list li { counter-increment: rq; position: relative; padding-left: 2.25rem; margin-bottom: 0.9rem; color: var(--secondary); line-height: 1.62; }
+  .review-list li::before { content: counter(rq); position: absolute; top: 0.05rem; left: 0; width: 1.45rem; height: 1.45rem; border-radius: 999px; background: var(--primary); color: white; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; }
+
+  footer { background: var(--primary); color: #cbd5e1; border-top: 5px solid var(--accent); border-radius: 0.75rem 0.75rem 0 0; text-align: center; padding: 1.7rem 1rem; margin-top: 3rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.04em; }
+
+  .text-size-controls {
+    position: fixed;
+    right: 1.3rem;
+    bottom: 1.3rem;
+    display: flex;
+    gap: 0.35rem;
+    background: rgba(15, 23, 42, 0.94);
+    border: 1px solid rgba(217, 119, 6, 0.55);
+    border-radius: 0.55rem;
+    padding: 0.45rem;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.28);
+    z-index: 9999;
+  }
+  .text-size-controls button,
+  .back-to-top {
+    border: 0;
+    background: var(--accent);
+    color: white;
+    border-radius: 0.45rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease, opacity 0.2s ease;
+  }
+  .text-size-controls button:hover,
+  .back-to-top:hover { background: #b45309; transform: translateY(-1px); }
+  .back-to-top { position: fixed; right: 1.45rem; bottom: 4.8rem; border-radius: 999px; opacity: 0; pointer-events: none; z-index: 9998; box-shadow: 0 10px 25px rgba(15, 23, 42, 0.22); }
+  .back-to-top.visible { opacity: 1; pointer-events: auto; }
+
+  @media (max-width: 760px) {
+    html { font-size: 100%; }
+    header { padding: 4rem 1.2rem 3.2rem; }
+    .wrap { padding: 2rem 1rem 0; }
+    .ficha, .toc-grid, .triple-grid, .threads-grid, .tanaj-grid { grid-template-columns: 1fr; }
+    #section-tracker { top: 0.75rem; right: 0.75rem; max-width: calc(100vw - 1.5rem); font-size: 0.65rem; }
+    .meta-row span { font-size: 0.66rem; }
+    .toc-card, .ficha-card { padding: 1.1rem; }
+    section.mov { padding: 2rem 0 1.8rem; }
+    .text-size-controls { right: 0.8rem; bottom: 0.8rem; }
+    .back-to-top { right: 0.95rem; bottom: 4.2rem; }
+  }
+
+  @media print {
+    body { background: white; color: #111827; padding-bottom: 0; }
+    header { background: white; color: #111827; border-bottom: 4px solid var(--accent); }
+    header h1, .subtitle { color: #111827; }
+    #progress-bar, #section-tracker, .text-size-controls, .back-to-top { display: none !important; }
+    .ficha-card, .toc-card, .triple-card, .tanaj-col, .thread-card, .tl-wrap, .activity, .complementario, .principio, .err-item { box-shadow: none; }
+  }
+/* Énfasis editorial */
+  em.hi { font-style:normal; color:var(--accent); font-weight:700; font-family:'Merriweather',serif; }
+  u.key { text-decoration:underline; text-decoration-style:dotted; text-decoration-color:var(--accent);
+          text-underline-offset:3px; font-weight:600; text-decoration-thickness:2px; }
+
+  /* Componentes */
+  .idea-central { background:white; border:1px solid var(--line); border-top:4px solid var(--accent);
+    border-radius:.75rem; box-shadow:0 4px 6px -1px rgba(15,23,42,.08),0 2px 4px -1px rgba(15,23,42,.05);
+    max-width:56rem; margin:2.4rem auto 0; padding:1.6rem 1.5rem; text-align:center; }
+  .idea-central .lbl { font-family:'Inter',sans-serif; font-size:.68rem; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent); font-weight:800; margin-bottom:.8rem; }
+  .idea-central p { font-family:'Merriweather',serif; font-style:italic; color:var(--primary);
+    font-size:clamp(1.02rem,2.2vw,1.28rem); line-height:1.6; margin:0 auto; max-width:44rem; }
+
+  h4.subsubhead { font-family:'Merriweather',serif; color:var(--primary); font-size:1.3rem; margin:2rem 0 .7rem; }
+  h4.subsubhead .ref-inline { font-family:'Inter',sans-serif; color:var(--muted); font-size:.72rem;
+    font-weight:800; letter-spacing:.04em; margin-left:.55rem; }
+
+  .body-text ul, .body-text ol { padding-left:1.3rem; margin:.6rem 0 1rem; }
+  .body-text li { color:var(--secondary); margin-bottom:.5rem; line-height:1.62; }
+
+  .scripture { background:var(--primary); border-left:5px solid var(--accent); border-radius:0 .7rem .7rem 0;
+    padding:1.15rem 1.35rem; margin:1.25rem 0;
+    box-shadow:0 10px 15px -3px rgba(15,23,42,.16),0 4px 6px -2px rgba(15,23,42,.1); }
+  .scripture .ref { color:var(--accent-light); font-family:'Inter',sans-serif; font-size:.66rem;
+    letter-spacing:.16em; text-transform:uppercase; font-weight:800; margin-bottom:.45rem; }
+  .scripture p { color:#e2e8f0; font-size:.95rem; line-height:1.62; }
+
+  .frase-seccion { text-align:center; margin:1.5rem 0; padding:.55rem 1rem; }
+  .frase-seccion p { color:var(--accent); font-family:'Merriweather',serif; font-weight:700;
+    font-style:italic; font-size:1.1rem; line-height:1.5; }
+  .frase-seccion p::before { content:"\201C"; } .frase-seccion p::after { content:"\201D"; }
+
+  .ilustracion { background:#fffbeb; border:1px solid #fde68a; border-left:5px solid var(--accent);
+    border-radius:0 .55rem .55rem 0; padding:1rem 1.2rem; margin:1.25rem 0;
+    box-shadow:0 1px 3px rgba(15,23,42,.06); }
+  .ilustracion .lbl { font-family:'Inter',sans-serif; font-size:.64rem; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent); font-weight:800; margin-bottom:.4rem; }
+  .ilustracion p { color:var(--secondary); font-style:italic; font-size:.92rem; line-height:1.62; }
+  .ilustracion ul { padding-left:1.3rem; margin:.5rem 0; }
+  .ilustracion li { color:var(--secondary); font-style:italic; font-size:.92rem; line-height:1.55; margin-bottom:.3rem; }
+
+  .participacion { background:white; border:1.5px dashed #94a3b8; border-radius:.6rem;
+    padding:1rem 1.2rem; margin:1.25rem 0; }
+  .participacion .lbl { font-family:'Inter',sans-serif; font-size:.64rem; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--muted); font-weight:800; margin-bottom:.4rem; }
+  .participacion p { color:var(--secondary); font-size:.9rem; line-height:1.62; }
+
+  .mapa-flujo { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:.5rem;
+    background:white; border:1px solid var(--line); border-radius:.75rem; padding:1.05rem; margin:1.3rem 0;
+    box-shadow:0 1px 3px rgba(15,23,42,.07); }
+  .mapa-flujo .paso { font-family:'Merriweather',serif; font-weight:700; color:var(--primary);
+    border:2px solid var(--accent); border-radius:999px; padding:.32rem .9rem; font-size:.88rem; }
+  .mapa-flujo .flecha { color:var(--accent); font-weight:800; font-size:1rem; }
+
+  .mini-tl { position:relative; display:flex; gap:2px; padding:1.5rem .4rem .55rem; margin:1.15rem 0 .6rem;
+    overflow-x:auto; background:white; border:1px solid var(--line); border-radius:.75rem;
+    box-shadow:0 4px 6px -1px rgba(15,23,42,.07); }
+  .mini-tl::before { content:''; position:absolute; top:2.05rem; left:5%; right:5%; height:2px; background:var(--line); }
+  .mini-tl-node { position:relative; z-index:1; flex:1; min-width:4rem; text-align:center; }
+  .mini-tl-dot { width:.8rem; height:.8rem; border-radius:999px; background:white;
+    border:2.5px solid #94a3b8; margin:0 auto .4rem; }
+  .mini-tl-node.active .mini-tl-dot { border-color:var(--accent); background:var(--accent);
+    width:1.05rem; height:1.05rem; box-shadow:0 0 0 4px rgba(217,119,6,.16); }
+  .mini-tl-label { font-size:.62rem; color:var(--muted); line-height:1.3; font-weight:700; }
+  .mini-tl-node.active .mini-tl-label { color:var(--accent); font-weight:800; }
+
+  .here-box { background:white; border:1px solid var(--line); border-left:5px solid var(--accent);
+    border-radius:0 .6rem .6rem 0; padding:1rem 1.25rem; margin:1.15rem 0;
+    box-shadow:0 1px 3px rgba(15,23,42,.07); }
+  .here-box .lbl { font-family:'Inter',sans-serif; font-size:.64rem; letter-spacing:.16em;
+    text-transform:uppercase; color:var(--accent); font-weight:800; margin-bottom:.4rem; }
+  .here-box p { color:var(--secondary); font-size:.92rem; line-height:1.6; }
+
+  .vs-table { width:100%; border-collapse:separate; border-spacing:0; margin:1.15rem 0; background:white;
+    border:1px solid var(--line); border-radius:.6rem; overflow:hidden;
+    box-shadow:0 1px 3px rgba(15,23,42,.06); }
+  .vs-table th { background:var(--primary); color:white; font-family:'Inter',sans-serif; font-size:.66rem;
+    letter-spacing:.1em; text-transform:uppercase; font-weight:800; text-align:left; padding:.7rem .85rem; }
+  .vs-table td { color:var(--secondary); font-size:.88rem; line-height:1.55; padding:.65rem .85rem;
+    border-bottom:1px solid var(--line); vertical-align:top; }
+  .vs-table tr:last-child td { border-bottom:none; }
+
+  .th-avance { color:var(--secondary); font-size:.84rem; line-height:1.55; }
+  .th-trayectoria { color:var(--accent); font-size:.75rem; font-style:italic; font-weight:700;
+    margin-top:.45rem; line-height:1.5; }
+  .thread-card.quiet { border-left-color:#94a3b8; }
+
+  .activity h5 { font-family:'Merriweather',serif; color:var(--primary); font-size:.98rem; margin:.95rem 0 .3rem; }
+
+  @media (max-width:760px) {
+    .mini-tl-node { min-width:3.4rem; }
+    .vs-table th, .vs-table td { padding:.5rem .55rem; font-size:.8rem; overflow-wrap:anywhere; hyphens:auto; }
+    .vs-table th { letter-spacing:0; }
+    .vs-table td:first-child { white-space:normal; min-width:0; }
+    .mapa-flujo .paso { font-size:.78rem; padding:.28rem .7rem; }
+  }
+
+
+
+
+
+
+
+@page{size:A4;margin:14mm}
+tr{break-inside:avoid}
+
+:root{--accent-text:#92400e}
+.mov-tag,.idea-central .lbl,.complementario .lbl,.activity .tag,.ilustracion .lbl,.ficha-lbl,.ab-tag,.err-label,h4.subsubhead .ref-inline{color:var(--accent-text)}
+.slide-mark{color:var(--accent-text)!important}
+em.hi{color:var(--accent-text)}
+[id^="mov-"],.mov[id]{scroll-margin-top:4.5rem}
+@media (max-width:760px){.tabla-scroll::before{content:"Deslice la tabla horizontalmente →";display:block;font-size:.78rem;color:var(--muted);padding:.2rem 0}.tabla-scroll table{min-width:34rem}}
+@media print{.kicker{color:#7c2d12!important}em.hi,.slide-mark,.mov-tag{color:#7c2d12!important}}
+
+/* --- Parches: accesibilidad, escala, impresión --- */
+html{font-size:calc(112.5% * var(--font-scale,1))}
+@media (max-width:760px){html{font-size:calc(100% * var(--font-scale,1))}}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+caption{caption-side:top;text-align:left;font-weight:700;font-size:.85rem;padding:.4rem 0;color:var(--muted)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:3px solid #b8860b;outline-offset:2px}
+h2.mov-tag{font-size:1.15rem;letter-spacing:.06em}
+.vs-table th{font-size:.8rem}.mini-tl-label{font-size:.78rem}.ilustracion .lbl,.complementario .lbl,.activity .tag{font-size:.78rem}
+.tabla-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+@media print{table,.thread-card,.err-item,.activity,.complementario,.ilustracion{break-inside:avoid}h2,h3,h4{break-after:avoid}.slide-mark{color:#555!important}
+.scripture,.principio{background:#fff!important;color:#111!important;border:1px solid #444!important}.scripture *,.principio *{color:#111!important}
+.vs-table th{background:#eee!important;color:#111!important;border-bottom:2px solid #444}.vs-table td{border-bottom:1px solid #999}}
+</style>
+</head>
+<body class="antialiased">
+<div id="progress-bar"></div>
+<div id="section-tracker"><span class="tracker-dot"></span><span id="section-tracker-text">Inicio</span></div>
+
+<header>
+  <div class="slide-mark">Diapositiva 01 · El puente: de Malaquías a Cristo</div>
+  <div class="kicker">Escuela de Teología DeGloria · Panorama del Nuevo Testamento — Módulo 1 · Lección 1 <span style="opacity:.75;">(Clase 1 de 5)</span></div>
+  <h1>El puente: <em>de Malaquías a Cristo</em></h1>
+  <p class="subtitle">Del cierre del Antiguo Testamento en nuestras Biblias a la voz en el desierto: el mundo, las instituciones y las esperanzas que encuentran los Evangelios</p>
+  <div class="meta-row">
+    <span>Duración: 2 horas</span>
+    <span>Escuela de Teología DeGloria</span>
+    <span>Del cierre del AT a la apertura del NT</span>
+  </div>
+</header>
+
+<div class="idea-central">
+  <div class="lbl">Tesis central de la clase</div>
+  <p>Entre el contexto de Malaquías, situado aproximadamente en el siglo V a.C., y la aparición de Juan el Bautista en el siglo I d.C., transcurrieron más de cuatro siglos de cambios políticos, culturales y religiosos. Los imperios se sucedieron, el griego se extendió, el Segundo Templo fue profanado, restaurado y ampliado, y el judaísmo desarrolló diversas instituciones y expectativas. Los Evangelios anuncian a Jesús en ese mundo y relacionan la misión de Juan el Bautista con las promesas proféticas.</p>
+  <p style="font-family:'Merriweather',serif;font-weight:700;font-size:1.05rem;text-align:center;color:var(--accent);margin-top:1rem;">EL PUENTE —<br>La historia no comienza de nuevo: continúa una esperanza antigua.</p>
+</div>
+
+<div class="complementario" style="max-width:56rem;margin:1.5rem auto;">
+  <div class="lbl">Pregunta que gobierna toda la clase</div>
+  <p style="font-family:'Merriweather',serif;font-style:italic;font-size:0.96rem;line-height:1.8;color:var(--primary);">¿Qué sucedió entre los últimos profetas del Antiguo Testamento y el inicio de los Evangelios, y por qué esos acontecimientos ayudan a comprender la llegada de Juan el Bautista y de Jesús?</p>
+</div>
+
+<div class="wrap">
+
+  <div class="ficha">
+    <div class="ficha-card">
+      <div class="ficha-lbl">Objetivos de aprendizaje</div>
+      <ul>
+        <li>Ordenar los cinco hitos del puente (Persia → Grecia → Macabeos → Roma → Herodes) y situar después de ellos a Juan el Bautista.</li>
+        <li>Explicar la función de dos instituciones o corrientes del siglo I, según lo que dicen los textos.</li>
+        <li>Identificar dimensiones complementarias de la esperanza en Lucas 1: el trono de David, el pacto, la liberación y el perdón de pecados con servicio en santidad.</li>
+        <li>Distinguir cita, identificación o alusión, y conexión canónica en el uso que el Nuevo Testamento hace de Malaquías 3:1 y 4:5-6.</li>
+      </ul>
+      <p style="font-size:.85rem;color:var(--muted);margin-top:.8rem;">Los 27 libros y los ocho hilos quedan como material de consulta.</p>
+    </div>
+    <div class="ficha-card">
+      <div class="ficha-lbl">Punto A → Punto B</div>
+      <div class="ab-row">
+        <div class="ab-item"><div class="ab-tag">Punto de partida</div><p>Entre Malaquías y los Evangelios hubo un hueco de siglos en el que no pasó nada, y el Nuevo Testamento empieza de cero.</p></div>
+        <div class="ab-arrow">↓</div>
+        <div class="ab-item"><div class="ab-tag">Punto de llegada</div><p>Pasaron más de cuatro siglos de cambios políticos, culturales y religiosos. Los Evangelios presentan a Juan el Bautista y a Jesús dentro de ese mundo y como continuación de las promesas proféticas.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="complementario">
+    <div class="lbl">Lo esencial: cinco ideas para llevarse</div>
+    <ol>
+      <li>Malaquías deja una promesa abierta (Mal 3:1; 4:5-6). Entre él y los Evangelios no hay un vacío, hay más de cuatro siglos de historia («cuatrocientos años» es una cifra tradicional aproximada).</li>
+      <li>Cinco hitos ordenan esa historia: Persia (desde 538 a.C.) → Grecia (332) → Macabeos (rebelión desde 167, rededicación en 164) → Roma (63) → Herodes (37 a.C. a c. 4 a.C.). Al final del puente aparece Juan el Bautista (c. 28 d.C.).</li>
+      <li>Los Evangelios dan por conocidos sinagogas, fariseos, saduceos, escribas, el Sanedrín, la fiesta de la Dedicación y un Templo ampliado por Herodes.</li>
+      <li>La espera era plural: consolación, redención, reino, perdón de pecados y servicio en santidad.</li>
+      <li>Jesús y los Evangelios relacionan a Juan con el mensajero de Malaquías 3:1 y con el Elías de Malaquías 4:5.</li>
+    </ol>
+    <p>Todo lo demás es apoyo y consulta.</p>
+  </div>
+
+  <div class="complementario">
+    <div class="lbl">Palabras que conviene aclarar</div>
+    <ul>
+      <li><strong>Tanaj:</strong> nombre judío de la Biblia hebrea (Ley, Profetas y Escritos). Ordena sus libros de manera distinta al Antiguo Testamento cristiano.</li>
+      <li><strong>Septuaginta:</strong> traducción griega de las Escrituras hebreas; empezó con la Ley hacia el siglo III a.C.</li>
+      <li><strong>Diáspora:</strong> los judíos que vivían fuera de Judea.</li>
+      <li><strong>Segundo Templo:</strong> el Templo reconstruido después del exilio (Zorobabel), ampliado más tarde por Herodes.</li>
+      <li><strong>Macabeos y asmoneos:</strong> macabeos designa a la familia sacerdotal de Matatías y sus hijos, que encabezó la rebelión contra Antíoco IV; asmoneos, a la dinastía que gobernó después hasta que intervino Roma. A veces se usan como sinónimos, pero no son idénticos.</li>
+      <li><strong>Sinagoga:</strong> lugar de reunión local para leer y enseñar las Escrituras. <strong>Sanedrín:</strong> consejo judío de Jerusalén.</li>
+      <li><strong>Deuterocanónico:</strong> libro (como 1 Macabeos) que algunas tradiciones cristianas incluyen en su Biblia y otras no. La Biblia protestante no lo incluye; aquí se usa solo como fuente histórica.</li>
+      <li><strong>Tipológico:</strong> cuando un hecho anterior prefigura otro posterior.</li>
+      <li><strong>Cita, alusión y conexión canónica:</strong> <em>cita</em> es repetir las palabras del texto antiguo; <em>alusión o identificación</em> es relacionar a alguien con un texto sin copiarlo; <em>conexión canónica</em> es un vínculo que vemos al leer la Biblia completa aunque el pasaje no lo cite.</li>
+    </ul>
+  </div>
+
+  <div class="toc-card">
+    <div class="toc-head">
+      <h3><i class="fas fa-map-signs"></i> Mapa de la sesión</h3>
+      <span><i class="far fa-clock"></i> Módulo 1 · Lección 1 (Clase 1 de 5)</span>
+    </div>
+    <p class="toc-intro">Índice de consulta docente: las ocho secciones del documento (la ruta de la exposición en vivo está más arriba)</p>
+    <div class="toc-grid">
+      <a class="toc-item" href="#s1"><span class="toc-num">1</span><span><span class="toc-func">Sección 1</span><span class="toc-title">La gran pregunta</span></span></a>
+      <a class="toc-item" href="#s2"><span class="toc-num">2</span><span><span class="toc-func">Sección 2</span><span class="toc-title">Dónde estamos en la línea del tiempo</span></span></a>
+      <a class="toc-item" href="#s3"><span class="toc-num">3</span><span><span class="toc-func">Sección 3</span><span class="toc-title">La historia</span></span></a>
+      <a class="toc-item" href="#s4"><span class="toc-num">4</span><span><span class="toc-func">Sección 4</span><span class="toc-title">Interpretación teológica</span></span></a>
+      <a class="toc-item" href="#s5"><span class="toc-num">5</span><span><span class="toc-func">Sección 5</span><span class="toc-title">Cómo el Nuevo Testamento retoma el cierre del Antiguo</span></span></a>
+      <a class="toc-item" href="#s6"><span class="toc-num">6</span><span><span class="toc-func">Sección 6</span><span class="toc-title">Actividad Triple Mirada</span></span></a>
+      <a class="toc-item" href="#s7"><span class="toc-num">7</span><span><span class="toc-func">Sección 7</span><span class="toc-title">Los hilos al abrir el Nuevo Testamento</span></span></a>
+      <a class="toc-item" href="#s8"><span class="toc-num">8</span><span><span class="toc-func">Sección 8</span><span class="toc-title">Errores comunes y cierre</span></span></a>
+    </div>
+  </div>
+
+  <div class="complementario">
+    <div class="lbl">Guía para el profesor</div>
+    <p>Riesgo principal: convertir la clase en una lista de fechas y partidos. Cada dato histórico debe responder a una pregunta que el estudiante ya se hizo: ¿por qué aparecen fariseos en los Evangelios y no en el Antiguo Testamento? ¿por qué se cita la Escritura en griego? ¿qué esperaba la gente?</p>
+    <p>Frase para repetir durante la clase: <em>"La historia no comienza de nuevo: continúa una esperanza antigua."</em></p>
+    <p><strong>Dos niveles de orden:</strong> la página tiene ocho secciones, que son el esqueleto fijo de toda clase DeGloria. La clase en vivo se enseña en cuatro movimientos narrativos dentro de la sección 3; las secciones 6 (Triple Mirada) y 8 (evaluación y cierre) son actividades en vivo; las secciones 4, 5 y 7 son síntesis y material de consulta.</p>
+    <p><strong>Lecturas en directo:</strong> solo Malaquías 2:17–3:4; Juan 10:22-23; Hechos 23:6-8; Lucas 1:32-33 y 68-79 y Marcos 1:1-4. Los demás textos se proyectan en diapositivas o se envían para lectura previa (ver la hoja de textos al final).</p>
+    <p><strong>Apertura en vivo:</strong> muestre solo la pregunta gobernante y la frase guía; la tesis, el punto A→B y las cinco ideas esenciales son para la guía docente.</p>
+    <p><strong>Los cinco hitos:</strong> son de naturaleza diferente: un imperio persa, la expansión helenística, la crisis y dinastía macabeas, el dominio romano y el reinado de Herodes bajo Roma. No son cinco imperios consecutivos.</p>
+    <p><strong>Material de apoyo:</strong> las cajas rotuladas «Nota», «Dato», «Precisión», «Debate» y «Crítica textual» se leen solo si hay tiempo o si alguien pregunta. Si falta tiempo, recorte en este orden: (1) zelote, publicanos y samaritanos de la tabla; (2) Herodes de Idumea y la abominación desoladora; (3) variante textual de Marcos 1:2; (4) las secciones 4, 5 y 7, que se proyectan sin comentar. Movimiento II: proyecte los cinco hitos y desarrolle dos escenas, la traducción griega y Juan 10:22-23. Movimiento III: enseñe cuatro nombres en vivo (sinagoga, escriba, fariseo y saduceo); los demás grupos quedan en la tabla y el tiempo recuperado va a Lucas 1:32-33 y 1:74-77.</p>
+    <p><strong>Clase virtual:</strong> use la encuesta A/B/C o el chat en lugar de parejas o salas, y reserve la síntesis del profesor para el final de cada bloque.</p>
+  </div>
+
+  <div class="complementario">
+    <div class="lbl">Guía de ritmo — distribución de las dos horas</div>
+    <div class="tabla-scroll"><table class="vs-table">
+      <caption class="sr-only">Distribución de los 120 minutos de la clase</caption>
+      <tr><th scope="col">Minutos</th><th scope="col">Desarrollo</th></tr>
+      <tr><td>0-10</td><td>Diagnóstico (encuesta y chat) + gran pregunta + ubicación en el mapa del módulo</td></tr>
+      <tr><td>10-20</td><td>Movimiento I: la pregunta de Malaquías</td></tr>
+      <tr><td>20-41</td><td>Movimiento II: imperios y mundo del siglo I (hitos)</td></tr>
+      <tr><td>41-57</td><td>Movimiento III-a: grupos e instituciones</td></tr>
+      <tr><td>57-70</td><td>Movimiento III-b: lo que se esperaba (Lucas 1–2, Juan 7, Hechos 1:6)</td></tr>
+      <tr><td>70-90</td><td>Movimiento IV: Juan y la llegada del Evangelio (Malaquías 3:1, Elías, Marcos 1)</td></tr>
+      <tr><td>90-102</td><td>Triple Mirada sobre Malaquías 3:1-4</td></tr>
+      <tr><td>102-105</td><td>Síntesis proyectada: lo que cambió, conexiones etiquetadas y tres hilos</td></tr>
+      <tr><td>105-115</td><td>Evaluación verdadero/falso + cierre + comparación con el diagnóstico</td></tr>
+      <tr><td>115-120</td><td>Contingencia y preguntas</td></tr>
+    </table></div>
+    <p>Margen: los últimos 5 minutos son contingencia real. Si un bloque se alarga, recorte según la lista de «Material de apoyo». Conviene cronometrar un ensayo antes de impartir la clase.</p>
+  </div>
+
+  <div class="slide-mark">Diapositiva 02 · Diagnóstico inicial</div>
+  <div class="activity">
+    <div class="tag">Actividad de diagnóstico · 7 minutos</div>
+    <p>En el chat o con una encuesta, sin consultar la Biblia:</p>
+    <ol>
+      <li>Encuesta A/B/C: ¿cuánto tiempo hay entre el contexto de Malaquías y la aparición de Juan el Bautista? opción A: menos de cien años; opción B: entre cuatro y cinco siglos; opción C: más de ocho siglos.</li>
+      <li>Escriban en el chat tres grupos o instituciones que aparecen en los Evangelios y que no conocemos por los libros de Moisés ni por los profetas.</li>
+      <li>Escriban en una frase: ¿qué esperaba el pueblo judío en tiempos de Jesús?</li>
+    </ol>
+    <p>No se corrigen las respuestas todavía. Volverán a ellas al cierre.</p>
+  </div>
+
+  <!-- ===== S1 · LA GRAN PREGUNTA ===== -->
+  <section class="mov seccion-anchor" id="s1" data-section="1" data-section-name="La gran pregunta">
+    <div class="mov-eyebrow"><div class="mov-num">1</div><h2 class="mov-tag">La gran pregunta</h2></div>
+    <div class="slide-mark">Diapositiva 03 · La pregunta que gobierna la clase</div>
+    <p class="question">¿Qué sucedió entre los últimos profetas del Antiguo Testamento y el inicio de los Evangelios, y por qué esos acontecimientos ayudan a comprender la llegada de Juan el Bautista y de Jesús?</p>
+    <p class="thesis">Recordemos cómo queda el Antiguo Testamento: el pueblo volvió del exilio, el Templo se reconstruyó, Zorobabel fue gobernador y no rey, y la restauración fue real pero incompleta; la espera siguió abierta. Hoy pasamos de esa puerta entreabierta a la primera página de Mateo.</p>
+    <div class="body-text">
+      <p>En el orden de nuestras Biblias protestantes, Malaquías cierra el Antiguo Testamento. No es el último libro del Tanaj hebreo, que ordena sus libros de otra manera, y otras tradiciones cristianas incluyen libros adicionales. Entre el contexto de Malaquías y el de los Evangelios pasaron varios siglos.</p>
+      <p>A veces se resume ese tiempo como «cuatrocientos años de silencio». Es una expresión didáctica: no significa que faltaran historia, literatura ni reflexión religiosa judías. Esta clase muestra justamente lo que ocurrió en ese tiempo.</p>
+      <p>Cuando se abre Mateo, el lector se encuentra con un rey llamado Herodes, con fariseos y saduceos, con sinagogas, con un Templo enorme y con gente que espera algo concreto. Nadie explica quiénes son: el Nuevo Testamento da por conocido ese mundo.</p>
+    </div>
+    <div class="frase-seccion"><p>Los Evangelios dan por conocido un mundo que el Antiguo Testamento no llegó a describir. Hoy lo reconstruimos.</p></div>
+  </section>
+
+  <!-- ===== S2 · DÓNDE ESTAMOS ===== -->
+  <section class="mov seccion-anchor" id="s2" data-section="2" data-section-name="Dónde estamos en la línea del tiempo">
+    <div class="mov-eyebrow"><div class="mov-num">2</div><h2 class="mov-tag">Dónde estamos en la línea del tiempo</h2></div>
+    <div class="slide-mark">Diapositiva 04 · Mapa del módulo</div>
+    <div class="mini-tl">
+      <div class="mini-tl-node active"><div class="mini-tl-dot"></div><div class="mini-tl-label">1<br>El puente</div></div>
+      <div class="mini-tl-node"><div class="mini-tl-dot"></div><div class="mini-tl-label">2<br>Los Evangelios</div></div>
+      <div class="mini-tl-node"><div class="mini-tl-dot"></div><div class="mini-tl-label">3<br>Pentecostés y Hechos</div></div>
+      <div class="mini-tl-node"><div class="mini-tl-dot"></div><div class="mini-tl-label">4<br>Las cartas</div></div>
+      <div class="mini-tl-node"><div class="mini-tl-dot"></div><div class="mini-tl-label">5<br>Apocalipsis y los hilos</div></div>
+    </div>
+    <div class="here-box"><div class="lbl">Estamos aquí</div><p>Entre el contexto de Malaquías (c. 450–430 a.C., fecha aproximada y debatida) y el ministerio de Juan el Bautista (c. 26–29 d.C., según el sincronismo de Lucas 3:1). Es el puente entre los dos Testamentos.</p></div>
+
+    <div class="slide-mark">Diapositiva 05 · Ruta de hoy</div>
+    <div class="complementario" style="max-width:56rem;">
+      <div class="lbl">Ruta de la exposición: cuatro movimientos</div>
+      <ol>
+        <li><a href="#mov-i">I. La pregunta de Malaquías</a> (10 min)</li>
+        <li><a href="#mov-ii">II. Imperios y mundo del siglo I</a> (21 min)</li>
+        <li><a href="#mov-iii">III. Instituciones y esperanzas</a> (29 min)</li>
+        <li><a href="#mov-iv">IV. Juan y la llegada del Evangelio</a> (20 min), y después la Triple Mirada</li>
+      </ol>
+      <p>El «Índice de consulta docente» de ocho secciones es la navegación del documento; la clase en vivo se enseña con estos cuatro movimientos.</p>
+    </div>
+
+    <div class="slide-mark">Diapositiva 06 · Los 27 libros en cinco grupos</div>
+    <div class="complementario">
+      <div class="lbl">Material de consulta — el mapa de los 27 libros</div>
+      <div class="tabla-scroll"><table class="vs-table">
+        <caption class="sr-only">Los 27 libros del Nuevo Testamento en cinco grupos, con nota sobre las fechas</caption>
+        <tr><th scope="col">Grupo</th><th scope="col">Libros</th><th scope="col">Nota sobre las fechas</th></tr>
+        <tr><td>Evangelios</td><td>Mateo, Marcos, Lucas, Juan</td><td>Fechas debatidas; la mayoría de las propuestas los ubica en la segunda mitad del siglo I.</td></tr>
+        <tr><td>Historia</td><td>Hechos</td><td>Depende de cómo se date Lucas; debatida.</td></tr>
+        <tr><td>Cartas de Pablo</td><td>Romanos a Filemón (13 cartas)</td><td>Escritas en momentos distintos; entre las más tempranas del Nuevo Testamento. La autoría de las pastorales se discute.</td></tr>
+        <tr><td>Hebreos y cartas generales</td><td>Hebreos, Santiago, 1 y 2 Pedro, 1, 2 y 3 Juan, Judas</td><td>Fechas y autoría muy debatidas en varias; algunas propuestas llegan hasta comienzos del siglo II.</td></tr>
+        <tr><td>Profecía apocalíptica</td><td>Apocalipsis</td><td>Dos propuestas principales: época de Nerón o época de Domiciano.</td></tr>
+      </table></div>
+      <p>Las fechas se detallan en las clases correspondientes (Evangelios y Hechos, Clases 2 y 3; Pablo y cartas generales, Clase 4; Apocalipsis, Clase 5); aquí no se usan para la secuencia. El orden de los libros en la Biblia no es el orden en que se escribieron: Mateo aparece primero, pero las cartas más tempranas de Pablo, como 1 Tesalonicenses (hacia mediados del siglo I), se escribieron antes o a la par de los Evangelios.</p>
+    </div>
+  </section>
+
+  <!-- ===== S3 · LA HISTORIA ===== -->
+  <section class="mov seccion-anchor" id="s3" data-section="3" data-section-name="La historia">
+    <div class="mov-eyebrow"><div class="mov-num">3</div><h2 class="mov-tag">La historia</h2></div>
+
+    <h3 id="mov-i" style="font-family:'Merriweather',serif;color:var(--primary);border-bottom:2px solid var(--accent);padding-bottom:0.5rem;margin:2rem 0 1.5rem;">Movimiento I — La pregunta de Malaquías</h3>
+
+    <h4 class="subsubhead">Una comunidad desanimada <span class="ref-inline">Malaquías 1:6-8; 2:8, 17</span></h4>
+    <div class="slide-mark">Diapositiva 07 · Malaquías: la pregunta y la promesa</div>
+    <div class="body-text">
+      <p>Malaquías escribe a una comunidad que ya volvió del exilio y que tiene Templo, pero cuya vida se ha enfriado. Los animales que se ofrecen en el altar son defectuosos (Mal 1:6-8), y a los sacerdotes se les dice: <em class="hi">"os habéis apartado del camino"</em> (Mal 2:8).</p>
+      <p>El pueblo, por su parte, duda de la justicia de Dios: <em class="hi">"¿dónde está el Dios de justicia?"</em> (Mal 2:17). La respuesta llega enseguida, en 3:1: viene un mensajero que prepara el camino, y viene el Señor, cuya venida incluye purificación y juicio.</p>
+      <p>Leemos en voz alta Malaquías 2:17–3:4. Hoy solo anotamos que la promesa está abierta, y que su venida incluye purificación y juicio (3:2-5), no solo consuelo. En el cuarto movimiento volveremos a ella con el Nuevo Testamento en la mano.</p>
+    </div>
+    <div class="frase-seccion"><p>Ante la pregunta «¿dónde está el Dios de justicia?», Malaquías anuncia un mensajero que prepara el camino y la venida del Señor, que trae purificación y juicio; su respuesta no se reduce a un consuelo inmediato.</p></div>
+
+    <h3 id="mov-ii" style="font-family:'Merriweather',serif;color:var(--primary);border-bottom:2px solid var(--accent);padding-bottom:0.5rem;margin:2rem 0 1.5rem;">Movimiento II — Imperios y mundo del siglo I</h3>
+
+    <div class="slide-mark">Diapositiva 08 · Cronología del puente</div>
+    <div class="tabla-scroll"><table class="vs-table">
+      <caption>Hitos del contexto entre Malaquías y Juan el Bautista (no son «cinco imperios»: mezclan imperios, un período dinástico y un rey subordinado a Roma)</caption>
+      <tr><th scope="col">Hito</th><th scope="col">Fecha aproximada</th><th scope="col">Qué pasó</th><th scope="col">Dónde lo vemos</th></tr>
+      <tr><td>1. Persia, retorno y Templo (Malaquías vive aquí)</td><td>desde 538 a.C.; Templo c. 520–516; Malaquías c. 450–430 (debatida)</td><td>Ciro permite el regreso, se reconstruye el Templo y Malaquías habla a una comunidad desanimada.</td><td>Esdras 1; 6; Malaquías 1–4</td></tr>
+      <tr><td>2. Grecia (helenismo)</td><td>desde c. 332 a.C.</td><td>Las conquistas de Alejandro Magno llegan a la región y desplazan al dominio persa; el griego se extiende. Después de él, Judea queda bajo los Ptolomeos (Egipto) y luego bajo los Seléucidas (Siria).</td><td>Daniel 8:20-21 (en una visión); fuentes históricas</td></tr>
+      <tr><td>3. Macabeos (período)</td><td>desde 167 a.C.</td><td>167: crisis y rebelión contra Antíoco IV. 164: rededicación del Segundo Templo. Décadas posteriores: consolidación del poder asmoneo (macabeo).</td><td>1 Macabeos 1–4; Juan 10:22-23</td></tr>
+      <tr><td>4. Roma</td><td>63 a.C.</td><td>Pompeyo toma Jerusalén y Roma interviene de manera decisiva en Judea.</td><td>Fuentes históricas por documentar (p. ej. Josefo); contexto de Mateo 2</td></tr>
+      <tr><td>5. Herodes (rey bajo Roma)</td><td>37 a.C. a c. 4 a.C.</td><td>Reina bajo Roma y amplía el Templo.</td><td>Mateo 2:1; Juan 2:20</td></tr>
+      <tr><td>Punto de llegada: Juan el Bautista</td><td>c. 26–29 d.C.</td><td>Aparece en el desierto.</td><td>Lucas 3:1-2; Marcos 1:4</td></tr>
+    </table></div>
+    <div class="ilustracion">
+      <div class="lbl">Fechas complementarias (consulta)</div>
+      <p>Siglo III a.C.: comienza la traducción griega de la Torá. c. 140 a.C.: Simón, de la familia macabea, es reconocido gobernador y sumo sacerdote (1 Mac 14). 40 a.C.: Roma designa rey a Herodes. c. 6–4 a.C.: nacimiento de Jesús (fecha debatida; Mt 2:1; Lc 2:1-7).</p>
+    </div>
+    <div class="mapa-flujo">
+      <span class="paso">Persia</span><span class="flecha">→</span><span class="paso">Grecia</span><span class="flecha">→</span><span class="paso">Macabeos</span><span class="flecha">→</span><span class="paso">Roma</span><span class="flecha">→</span><span class="paso">Herodes</span><span class="flecha">→</span><span class="paso">Juan el Bautista</span>
+    </div>
+
+    <h4 class="subsubhead">De Persia a Grecia <span class="ref-inline">Daniel 8:20-21</span></h4>
+    <div class="slide-mark">Diapositiva 09 · Persia, Grecia y un mundo plurilingüe</div>
+    <div class="body-text">
+      <p>Los judíos que volvieron del exilio vivían bajo el dominio persa. Hacia el 332 a.C. las conquistas de Alejandro Magno alcanzan la región y el poder pasa a él, y después de su muerte su imperio se reparte entre sus generales. Judea queda primero bajo los Ptolomeos (con sede en Egipto) y luego bajo los Seléucidas (con sede en Siria); de esta segunda dinastía procede Antíoco IV.</p>
+      <p>Los libros bíblicos del Antiguo Testamento no cuentan esa conquista. Daniel 8:20-21 menciona <em class="hi">"los reyes de Media y de Persia"</em> y <em class="hi">"el rey de Grecia"</em>, pero dentro de una visión, no como crónica de lo que hizo Alejandro. Los datos históricos proceden de fuentes antiguas, entre ellas 1 Macabeos (1:1-9).</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Nota interpretativa — Daniel y la historia</div>
+      <p>Daniel 8:20-21 es una visión que nombra a Media-Persia y a Grecia. La fecha de composición del libro de Daniel es objeto de debate académico. Aquí se usa solo para ubicar los imperios, no para fijar una fecha del libro ni para identificar cada detalle de la visión con un acontecimiento.</p>
+    </div>
+
+    <h4 class="subsubhead">Griego, arameo y hebreo <span class="ref-inline">Juan 1:41; Hechos 6:1</span></h4>
+    <div class="body-text">
+      <p>La conquista trajo algo más duradero que un ejército: una lengua común. El griego se extendió por el Mediterráneo oriental. En Judea y en la Diáspora convivían el griego, el arameo y el hebreo, con distribuciones distintas según el lugar y el ambiente.</p>
+      <div class="slide-mark">Diapositiva 10 · La Septuaginta: Escrituras en griego</div>
+      <p>Las Escrituras hebreas comenzaron a traducirse al griego, probablemente con la Torá, en Alejandría hacia el siglo III a.C.; otros libros se tradujeron en momentos diferentes. Hablamos de la Septuaginta, que es una tradición textual plural, no una sola obra cerrada.</p>
+      <p>El Nuevo Testamento mismo muestra el paso de una lengua a otra: <em class="hi">"Hemos hallado al Mesías (que traducido es, el Cristo)"</em> (Jn 1:41). Y Hechos 6:1 distingue en la primera comunidad de Jerusalén a los <em>helenistas</em> (la RVR1960 los llama "griegos") y a los <em>hebreos</em>: dos grupos de judíos creyentes, diferenciados por la lengua y probablemente por sus redes culturales.</p>
+    </div>
+
+    <h4 class="subsubhead">Antíoco IV y la rededicación del Templo <span class="ref-inline">Juan 10:22-23; Mateo 24:15</span></h4>
+    <div class="slide-mark">Diapositiva 11 · La Dedicación: una fiesta del período</div>
+    <div class="body-text">
+      <p>Según 1 Macabeos, una fuente histórica antigua con perspectiva propia (su autoridad canónica varía según la tradición), Antíoco IV Epífanes llegó al trono de Siria hacia el 175 a.C. Una parte de las familias dirigentes de Jerusalén adoptó costumbres griegas (1 Mac 1:11-15). Más tarde el rey prohibió los sacrificios, el sábado y la circuncisión, y hacia el 167 a.C. se levantó un altar pagano en el Templo (1 Mac 1:41-64).</p>
+      <p>Un sacerdote llamado Matatías se negó a ofrecer sacrificios paganos en Modín, y su rebelión la continuó su hijo Judas Macabeo (1 Mac 2–4). Hacia el 164 a.C. el Templo fue purificado y rededicado, y se instituyó una fiesta de ocho días: la Dedicación.</p>
+    </div>
+    <div class="activity">
+      <div class="tag">Momento pedagógico · 2 minutos</div>
+      <p>Lea en voz alta, sin comentar: <em class="hi">"Celebrábase en Jerusalén la fiesta de la dedicación, y era invierno. Y Jesús andaba en el templo por el pórtico de Salomón"</em> (Jn 10:22-23). Pregunte en el chat: ¿la Ley de Moisés prescribe esta fiesta?</p>
+      <p>Respuesta esperada: <strong>no</strong>; 1 Macabeos 4 narra su institución, pero la Ley no la prescribe. Verdad que ayuda a descubrir: el texto ubica a Jesús en el Templo durante una fiesta que se vincula con la rededicación del 164 a.C.; no dice que participara en sus rituales. El tiempo entre los Testamentos produjo acontecimientos que el Nuevo Testamento da por conocidos.</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Nota interpretativa — La "abominación desoladora"</div>
+      <p>Jesús dice: <em class="hi">"cuando veáis en el lugar santo la abominación desoladora de que habló el profeta Daniel"</em> (Mt 24:15). Conviene distinguir tres cosas. Primero, el antecedente histórico: la profanación bajo Antíoco IV es un antecedente importante de esa expresión (1 Mac 1:54). Segundo, una lectura tipológica: ese antecedente prefiguraría otro acontecimiento. Tercero, el cumplimiento propuesto: los intérpretes lo ubican en momentos distintos. Esta clase solo señala el antecedente.</p>
+    </div>
+
+    <h4 class="subsubhead">Sacerdotes que gobiernan, Roma y Herodes <span class="ref-inline">1 Macabeos 14; Mateo 2:1; Juan 2:20</span></h4>
+    <div class="slide-mark">Diapositiva 12 · Roma, Herodes y el Templo ampliado</div>
+    <div class="body-text">
+      <p>Los hermanos de Judas gobernaron después de él. Hacia el 140 a.C. Simón fue reconocido como gobernador y sumo sacerdote, con la condición de que seguiría así hasta que surgiera un profeta digno de confianza (1 Mac 14:41, en paráfrasis). Los macabeos eran sacerdotes, pero, según una reconstrucción histórica frecuente, no pertenecían al linaje sadoquita (1 Reyes 2:35 menciona a Sadoc, pero no prueba la genealogía de los macabeos), y que una misma familia reuniera sacerdocio y gobierno generó desacuerdos.</p>
+      <p>Los descendientes de los macabeos, llamados asmoneos, gobernaron desde mediados del siglo II a.C. hasta el 63 a.C. y con el tiempo se enfrentaron entre sí por el poder. En ese contexto Pompeyo toma Jerusalén en el 63 a.C. y Roma interviene de manera decisiva en Judea. Más tarde Herodes es designado rey por Roma en el 40 a.C. y toma Jerusalén en el 37 a.C.; muere hacia el 4 a.C. Los Evangelios lo ubican con una frase sencilla: Jesús nació <em class="hi">"en Belén de Judea en días del rey Herodes"</em> (Mt 2:1).</p>
+      <p>Bajo Herodes se emprendieron grandes obras en el Templo. <em class="hi">"En cuarenta y seis años fue edificado este templo"</em>, le dicen a Jesús (Jn 2:20); la cifra expresa un largo proceso de construcción y ampliación, no una fecha de terminación. No debe imaginarse intacto el edificio de Zorobabel.</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Dato histórico — Origen de Herodes</div>
+      <p>Según las fuentes históricas, Herodes procedía de Idumea, cuya población había sido incorporada al judaísmo bajo los gobernantes macabeos. Es un dato histórico reconocido; el Nuevo Testamento no lo menciona y la clase no necesita desarrollarlo más.</p>
+    </div>
+    <div class="frase-seccion"><p>Varios siglos después de Malaquías, el pueblo de Dios sigue en su tierra, pero en un entorno plurilingüe con el griego muy difundido, bajo otros gobernantes y con un Templo ampliado por un rey que no era de la casa de David.</p></div>
+
+    <h3 id="mov-iii" style="font-family:'Merriweather',serif;color:var(--primary);border-bottom:2px solid var(--accent);padding-bottom:0.5rem;margin:2rem 0 1.5rem;">Movimiento III — Instituciones y esperanzas</h3>
+
+    <h4 class="subsubhead">Grupos e instituciones en los Evangelios <span class="ref-inline">Hechos 23:6-8; Juan 4</span></h4>
+    <div class="slide-mark">Diapositiva 13 · Cuatro categorías del siglo I</div>
+    <div class="body-text">
+      <p>Quien abre los Evangelios se encuentra con instituciones y grupos cuya configuración del siglo I el Antiguo Testamento no describe (algunos, como los escribas o los samaritanos, tienen antecedentes allí). Los reunimos en cuatro categorías: lugares e instituciones, corrientes, oficios, y comunidades e identidades. En cada fila distinguimos lo que dice el texto de lo que proponen los comentarios.</p>
+    </div>
+    <div class="tabla-scroll"><table class="vs-table">
+      <caption class="sr-only">Grupos e instituciones del siglo I en cuatro categorías, con lo que dice el texto y los matices</caption>
+      <tr><th scope="col">Grupo o institución</th><th scope="col">Lo que dice el texto</th><th scope="col">Matices</th></tr>
+      <tr><td colspan="3"><strong>Lugares e instituciones</strong></td></tr>
+      <tr><td>Sinagoga</td><td>Jesús enseña en ellas (Mt 4:23; Lc 4:16); Pablo entra en ellas en cada ciudad (Hch 17:1-2).</td><td>Lugar de lectura, oración y enseñanza. Nehemías 8 es un antecedente de lectura pública de la Ley, no prueba de que ya hubiera sinagogas; su desarrollo exacto se discute.</td></tr>
+      <tr><td>Sanedrín</td><td>Consejo de <em>"los principales sacerdotes, los ancianos y los escribas"</em> (Mc 14:53); aparece también en escenas distintas, como la comparecencia de los apóstoles (Hch 4–5).</td><td>Su conexión con los setenta ancianos de Números 11:16-17 es una analogía o tradición, no un origen demostrado. Su autoridad bajo Roma tenía límites y variaba.</td></tr>
+      <tr><td colspan="3"><strong>Corrientes</strong></td></tr>
+      <tr><td>Fariseos</td><td>Se preocupan por la pureza, los diezmos y la tradición de los ancianos (Mt 23:23; Mc 7:3-4). Creen en la resurrección, los ángeles y el espíritu (Hch 23:8).</td><td>Los textos bíblicos no cuentan su origen; aparecen claramente en las fuentes del período asmoneo, aunque su formación precisa se discute. «Separados» es una hipótesis extendida sobre su nombre, no una explicación suficiente. Eran una corriente influyente, no todo el pueblo.</td></tr>
+      <tr><td>Saduceos</td><td>Niegan la resurrección, el ángel y el espíritu (Hch 23:8) y se asocian con los principales sacerdotes (Hch 5:17).</td><td>Su nombre se vincula con Sadoc como propuesta. No todos los sacerdotes eran saduceos. Hechos 23:8 resume sus desacuerdos, no los agota.</td></tr>
+      <tr><td colspan="3"><strong>Oficios</strong></td></tr>
+      <tr><td>Escribas</td><td>Especialistas en la Ley; aparecen junto a fariseos, sacerdotes y ancianos (Mc 14:53; Mt 23:2).</td><td>Escriba designa una función; fariseo designa una corriente. No todos los escribas eran fariseos.</td></tr>
+      <tr><td>Publicanos</td><td>Se los mezcla con los pecadores (Mt 9:10-11); Mateo y Zaqueo pertenecían al oficio (Mt 9:9; Lc 19:1-10).</td><td>Cobraban impuestos para Roma o para los gobernantes locales y podían cobrar de más.</td></tr>
+      <tr><td colspan="3"><strong>Comunidades e identidades</strong></td></tr>
+      <tr><td>Samaritanos</td><td>"Los judíos no se tratan con los samaritanos" (Jn 4:9); <em>"nuestros padres adoraron en este monte"</em> (Jn 4:20).</td><td>Se consideraban israelitas, conservaban el Pentateuco y adoraban en el monte Gerizim. 2 Reyes 17 cuenta su origen desde una perspectiva polémica. Juan 4 es la ventana bíblica principal.</td></tr>
+      <tr><td>Zelote</td><td>Simón, uno de los Doce, es llamado Zelote (Lc 6:15) o cananista (Mt 10:4).</td><td>La palabra puede significar «celoso». Si ya existía un partido organizado durante todo el ministerio de Jesús se discute; el texto no convierte a Simón en militante de un movimiento armado formal.</td></tr>
+    </table></div>
+    <div class="slide-mark">Diapositiva 14 · Fariseos y saduceos: una diferencia concreta</div>
+    <div class="activity">
+      <div class="tag">Momento pedagógico · 2 minutos</div>
+      <p>Lea Hechos 23:6-8 en voz alta. Pregunte en el chat: <em>¿en qué punto se dividen fariseos y saduceos?</em></p>
+      <p>Respuesta esperada: <strong>resurrección, ángeles y espíritu</strong>. Verdad que ayuda a descubrir: los grupos se distinguen por doctrinas concretas, y Pablo (<em class="hi">"yo soy fariseo, hijo de fariseo"</em>, v. 6) sabe usar esa diferencia. Pablo, que ya creía en Jesús (Hch 9), seguía identificándose como fariseo.</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Precisión — Fariseos sin caricatura</div>
+      <p>"Fariseo" no es sinónimo de "hipócrita". Los Evangelios mencionan a fariseos como Nicodemo (Jn 3:1) y Gamaliel, que aconsejó prudencia ante los apóstoles (Hch 5:34); Pablo se presenta como fariseo. Las controversias de Jesús ocurren dentro de un mundo judío diverso. La crítica de Mateo 23 se dirige contra la incoherencia entre lo que se enseña y lo que se hace, y no debe trasladarse a una descalificación general del judaísmo.</p>
+    </div>
+    <div class="frase-seccion"><p>El judaísmo del siglo I no era un bloque: había un Templo, una red de sinagogas, corrientes que discrepaban sobre la resurrección y gente que pagaba impuestos a un imperio pagano.</p></div>
+
+    <h4 class="subsubhead">Lo que se esperaba <span class="ref-inline">Lucas 1:32-33, 68-79; 2:25, 38; Juan 7:40-43; Hechos 1:6-8</span></h4>
+    <div class="slide-mark">Diapositiva 15 · Lucas 1: dimensiones de la esperanza</div>
+    <div class="body-text">
+      <p>Al anuncio a María el mensajero añade: <em class="hi">"el Señor Dios le dará el trono de David su padre; y reinará sobre la casa de Jacob para siempre, y su reino no tendrá fin"</em> (Lc 1:32-33). Aquí resuena la promesa hecha a David en 2 Samuel 7.</p>
+      <p>Zacarías bendice a Dios porque <em class="hi">"nos levantó un cuerno de salvación en la casa de David su siervo"</em> (v. 69) y porque se acordó de <em class="hi">"su santo pacto; del juramento que juró a Abraham nuestro padre"</em> (vv. 72-73; fragmentos). Aquí resuena la promesa a Abraham.</p>
+      <p>Y el propósito se declara dentro del mismo cántico: <em class="hi">"que, librados de nuestros enemigos, sin temor le serviríamos en santidad y en justicia delante de él, todos nuestros días"</em> (Lc 1:74-75). Al niño se le dice: <em class="hi">"irás delante de la presencia del Señor, para preparar sus caminos"</em>, y se añade el propósito: <em class="hi">"para dar conocimiento de salvación a su pueblo, para perdón de sus pecados"</em> (Lc 1:76-77).</p>
+    </div>
+    <div class="body-text">
+      <p>La espera tenía rostros concretos (son ejemplos; no resumen lo que esperaba todo el judaísmo del siglo I). Simeón era <em class="hi">"justo y piadoso"</em> y <em class="hi">"esperaba la consolación de Israel"</em> (Lc 2:25). Ana hablaba del niño <em class="hi">"a todos los que esperaban la redención en Jerusalén"</em> (Lc 2:38).</p>
+      <p>No todos esperaban lo mismo. En Juan 7 la multitud se divide: unos dicen que Jesús es el profeta, otros que es el Cristo, y otros objetan: <em class="hi">"¿De Galilea ha de venir el Cristo? ¿No dice la Escritura que del linaje de David, y de la aldea de Belén, de donde era David, ha de venir el Cristo?"</em> (Jn 7:41-42). Se discute el origen del Mesías; Mateo y Lucas ubican el nacimiento de Jesús en Belén (Mt 2:1; Lc 2:4-7).</p>
+      <p>Y la esperanza continúa después de la resurrección. Los discípulos preguntan: <em class="hi">"Señor, ¿restaurarás el reino a Israel en este tiempo?"</em> (Hch 1:6). Jesús no declara equivocada la pregunta: desplaza la atención del calendario hacia la misión y el testimonio (Hch 1:7-8). La cuestión del reino queda abierta para la clase de Hechos.</p>
+    </div>
+    <div class="slide-mark">Diapositiva 16 · Dos escenas, una misma espera</div>
+    <div class="activity">
+      <div class="tag">Momento pedagógico · 2 minutos</div>
+      <p>Ponga lado a lado Lucas 2:38 y Hechos 1:6. Pida respuestas breves en el chat: <em>¿qué esperan en cada escena y en qué se parecen?</em></p>
+      <p>Respuesta esperada: <strong>en ambas esperan que Dios actúe en favor de Israel</strong>: redención en Jerusalén, reino restaurado. Verdad que ayuda a descubrir: esa esperanza concreta atraviesa los Evangelios y llega hasta Hechos 1, y el Nuevo Testamento la responde sin descartarla.</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Debate — ¿Qué clase de liberación esperaba Zacarías?</div>
+      <p>El cántico presenta en un mismo texto dimensiones complementarias de la esperanza: la liberación de los enemigos (vv. 71, 74), el servicio «en santidad y en justicia» (v. 75) y el perdón de pecados (v. 77). Los intérpretes discuten cuánto peso tiene cada una, y no toda expectativa de la época era política. La clase no las separa todavía: veremos cómo se desarrollan en las clases siguientes.</p>
+    </div>
+    <div class="frase-seccion"><p>La espera era real, concreta y plural: unos esperaban consuelo, otros reino, otros un profeta, y muchas de estas esperanzas se relacionaban con las promesas a David y a Abraham.</p></div>
+
+    <h3 id="mov-iv" style="font-family:'Merriweather',serif;color:var(--primary);border-bottom:2px solid var(--accent);padding-bottom:0.5rem;margin:2rem 0 1.5rem;">Movimiento IV — Juan y la llegada del Evangelio</h3>
+
+    <h4 class="subsubhead">Tres expresiones en Malaquías 3:1 <span class="ref-inline">Malaquías 3:1-5</span></h4>
+    <div class="slide-mark">Diapositiva 17 · Malaquías 3:1 en tres expresiones</div>
+    <div class="body-text">
+      <p><em class="hi">"He aquí, yo envío mi mensajero, el cual preparará el camino delante de mí; y vendrá súbitamente a su templo el Señor a quien vosotros buscáis, y el ángel del pacto, a quien deseáis vosotros. He aquí viene, ha dicho Jehová de los ejércitos."</em></p>
+      <p>El versículo contiene tres expresiones: «mi mensajero», «el Señor» y «el ángel del pacto». La palabra hebrea <em>mal'ak</em> significa «mensajero» y se traduce «ángel» según el contexto. No debe asumirse de entrada que cada expresión designa una figura aparte: cómo se relacionan «el Señor» y «el ángel del pacto» es una cuestión que los intérpretes explican de más de una manera (ver Notas doctrinales para revisión).</p>
+      <p>Lo que el texto dice con claridad: el mensajero prepara el camino «delante de mí», y la venida del Señor a su Templo es súbita e incluye purificación y juicio (3:2-5), no solo consuelo.</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Nota — El nombre del profeta</div>
+      <p>El nombre «Malaquías» significa «mi mensajero», y la coincidencia con 3:1 es un juego de palabras útil. No demuestra por sí sola si el mensajero de 3:1 es una figura distinta del autor; aquí no se concluye nada categórico.</p>
+    </div>
+
+    <h4 class="subsubhead">El mensajero y Elías <span class="ref-inline">Malaquías 4:5-6; Lucas 1:16-17; Mateo 11:10-14; 17:10-13; Juan 1:21</span></h4>
+    <div class="slide-mark">Diapositiva 18 · Juan y el Elías prometido</div>
+    <div class="body-text">
+      <p>Malaquías cierra su libro con otra promesa: <em class="hi">"He aquí, yo os envío el profeta Elías, antes que venga el día de Jehová, grande y terrible"</em> (Mal 4:5). Hará volver <em class="hi">"el corazón de los padres hacia los hijos, y el corazón de los hijos hacia los padres"</em> (v. 6).</p>
+      <p>El ángel le dice a Zacarías que su hijo <em class="hi">"irá delante de él con el espíritu y el poder de Elías, para hacer volver los corazones de los padres a los hijos... para preparar al Señor un pueblo bien dispuesto"</em> (Lc 1:17).</p>
+      <p>Jesús lo dice de manera expresa. Del mismo Juan afirma: <em class="hi">"Este es de quien está escrito: He aquí, yo envío mi mensajero delante de tu faz"</em> (Mt 11:10), y agrega: <em class="hi">"él es aquel Elías que había de venir"</em> (v. 14). Más tarde: <em class="hi">"Elías ya vino"</em> (Mt 17:12); y los discípulos entendieron que les hablaba de Juan el Bautista (Mt 17:13).</p>
+    </div>
+    <div class="slide-mark">Diapositiva 19 · “No soy” frente a “él es”</div>
+    <div class="activity">
+      <div class="tag">Momento pedagógico · 3 minutos</div>
+      <p>Paso 1. Lea Juan 1:19-21 y pida en el chat: <em>¿qué dice literalmente Juan cuando le preguntan "¿Eres tú Elías?"</em> (<em class="hi">"No soy"</em>). Paso 2. Lea Mateo 11:14 y pida: <em>¿qué dice literalmente Jesús?</em> (<em class="hi">"él es aquel Elías que había de venir"</em>).</p>
+      <p>Paso 3. Proyecte Lucas 1:17 (<em class="hi">"con el espíritu y el poder de Elías"</em>) y pregunte: <em>¿cómo ayuda este texto a leer los otros dos?</em></p>
+      <p>Respuesta esperada: una armonización razonable distingue la identidad personal de la misión profética. Es una interpretación; Juan no lo dice con esas palabras. Verdad que ayuda a descubrir: el Nuevo Testamento relaciona a Juan con Malaquías 4:5 y deja que el lector pregunte cómo.</p>
+    
+    </div>
+
+    <h4 class="subsubhead">Marcos 1:1-4 <span class="ref-inline">Marcos 1:1-4; Juan 1:23</span></h4>
+    <div class="slide-mark">Diapositiva 20 · Marcos 1: el mensajero en el desierto</div>
+    <div class="body-text">
+      <p>Marcos comienza: <em class="hi">"Principio del evangelio de Jesucristo, Hijo de Dios"</em> (Mc 1:1). Enseguida presenta al mensajero que prepara su camino: <em class="hi">"Como está escrito en Isaías el profeta: He aquí yo envío mi mensajero delante de tu faz, el cual preparará tu camino delante de ti. Voz del que clama en el desierto: Preparad el camino del Señor; enderezad sus sendas"</em> (Mc 1:2-3; vea la variante textual más abajo).</p>
+      <p>La cita combina principalmente Malaquías 3:1 e Isaías 40:3, con un posible eco verbal de Éxodo 23:20 (el ángel delante de Israel). Después aparece Juan, que <em class="hi">"Bautizaba Juan en el desierto, y predicaba el bautismo de arrepentimiento para perdón de pecados"</em> (Mc 1:4), y que se define con Isaías 40:3: <em class="hi">"Yo soy la voz de uno que clama en el desierto"</em> (Jn 1:23).</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Crítica textual — "en Isaías el profeta"</div>
+      <p>Los manuscritos y las ediciones presentan una variante en Marcos 1:2: «en Isaías el profeta» o «en los profetas». El texto de la RVR1960 consultado en línea (Blue Letter Bible) lee «en Isaías el profeta», que es la lectura usada aquí; si la Escuela proyecta otra edición, cotéjela. No cambia lo central de la clase: el pasaje reúne más de un texto profético.</p>
+    </div>
+    <div class="ilustracion">
+      <div class="lbl">Precisión exegética — Tres niveles que conviene rotular</div>
+      <p><strong>CITA (con adaptación):</strong> Mateo 11:10, Marcos 1:2 y Lucas 7:27 retoman y adaptan la primera expresión de Malaquías 3:1 (el mensajero) y la aplican a Juan.</p>
+      <p><strong>IDENTIFICACIÓN O ALUSIÓN:</strong> Lucas 1:17 y Mateo 11:14 relacionan a Juan con el Elías de Malaquías 4:5.</p>
+      <p><strong>CONEXIÓN CANÓNICA:</strong> la entrada de Jesús al Templo (Mt 21:12-13; Jn 2:13-17) se relaciona con la venida del Señor a su Templo, pero esos pasajes no citan Malaquías 3:1.</p>
+    </div>
+    <div class="frase-seccion"><p>En el orden de nuestras Biblias, Malaquías es el último libro del Antiguo Testamento y termina con una promesa abierta. Marcos abre el Evangelio de Jesucristo mostrando al mensajero en el desierto.</p></div>
+  </section>
+
+  <!-- ===== S4 · INTERPRETACIÓN TEOLÓGICA ===== -->
+  <section class="mov seccion-anchor" id="s4" data-section="4" data-section-name="Interpretación teológica">
+    <div class="mov-eyebrow"><div class="mov-num">4</div><h2 class="mov-tag">Interpretación teológica</h2></div>
+    <div class="slide-mark">Diapositiva 21 · Lo que cambió y lo que permaneció</div>
+    <p class="question">¿Qué revela este tramo de la historia sobre Dios y sobre el ser humano?</p>
+    <div class="body-text">
+      <p><strong>Sobre Dios:</strong></p>
+      <ul>
+        <li>Se acuerda de lo que prometió: Lucas 1:54-55 y 1:72-73 vinculan lo que sucede con su misericordia hacia Abraham y con su santo pacto.</li>
+        <li>Fija el tiempo: <em class="hi">"cuando vino el cumplimiento del tiempo"</em> (Gá 4:4); <em class="hi">"el tiempo se ha cumplido"</em> (Mc 1:15).</li>
+        <li>Anuncia que él mismo viene: Malaquías 3:1 no promete solo un mensajero, promete la venida del Señor a su Templo.</li>
+      </ul>
+      <p><strong>Sobre el ser humano:</strong></p>
+      <ul>
+        <li>La piedad y el desánimo conviven: Simeón y Ana esperan con fidelidad (Lc 2:25-38), mientras Malaquías denuncia ofrendas defectuosas y duda sobre la justicia de Dios.</li>
+        <li>Se puede apelar a la Escritura y llegar a conclusiones distintas: la multitud de Juan 7 discute el origen del Mesías.</li>
+        <li>La esperanza puede ser sincera y estar todavía incompleta: Hechos 1:6 pregunta por el reino cuando ya han pasado cuarenta días con el resucitado (Hch 1:3).</li>
+      </ul>
+    </div>
+    <div class="complementario">
+      <div class="lbl">Lo que cambió y lo que permaneció desde Malaquías</div>
+      <div class="tabla-scroll"><table class="vs-table">
+        <caption class="sr-only">Comparación entre lo que cambió y lo que permaneció desde Malaquías hasta los Evangelios</caption>
+        <tr><th scope="col">Lo que cambió</th><th scope="col">Lo que permaneció</th></tr>
+        <tr><td>Los imperios: de Persia a Grecia y a Roma</td><td>La permanencia del pueblo judío en su tierra, aunque su autonomía política cambió considerablemente durante estos siglos</td></tr>
+        <tr><td>El idioma: el griego se extiende y las Escrituras se traducen</td><td>La Ley como centro de la vida del pueblo</td></tr>
+        <tr><td>Las instituciones: sinagogas, corrientes y Sanedrín</td><td>El Templo en Jerusalén, ahora ampliado por Herodes</td></tr>
+        <tr><td>Un sumo sacerdocio vinculado al poder político</td><td>La promesa abierta: Malaquías 3:1 y 4:5-6 siguen esperando</td></tr>
+      </table></div>
+    </div>
+  </section>
+
+  <!-- ===== S5 · CONEXIÓN ===== -->
+  <section class="mov seccion-anchor" id="s5" data-section="5" data-section-name="Cómo el Nuevo Testamento retoma el cierre del Antiguo">
+    <div class="mov-eyebrow"><div class="mov-num">5</div><h2 class="mov-tag">Cómo el Nuevo Testamento retoma el cierre del Antiguo</h2></div>
+    <div class="slide-mark">Diapositiva 22 · Conexiones con etiqueta</div>
+    <div class="body-text">
+      <p>Cada conexión lleva su etiqueta: CITA, IDENTIFICACIÓN O ALUSIÓN, o CONEXIÓN CANÓNICA.</p>
+      <ul>
+        <li><strong>CITA — Malaquías 3:1a (el mensajero).</strong> <em>Mateo 11:10, Marcos 1:2 y Lucas 7:27 lo retoman, adaptando los pronombres, y lo aplican a Juan el Bautista.</em></li>
+        <li><strong>CITA — Isaías 40:3 (la voz en el desierto).</strong> <em>Marcos 1:3 y Juan 1:23 lo aplican a Juan.</em></li>
+        <li><strong>IDENTIFICACIÓN O ALUSIÓN — Malaquías 4:5-6 (Elías).</strong> <em>Lucas 1:17 y Mateo 11:14; 17:12 lo relacionan con Juan.</em></li>
+        <li><strong>POSIBLE ECO VERBAL — Éxodo 23:20 (el ángel delante de ti).</strong> Aparece dentro de Marcos 1:2; no se le atribuye la misma dependencia textual que a Malaquías e Isaías.</li>
+        <li><strong>CONEXIÓN CANÓNICA — Malaquías 3:1b-3 (el Señor viene a su Templo).</strong> Se relaciona con Mateo 21:12-13 y Juan 2:13-17; el Nuevo Testamento no cita esta cláusula con esas palabras.</li>
+        <li><strong>TRASFONDO — 2 Samuel 7 y las promesas y el juramento a Abraham (Gn 12, 15, 17 y 22).</strong> <em>Lucas 1:32-33 y 1:72-73 resuenan con ellos; no son citas literales.</em></li>
+      </ul>
+    </div>
+    <div class="frase-seccion"><p>El Nuevo Testamento responde a Malaquías con nombres y lugares: un mensajero en el desierto y un Señor que se acerca.</p></div>
+  </section>
+
+  <!-- ===== S6 · TRIPLE MIRADA ===== -->
+  <section class="mov seccion-anchor" id="s6" data-section="6" data-section-name="Actividad Triple Mirada">
+    <div class="mov-eyebrow"><div class="mov-num">6</div><h2 class="mov-tag">Actividad Triple Mirada</h2></div>
+    <div class="slide-mark">Diapositiva 23 · Triple Mirada: Malaquías 3:1–4</div>
+    <div class="activity">
+      <div class="tag">Método de enseñanza · Triple Mirada aplicada · 12 minutos · Malaquías 3:1-4</div>
+      <p>Tiempos: 2 minutos de lectura, 4 de respuestas, 4 de síntesis y 2 de transición. Proyecte las tres preguntas en pantalla. Cada participante responde en el chat con la etiqueta <strong>H</strong>, <strong>A</strong> o <strong>T</strong> (la mirada que elija). Texto: <strong>Malaquías 3:1-4</strong>, con Marcos 1:2-4 como apoyo.</p>
+      <h5>H — Mirada histórica</h5>
+      <p>¿Qué situación vive la comunidad que recibe esta promesa? Usen Malaquías 1:6-8, 2:8 y 2:17. ¿De qué se queja el pueblo y qué reprocha el profeta?</p>
+      <h5>A — Mirada del autor</h5>
+      <p>Malaquías responde a la pregunta «¿dónde está el Dios de justicia?». ¿Qué recurso usa? Observen las tres expresiones de 3:1 y lo que ocurre en los versículos 2 al 4.</p>
+      <h5>T — Mirada teológica</h5>
+      <p>¿Cómo se relaciona Malaquías 3:1 con Marcos 1:2-4? Primero qué cita el Nuevo Testamento; luego qué conexiones traza la lectura canónica. La aplicación va al final y solo si el texto la permite.</p>
+      <h5>Puesta en común</h5>
+      <p>El profesor lee una respuesta representativa de cada etiqueta (H, A y T). Después termina con la síntesis: Malaquías responde anunciando un mensajero que prepara el camino y la venida del Señor, que trae purificación y juicio; no se reduce a un consuelo inmediato. Una promesa dada a una comunidad desanimada de entonces no se convierte, por sí sola, en una garantía personal inmediata; la aplicación llega después del significado y de la trayectoria.</p>
+    </div>
+  </section>
+
+  <!-- ===== S7 · OCHO HILOS ===== -->
+  <section class="mov seccion-anchor" id="s7" data-section="7" data-section-name="Los hilos al abrir el Nuevo Testamento">
+    <div class="mov-eyebrow"><div class="mov-num">7</div><h2 class="mov-tag">Los ocho hilos al abrir el Nuevo Testamento</h2></div>
+    <div class="slide-mark">Diapositiva 24 · Tres hilos para abrir el Nuevo Testamento</div>
+    <div class="body-text"><p>En vivo se destacan el reino, el pacto y la presencia; los ocho se entregan como ficha de consulta. No todos son «promesas» en el mismo sentido: algunos son temas teológicos y otros son instituciones.</p></div>
+    <div class="threads-grid">
+      <div class="thread-card">
+        <div class="th-name">Reino</div>
+        <div class="th-avance"><strong>Estado:</strong> sin rey davídico; cuando nace Jesús reina Herodes el Grande bajo Roma, y en el ministerio de Juan gobiernan otras autoridades bajo Roma (Lc 3:1).<br><strong>Pendiente:</strong> el reino que "no tendrá fin" (Lc 1:33).</div>
+        <div class="th-trayectoria">2 S 7 → Dn 2 y 7 → Zorobabel gobernador → <strong>Lc 1:32-33</strong> → Mc 1:15</div>
+      </div>
+      <div class="thread-card quiet">
+        <div class="th-name">Descendencia</div>
+        <div class="th-avance"><strong>Estado:</strong> la casa de David sigue identificada (Lc 1:27; 2:4).<br><strong>Pendiente:</strong> el descendiente prometido.</div>
+        <div class="th-trayectoria">Gn 3:15 → Gn 12:3 → 2 S 7 → <strong>Mt 1:1</strong> → Evangelios</div>
+      </div>
+      <div class="thread-card">
+        <div class="th-name">Pacto</div>
+        <div class="th-avance"><strong>Estado:</strong> la Ley rige la vida del pueblo; se invoca el "santo pacto" (Lc 1:72).<br><strong>Pendiente:</strong> el Nuevo Pacto anunciado en Jeremías 31.</div>
+        <div class="th-trayectoria">Gn 15 → Éx 24 → Jr 31 → <strong>Lc 1:72</strong> → Lc 22:20</div>
+      </div>
+      <div class="thread-card">
+        <div class="th-name">Presencia</div>
+        <div class="th-avance"><strong>Estado:</strong> Templo en pie, con una espera: "vendrá a su templo el Señor".<br><strong>Pendiente:</strong> la venida que Malaquías 3:1 anuncia.</div>
+        <div class="th-trayectoria">Éx 40 → Ez 43 → Mal 3:1 → <strong>Evangelios</strong> → Jn 1:14</div>
+      </div>
+      <div class="thread-card quiet">
+        <div class="th-name">Templo</div>
+        <div class="th-avance"><strong>Estado:</strong> Segundo Templo ampliado por Herodes (Jn 2:20); sinagogas locales; Gerizim como lugar sagrado de la tradición samaritana (Jn 4:20).<br><strong>Pendiente:</strong> la purificación de Malaquías 3:3.</div>
+        <div class="th-trayectoria">Tabernáculo → Templo de Salomón → Zorobabel → <strong>Segundo Templo ampliado</strong> → Jn 2:19</div>
+      </div>
+      <div class="thread-card quiet">
+        <div class="th-name">Tierra</div>
+        <div class="th-avance"><strong>Estado:</strong> el pueblo habita la tierra sin libertad plena (Lc 1:71).<br><strong>Pendiente:</strong> la liberación que se espera.</div>
+        <div class="th-trayectoria">Gn 12:1 → Dt 30 → Exilio → <strong>Judea bajo Roma</strong> → Hch 1:6</div>
+      </div>
+      <div class="thread-card quiet">
+        <div class="th-name">Sacerdocio</div>
+        <div class="th-avance"><strong>Estado:</strong> sumo sacerdocio ligado al poder (Lc 3:2: Anás y Caifás); linaje discutido desde los macabeos.<br><strong>Pendiente:</strong> la purificación de "los hijos de Leví" (Mal 3:3).</div>
+        <div class="th-trayectoria">Aarón → Sadoc → Macabeos → <strong>Anás y Caifás</strong> → Hebreos</div>
+      </div>
+      <div class="thread-card quiet">
+        <div class="th-name">Sacrificio</div>
+        <div class="th-avance"><strong>Estado:</strong> el culto sacrificial continúa en el Templo.<br><strong>Pendiente:</strong> "ofrenda en justicia" (Mal 3:3-4).</div>
+        <div class="th-trayectoria">Gn 22 → Lv 16 → Mal 1:7-8 → <strong>Segundo Templo ampliado</strong> → Jn 1:29</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S8 · ERRORES COMUNES Y CIERRE ===== -->
+  <section class="mov seccion-anchor" id="s8" data-section="8" data-section-name="Errores comunes y cierre">
+    <div class="mov-eyebrow"><div class="mov-num">8</div><h2 class="mov-tag">Errores comunes de interpretación</h2></div>
+    <div class="slide-mark">Diapositiva 25 · Cinco errores frecuentes</div>
+    <div class="errores">
+      <div class="err-item"><div class="err-x">✕</div><p><span class="err-label">"Entre Malaquías y los Evangelios hubo silencio absoluto."</span> «Silencio» es una expresión didáctica. Hubo historia, traducción de las Escrituras, persecución, rebelión y espera (Jn 10:22; Hch 6:1; Lc 2:25-38).</p></div>
+      <div class="err-item"><div class="err-x">✕</div><p><span class="err-label">"Todos los fariseos eran hipócritas, y Mateo 23 condena al judaísmo."</span> Nicodemo y Gamaliel eran fariseos (Jn 3:1; Hch 5:34); Pablo se presenta como tal (Hch 23:6). Las controversias de Jesús ocurren dentro de un mundo judío diverso.</p></div>
+      <div class="err-item"><div class="err-x">✕</div><p><span class="err-label">"Todos esperaban lo mismo, y era una esperanza solo política."</span> Simeón espera consolación, Ana redención, la multitud discute (Jn 7) y Zacarías une la liberación con el servicio en santidad y el perdón de pecados (Lc 1:74-77).</p></div>
+      <div class="err-item"><div class="err-x">✕</div><p><span class="err-label">"Los libros del Nuevo Testamento se escribieron en el orden en que aparecen."</span> Las cartas tempranas de Pablo (c. 50 d.C.) se ubican antes o a la par de los Evangelios; el orden de la Biblia no sigue la fecha de composición.</p></div>
+      <div class="err-item"><div class="err-x">✕</div><p><span class="err-label">"Juan dijo que no era Elías, así que Jesús se equivocó."</span> Juan 1:21 habla de la identidad de Juan; Mateo 11:14 lo relaciona con el Elías prometido. Distinguir identidad y misión es una interpretación razonable, a la luz de Lucas 1:17.</p></div>
+    </div>
+    <div class="slide-mark">Diapositiva 26 · Evaluación final: verdadero o falso</div>
+    <div class="activity">
+      <div class="tag">Evaluación final · 5 minutos</div>
+      <p>Primero, ordenar en el chat: Herodes, Persia, Roma, Macabeos, Grecia (respuesta: Persia, Grecia, Macabeos, Roma, Herodes). Después, encuesta verdadero/falso con una frase justificativa de cada respuesta:</p>
+      <ol>
+        
+        <li>«Lucas 1 presenta solo una esperanza política.» <strong>Falso:</strong> junto al trono de David (1:32-33) aparecen el servicio en santidad y el perdón de pecados (1:74-77).</li>
+        <li>«Mateo 21:12-13 cita Malaquías 3:1.» <strong>Falso:</strong> es una conexión canónica, no una cita. Mateo 11:10 sí retoma, con adaptación, la primera expresión del versículo; Lucas 1:17 es una identificación o alusión a Malaquías 4:5.</li>
+        <li>«Escriba y fariseo son necesariamente lo mismo.» <strong>Falso:</strong> escriba designa una función ligada a la Ley; fariseo, una corriente. No todos los escribas eran fariseos. Pida una frase con apoyo textual (Hch 23:8 o Mc 14:53).</li>
+      </ol>
+      <p><strong>Pregunta abierta (solo si queda tiempo):</strong> escriba una frase que distinga lo que Marcos 1:2-3 cita de lo que solo conectamos con Malaquías 3:1b.</p>
+    </div>
+    <div class="slide-mark">Diapositiva 27 · La historia no comienza de nuevo</div>
+    <div class="complementario">
+      <div class="lbl">Cierre narrativo — para leer en voz alta</div>
+      <p>Malaquías dejó planteada la pregunta por la justicia de Dios y anunció un mensajero que prepararía el camino. Durante los siglos siguientes cambió el mundo de Israel, pero la memoria de las promesas siguió viva.</p>
+      <p>Se difundió el griego, cambiaron los imperios, el Segundo Templo fue profanado, rededicado y, más tarde, ampliado de manera monumental bajo un rey que no era de la casa de David. Hubo corrientes que discrepaban sobre la resurrección, gente justa que esperaba la consolación de Israel y una multitud que discutía de dónde ha de venir el Cristo.</p>
+      <p>Marcos abre su relato nombrando a Jesucristo y mostrando a Juan en el desierto. Marcos vincula de manera explícita a Juan con el mensajero anunciado; otras conexiones, como la venida del Señor a su Templo, son lecturas canónicas. La historia no comienza de nuevo: el Evangelio se presenta como la continuación de una esperanza antigua.</p>
+    </div>
+    <div class="frase"><p>La historia no comienza de nuevo: continúa una esperanza antigua.</p></div>
+    <div class="slide-mark">Diapositiva 28 · Regresemos al diagnóstico</div>
+    <div class="activity">
+      <div class="tag">Actividad práctica de cierre · 3 minutos</div>
+      <p>Regresen a las respuestas del diagnóstico inicial y corríjanlas juntos:</p>
+      <ol>
+        <li>Entre cuatro y cinco siglos separan el contexto de Malaquías de la aparición de Juan el Bautista; en ese tiempo cambiaron los imperios, el idioma y las instituciones (respuesta B).</li>
+        <li>Sinagogas, fariseos, saduceos, escribas, Sanedrín, samaritanos, publicanos y zelotes aparecen en los Evangelios y en Hechos sin que el Antiguo Testamento describa su configuración del siglo I.</li>
+        <li>Diversos sectores esperaban consolación, redención, reino, perdón y servicio en santidad; la espera tomaba formas distintas y se enraizaba en las promesas a Abraham y a David.</li>
+      </ol>
+    </div>
+    <ol class="review-list">
+      <li>Ordena cinco hitos del puente (Persia, Alejandro, rebelión macabea, Roma, Herodes). ¿Dónde sitúa Lucas 3:1 el ministerio de Juan el Bautista?</li>
+      <li>¿Por qué Juan 10:22-23 menciona una fiesta que no está prescrita en el Antiguo Testamento?</li>
+      <li>¿Qué diferencia hay entre escriba y fariseo, y en qué se dividen fariseos y saduceos según Hechos 23:8?</li>
+      <li>Compara Lucas 1:32-33 con Lucas 1:74-77. ¿Qué dimensión de la esperanza destaca cada pasaje y cómo se complementan?</li>
+      <li>¿Qué expresión de Malaquías 3:1 citan Mateo 11:10 y Marcos 1:2, y cuál es solo conexión canónica?</li>
+      <li>¿Cómo se relacionan Juan 1:21 y Mateo 11:14? Preséntalo como interpretación, no como frase de Juan.</li>
+    </ol>
+    <p class="transicion">La próxima clase: <strong>los Evangelios</strong>. Veremos quién escribió cada uno, a quién se dirigía y cómo presenta a Jesús: el Rey, el Reino y el Nuevo Pacto.</p>
+  </section>
+
+  <div class="complementario">
+    <div class="lbl">Hoja de textos bíblicos — qué se lee y qué se proyecta</div>
+    <p>Citas según la RVR1960, salvo 1 Macabeos, que se cita en paráfrasis. No son transcripciones certificadas: cada cita entre comillas debe cotejarse literalmente con la edición antes de proyectarla; las omisiones se marcan con puntos suspensivos y los fragmentos combinados se señalan. En la numeración hebrea, Malaquías 4:5-6 corresponde a 3:23-24.</p>
+    <div class="tabla-scroll"><table class="vs-table">
+      <caption class="sr-only">Textos bíblicos que se leen en directo durante la clase</caption>
+      <tr><th scope="col">Se leen en directo</th><th scope="col">Porción</th></tr>
+      <tr><td>Malaquías 2:17–3:4</td><td>Completo</td></tr>
+      <tr><td>Juan 10:22-23</td><td>Los dos versículos</td></tr>
+      <tr><td>Hechos 23:6-8</td><td>Completo</td></tr>
+      <tr><td>Lucas 1:32-33, 68-79</td><td>32-33; selección de 68-79 (69-77)</td></tr>
+      <tr><td>Marcos 1:1-4</td><td>Completo</td></tr>
+    </table></div>
+    <div class="tabla-scroll"><table class="vs-table">
+      <caption class="sr-only">Textos bíblicos que se proyectan en diapositivas o se envían para lectura previa</caption>
+      <tr><th scope="col">Se proyectan o se envían para lectura previa</th><th scope="col">Porción</th></tr>
+      <tr><td>Malaquías 1:6-8; 2:8; 4:5-6</td><td>1:6-8; 2:8; 4:5-6</td></tr>
+      <tr><td>Daniel 8:20-21</td><td>Los dos versículos</td></tr>
+      <tr><td>Lucas 1:5, 16-17; 2:25, 36-38; 3:1-2</td><td>Los versículos indicados</td></tr>
+      <tr><td>Mateo 2:1; 11:7-15; 17:10-13; 24:15</td><td>2:1; 10 y 14 de 11:7-15; 17:10-13; 24:15</td></tr>
+      <tr><td>Juan 1:19-23, 41; 2:20; 4:9, 20; 7:40-43</td><td>Los versículos indicados</td></tr>
+      <tr><td>Hechos 1:6-8; 6:1</td><td>Los versículos indicados</td></tr>
+      <tr><td>Marcos 14:53; Gálatas 4:4; Marcos 1:15</td><td>Un versículo cada uno</td></tr>
+    </table></div>
+  </div>
+
+  <div class="complementario"><div class="lbl">Notas para revisión del director (no se proyectan)</div>
+<p>1. Malaquías 3:1b («el Señor… el ángel del pacto»): nota docente provisional (por verificar con la investigación pendiente). El hebreo usa dos designaciones, <em>ha-adon</em> («el Señor») y <em>mal'ak ha-berit</em> («mensajero o ángel del pacto»), unidas por la conjunción «y» y con cláusulas paralelas («a quien vosotros buscáis», «a quien deseáis vosotros»). Ese paralelismo permite al menos tres lecturas: dos designaciones de una misma figura (aposición), dos referencias distintas, o un uso en el que el segundo título precisa al primero. La sintaxis por sí sola no decide entre ellas; pesan el contexto de 3:1-5 y el uso del Nuevo Testamento. La formulación que enseñe la Escuela debe fijarla el director, sin presentarla como conclusión gramatical automática. La clase no fuerza una lectura.</p>
+<p>2. Datos históricos que no proceden del dossier y necesitan fuente identificada (autor, obra y pasaje): 63 a.C., gobierno asmoneo (mediados del siglo II a.C. hasta el 63 a.C.), toma de Jerusalén por Pompeyo, muerte de Herodes hacia el 4 a.C., linaje de los macabeos frente a Sadoc, presencia de los fariseos en las fuentes del período asmoneo, Ptolomeos y Seléucidas, y fechas y pasajes de 1 Macabeos. Referencia sugerida para comprobar pasajes: Flavio Josefo, <em>Antigüedades judías</em>, libros XIII–XVII, y <em>La guerra de los judíos</em>, libro I.</p>
+<p>3. Marcos 1:1-4 se cotejó con la RVR1960 en línea (Blue Letter Bible). Las demás citas de la RVR1960 se escribieron sin cotejo literal; verificar con la edición de la Escuela.
+</p></div>
+
+  <footer>Escuela de Teología DeGloria · Panorama del Nuevo Testamento · Clase 1 de 5 · Módulo 1, Lección 1</footer>
+
+</div>
+
+<button type="button" class="back-to-top" id="backToTop" title="Volver arriba" aria-label="Volver arriba"><i class="fas fa-arrow-up"></i></button>
+
+<div class="text-size-controls" role="group" aria-label="Controles de tamaño de texto">
+  <button type="button" onclick="changeTextSize(-0.1)" title="Reducir texto" aria-label="Reducir tamaño del texto">A-</button>
+  <button type="button" onclick="resetTextSize()" title="Restablecer tamaño" aria-label="Restablecer tamaño del texto">A</button>
+  <button type="button" onclick="changeTextSize(0.1)" title="Aumentar texto" aria-label="Aumentar tamaño del texto">A+</button>
+</div>
+
+
+<script>
+  window.addEventListener('scroll', () => {
+    const docElement = document.documentElement;
+    const scrollTotal = docElement.scrollHeight - docElement.clientHeight;
+    if (scrollTotal > 0) {
+      const scrollPercentage = (docElement.scrollTop / scrollTotal) * 100;
+      const progress = document.getElementById('progress-bar');
+      if (progress) progress.style.width = scrollPercentage + '%';
+    }
+  });
+
+  const backToTopBtn = document.getElementById('backToTop');
+  if (backToTopBtn) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 500) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    });
+    backToTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  }
+
+  const sectionEls = document.querySelectorAll('.mov[data-section]');
+  const tracker = document.getElementById('section-tracker');
+  const trackerText = document.getElementById('section-tracker-text');
+  const totalSections = sectionEls.length;
+
+  if (sectionEls.length > 0 && tracker && trackerText) {
+    /* Reemplaza al IntersectionObserver original: evita oscilaciones en los límites */
+    const sectionsArr = Array.from(sectionEls);
+    const updateTracker = () => {
+      const umbral = window.innerHeight * 0.4;
+      let activa = sectionsArr[0];
+      sectionsArr.forEach(el => { if (el.getBoundingClientRect().top <= umbral) activa = el; });
+      trackerText.textContent = `Sección ${activa.getAttribute('data-section')} de ${totalSections} · ${activa.getAttribute('data-section-name')}`;
+    };
+    let ticking=false;
+    window.addEventListener('scroll', () => { if(!ticking){ticking=true;requestAnimationFrame(()=>{updateTracker();ticking=false;});} }, {passive:true});
+    updateTracker();
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 420) tracker.classList.add('visible');
+      else tracker.classList.remove('visible');
+    });
+  }
+</script>
+
+<script>
+  /* Escala de texto por variable CSS: no toca estilos individuales */
+  (function(){
+    var scale=1;
+    function apply(){document.documentElement.style.setProperty('--font-scale',scale);}
+    window.changeTextSize=function(step){scale=Math.min(1.5,Math.max(0.85,Math.round((scale+step)*10)/10));apply();};
+    window.resetTextSize=function(){scale=1;document.documentElement.style.removeProperty('--font-scale');};
+  })();
+</script>
+</body>
+</html>

@@ -28,7 +28,7 @@ Cada carpeta contiene una portada `index.html`. Las publicaciones se guardan com
 
 4. Publica los cambios en la rama `main`. GitHub Pages actualizará el sitio automáticamente.
 
-Usa nombres de archivo simples, en minúscula, sin espacios ni tildes. El campo `category` debe coincidir con el nombre de una carpeta. La ruta `url` debe apuntar al HTML y terminar en `.html`.
+Usa nombres de archivo simples, en minúscula, sin espacios ni tildes. El campo `category` debe coincidir con el nombre de una carpeta. Para un enlace corto y limpio, guarda la página como `categoria/nombre/index.html` y usa `categoria/nombre/` en `url`. También se acepta la ruta directa a un archivo, como `categoria/nombre.html`.
 
 ## Crear una categoría
 
@@ -53,6 +53,8 @@ Usa nombres de archivo simples, en minúscula, sin espacios ni tildes. El campo 
 El sitio principal es `https://jasibintel.github.io/degloria-webs/`. Cada HTML tiene su propio enlace, formado con la dirección del sitio y su ruta. Por ejemplo:
 
 `https://jasibintel.github.io/degloria-webs/estudios-biblicos/fe-y-esperanza.html`
+
+Para una URL corta, guarda el HTML como `estudios-biblicos/fe-y-esperanza/index.html` y usa `https://jasibintel.github.io/degloria-webs/estudios-biblicos/fe-y-esperanza/`.
 
 Las portadas de categoría también tienen URL propia, como `https://jasibintel.github.io/degloria-webs/recursos/`.
 
