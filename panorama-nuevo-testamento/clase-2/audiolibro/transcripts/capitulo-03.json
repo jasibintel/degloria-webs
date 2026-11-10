@@ -1,0 +1,239 @@
+{
+  "chapter_id": "capitulo-03",
+  "language": "es",
+  "text_source": "original_script",
+  "timing_method": "automatic_word_match_approximate",
+  "segments": [
+    {
+      "text": "Capítulo tres. Cuatro relatos, una sola persona",
+      "start_ms": 0,
+      "end_ms": 4920,
+      "confidence": 0.857,
+      "heading": true
+    },
+    {
+      "text": "Pregunta de este capítulo: ¿qué comparten los cuatro relatos y qué hace distinto a cada uno?",
+      "start_ms": 4990,
+      "end_ms": 11800,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "La idea central: tres relatos se pueden poner en columnas, y uno mira distinto. Cada autor entra por una puerta propia, y la puerta ya anuncia su énfasis.",
+      "start_ms": 11800,
+      "end_ms": 23480,
+      "confidence": 0.964,
+      "heading": false
+    },
+    {
+      "text": "Empecemos por los tres que miran juntos. Mateo, Marcos y Lucas se llaman sinópticos. Sinóptico significa que se ve en conjunto, porque pueden ponerse en columnas paralelas y compararse. Siguen un recorrido común: Juan el Bautista y el bautismo, el ministerio en Galilea, el camino a Jerusalén, la pasión, la muerte y la resurrección.",
+      "start_ms": 23480,
+      "end_ms": 48360,
+      "confidence": 0.944,
+      "heading": false
+    },
+    {
+      "text": "Pero ojo: no lo organizan de manera idéntica. Lucas desarrolla el viaje a Jerusalén de modo mucho más extenso y estructurado, desde Lucas, capítulo nueve, versículo cincuenta y uno. Marcos y Mateo lo presentan con mucha menos extensión.",
+      "start_ms": 48360,
+      "end_ms": 64560,
+      "confidence": 0.895,
+      "heading": false
+    },
+    {
+      "text": "Y hay algo curioso. Los tres citan Isaías, capítulo cuarenta, versículo tres, al presentar a Juan el Bautista: Mateo tres, versículo tres; Marcos uno, versículo tres; Lucas tres, versículo cuatro. Pero cada uno tiene también material propio. Los magos aparecen solo en Mateo, capítulo dos. La infancia de Jesús, y las parábolas del buen samaritano y del hijo pródigo, aparecen solo en Lucas, capítulos uno y dos, capítulo diez, versículos veinticinco al treinta y siete, y capítulo quince, versículos once al treinta y dos. Y la parábola de la semilla que crece en secreto está solo en Marcos, capítulo cuatro, versículos veintiséis al veintinueve.",
+      "start_ms": 64560,
+      "end_ms": 110135,
+      "confidence": 0.76,
+      "heading": false
+    },
+    {
+      "text": "¿Cómo se relacionan estos tres escritos? Los estudiosos han propuesto varias explicaciones. Algunos dicen que Marcos se escribió primero y que Mateo y Lucas lo usaron. Otros siguen una larga tradición que pone a Mateo primero. Y otros ponen el acento en la enseñanza oral común. Esto es debatido. La clase no elige entre estas explicaciones, y ustedes tampoco necesitan elegir hoy. Lo que sí afirman los textos es que los tres seleccionaron y ordenaron con intención, y que ninguno declara que copió de otro.",
+      "start_ms": 110560,
+      "end_ms": 145120,
+      "confidence": 0.976,
+      "heading": false
+    },
+    {
+      "text": "Ahora, un ejercicio de observación. Fíjense en cómo empieza cada Evangelio.",
+      "start_ms": 145120,
+      "end_ms": 151520,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Mateo, capítulo uno, versículo uno, empieza con una genealogía. Marcos, capítulo uno, versículo uno, empieza con el principio del evangelio. Lucas, capítulo uno, versículos uno al cuatro, empieza con un prólogo de método. Y Juan, capítulo uno, versículo uno, empieza con un comienzo en el principio. Cuatro entradas distintas. ¿Qué diferencia ven?",
+      "start_ms": 151520,
+      "end_ms": 178720,
+      "confidence": 0.827,
+      "heading": false
+    },
+    {
+      "text": "Cuatro puertas distintas. Y esa es la verdad que ayuda a descubrir: la puerta ya anuncia el énfasis.",
+      "start_ms": 178720,
+      "end_ms": 187440,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Pasemos ahora a los cuatro, uno por uno. Voy a presentarlos en seis aspectos: comienzo, estructura, énfasis, episodios característicos, propósito y relación con los otros.",
+      "start_ms": 187440,
+      "end_ms": 201480,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Mateo. Su comienzo es una genealogía que presenta a Jesús como hijo de David, hijo de Abraham, Mateo uno, versículo uno. Su estructura se organiza en bloques de enseñanza: el Sermón del Monte, capítulos cinco al siete, y las parábolas del reino, capítulo trece. Su énfasis es el cumplimiento de las Escrituras, Mateo uno, versículos veintidós y veintitrés, y presenta a Jesús como rey, hijo de David. Entre sus episodios característicos están los magos, en el capítulo dos, y la gran comisión, Mateo veintiocho, versículos dieciséis al veinte. Su propósito no lo declara; lo inferimos por su énfasis.",
+      "start_ms": 201480,
+      "end_ms": 245360,
+      "confidence": 0.867,
+      "heading": false
+    },
+    {
+      "text": "Marcos. Su comienzo es el principio del evangelio, y no tiene relato de nacimiento. Su relato es breve y directo, y dedica una proporción considerable a los acontecimientos finales de la vida de Jesús. Su énfasis es la autoridad, y el siervo que da su vida en rescate, Marcos diez, versículo cuarenta y cinco. Entre sus episodios característicos están la semilla que crece en secreto, y las órdenes de reserva que Jesús da en Marcos uno, versículo cuarenta y cuatro, cinco, versículo cuarenta y tres, y siete, versículo treinta y seis. Su propósito tampoco lo declara con una frase, y lo inferimos. Buena parte de su material tiene paralelo en Mateo y en Lucas.",
+      "start_ms": 245360,
+      "end_ms": 291800,
+      "confidence": 0.842,
+      "heading": false
+    },
+    {
+      "text": "Lucas. Su comienzo es el prólogo a Teófilo y los relatos de infancia. Su estructura es una narración ordenada, con un amplio viaje hacia Jerusalén.",
+      "start_ms": 291800,
+      "end_ms": 302034,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Su énfasis son las buenas noticias y la salvación, con atención a los pobres, los marginados y las mujeres, Lucas cuatro, versículo dieciocho, y diecinueve, versículo diez. Entre sus episodios característicos están el buen samaritano, el hijo pródigo y Zaqueo, Lucas diecinueve, versículos uno al diez. Y su propósito sí lo declara: Lucas uno, versículo cuatro.",
+      "start_ms": 302274,
+      "end_ms": 327934,
+      "confidence": 0.786,
+      "heading": false
+    },
+    {
+      "text": "Juan. Su comienzo es un prólogo sobre el Verbo, Juan uno, versículos uno al dieciocho. Su estructura se basa en señales y discursos, con Jesús en Jerusalén con motivo de varias fiestas, como se ve en Juan dos, versículo trece, seis, versículo cuatro, y once, versículo cincuenta y cinco. Su énfasis es creer para tener vida, Juan veinte, versículos treinta y treinta y uno, con Jesús como el Cristo, el Hijo de Dios. Entre sus episodios característicos están Nicodemo, en el capítulo tres, la samaritana, en el capítulo cuatro, y el lavamiento de pies, en el capítulo trece. Su propósito también lo declara, Juan veinte, versículo treinta y uno. Y su relación con los otros es especial: su material es mayormente propio. Juan no narra el bautismo de Jesús, ni la tentación, ni la institución de la Cena. Tampoco presenta las parábolas narrativas de los sinópticos, aunque usa figuras como el buen pastor y la vid verdadera.",
+      "start_ms": 327794,
+      "end_ms": 392674,
+      "confidence": 0.841,
+      "heading": false
+    },
+    {
+      "text": "Un resumen oído en una línea. Mateo presenta a Jesús como hijo de David; Marcos, como el que da su vida en rescate; Lucas, como portador de buenas noticias; y Juan, como el Cristo en cuyo nombre hay vida.",
+      "start_ms": 392674,
+      "end_ms": 408714,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Pero Juan no solamente explica para qué escribió su Evangelio. También utiliza expresiones especialmente significativas para presentar quién es Jesús. Antes de hablar de los autores, una pausa para escuchar con atención. Esta sección se llama: Las palabras que revelan quién es Jesús. Los Evangelios no presentan su identidad divina con una sola declaración aislada. Lo hacen con títulos, con nombres, con palabras del propio Jesús y con confesiones de sus discípulos. Escojamos tres palabras del Evangelio de Juan y un nombre en Mateo.",
+      "start_ms": 408714,
+      "end_ms": 446394,
+      "confidence": 0.976,
+      "heading": false
+    },
+    {
+      "text": "La primera palabra es Teós, la palabra griega para Dios. Juan uno, versículo uno, termina así: el Verbo era Dios. En griego, la palabra Teós aparece antes del verbo y sin artículo. Eso no obliga a traducir un dios. La construcción, leída en su contexto, permite destacar la naturaleza divina del Verbo. Y al final del Evangelio, en Juan veinte, versículo veintiocho, Tomás le dice a Jesús: Señor mío, y Dios mío. Al principio, Juan declara que el Verbo era Dios; cerca del final, un discípulo llama Dios a Jesús.",
+      "start_ms": 446394,
+      "end_ms": 486634,
+      "confidence": 0.956,
+      "heading": false
+    },
+    {
+      "text": "La segunda palabra es Lógos, el Verbo, la Palabra. En Juan uno, el Verbo está en el principio, versículo uno; por él todas las cosas fueron hechas, versículo tres; y el Verbo se hizo carne, versículo catorce. Para nuestra Escuela, leídos juntos, estos versículos afirman la manifestación del único Dios en Jesucristo, en carne.",
+      "start_ms": 486634,
+      "end_ms": 510834,
+      "confidence": 0.907,
+      "heading": false
+    },
+    {
+      "text": "La tercera expresión son las palabras de Jesús mismo: Egó eimi, que significa Yo soy. En Juan ocho, versículo cincuenta y ocho, Jesús dice: Antes que Abraham fuese, yo soy. Muchos intérpretes relacionan esta expresión con el lenguaje divino del Antiguo Testamento, como Éxodo tres, versículo catorce. Pero cuidado: la expresión yo soy no es, cada vez que aparece, una afirmación de deidad. Depende del contexto. Aquí pesan el contraste con Abraham y la reacción que cuenta el versículo cincuenta y nueve.",
+      "start_ms": 510834,
+      "end_ms": 548264,
+      "confidence": 0.866,
+      "heading": false
+    },
+    {
+      "text": "Y el nombre en Mateo: Emanuel, que Mateo explica como Dios con nosotros, Mateo uno, versículo veintitrés. Mateo cierra su Evangelio con la promesa de Jesús: yo estoy con vosotros todos los días, Mateo veintiocho, versículo veinte. Al comienzo y al final, la presencia de Dios con su pueblo.",
+      "start_ms": 546474,
+      "end_ms": 567874,
+      "confidence": 0.898,
+      "heading": false
+    },
+    {
+      "text": "Una distinción honesta: la fuerza de estas palabras no está en una palabra griega aislada, sino en la lectura conjunta de los pasajes. Que Jesucristo es Dios manifestado en carne es la conclusión que nuestra Escuela confiesa, desde la unicidad de Dios, al leer estos textos juntos.",
+      "start_ms": 567874,
+      "end_ms": 586274,
+      "confidence": 0.979,
+      "heading": false
+    },
+    {
+      "text": "Ahora, una pausa. Si lo desean, detengan la grabación y anoten en una libreta cuatro recursos con los que los Evangelios presentan quién es Jesús.",
+      "start_ms": 586274,
+      "end_ms": 596474,
+      "confidence": 0.92,
+      "heading": false
+    },
+    {
+      "text": "Una declaración sobre el Verbo, un nombre profético, las palabras del propio Jesús y la confesión de un discípulo.",
+      "start_ms": 596474,
+      "end_ms": 605074,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Y ahora una pregunta que muchos se hacen: ¿quién escribió cada Evangelio, y cómo lo sabemos? Aquí es donde las cuatro etiquetas nos ayudan, porque cada dato pertenece a un nivel distinto. Vamos Evangelio por Evangelio.",
+      "start_ms": 605074,
+      "end_ms": 620074,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Mateo. Lo que dice el texto: el libro no se firma. Mateo, capítulo nueve, versículo nueve, llama Mateo al publicano que Jesús llama. Lo que dice el testimonio antiguo: la tradición asocia el libro con el apóstol Mateo. Papías, citado por Eusebio, habla de Mateo y de una ordenación de los logia, es decir, de los dichos. El sentido exacto de esa frase es debatido.",
+      "start_ms": 620074,
+      "end_ms": 647582,
+      "confidence": 0.969,
+      "heading": false
+    },
+    {
+      "text": "Como identificación tradicional, el apóstol Mateo se asocia con el Leví de Marcos dos, versículo catorce, y Lucas cinco, versículo veintisiete. Y como inferencia, al comparar esos pasajes con Mateo nueve, versículo nueve, vemos que los relatos son paralelos. Pero los textos no dicen expresamente que Mateo y Leví sean la misma persona; esa identificación no está demostrada por los textos. Y lo debatido: si el libro fue una composición anónima en un contexto judeocristiano, y si se escribió antes o después del año setenta.",
+      "start_ms": 647642,
+      "end_ms": 682812,
+      "confidence": 0.835,
+      "heading": false
+    },
+    {
+      "text": "Marcos. El texto no se firma. La tradición: Papías lo presenta como intérprete de Pedro, e Ireneo lo vincula con Pedro. Inferencia: una relación con la predicación de Pedro. Debatido: su fecha, en torno al año setenta, sin dato textual.",
+      "start_ms": 683502,
+      "end_ms": 703702,
+      "confidence": 0.975,
+      "heading": false
+    },
+    {
+      "text": "Lucas. El texto: Lucas uno, versículos uno al cuatro, no nombra al autor, y Hechos uno, versículo uno, remite a un primer tratado. La tradición: Ireneo lo atribuye a Lucas, compañero de Pablo. Inferencia: las secciones en primera persona de Hechos, por ejemplo Hechos dieciséis, versículo diez, sugieren un compañero de viaje. Pero ojo: el uso de la primera persona no demuestra por sí solo la identidad del autor, y los estudiosos ofrecen distintas explicaciones sobre esas secciones. Debatido: la fecha y su relación con Marcos.",
+      "start_ms": 703702,
+      "end_ms": 743262,
+      "confidence": 0.814,
+      "heading": false
+    },
+    {
+      "text": "Juan. El texto: Juan veintiuno, versículo veinticuatro, afirma que el discípulo que da testimonio escribió estas cosas, pero no lo nombra. La tradición: Ireneo lo atribuye a Juan, discípulo del Señor, en Éfeso. Inferencia: un autor ligado al círculo del discípulo amado. Debatido: la identidad del discípulo amado, la redacción y la fecha, que a menudo se propone hacia fines del siglo primero.",
+      "start_ms": 743262,
+      "end_ms": 773782,
+      "confidence": 0.905,
+      "heading": false
+    },
+    {
+      "text": "¿Qué concluimos? Que la tradición antigua tiene un respaldo testimonial que no es ni una demostración definitiva ni una simple suposición. Y que las fechas son propuestas. Cuando alguien les pregunte quién escribió los Evangelios, ya saben cómo responder con precisión: esto dice el texto, esto afirma la tradición, esto se infiere, y esto se debate.",
+      "start_ms": 773742,
+      "end_ms": 798182,
+      "confidence": 0.982,
+      "heading": false
+    },
+    {
+      "text": "Cuatro relatos, una misma persona. Con los cuatro relatos en la mano, ya podemos recorrer lo que cuentan.",
+      "start_ms": 798182,
+      "end_ms": 807142,
+      "confidence": 1.0,
+      "heading": false
+    }
+  ]
+}

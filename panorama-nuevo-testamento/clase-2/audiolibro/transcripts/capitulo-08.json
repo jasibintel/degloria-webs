@@ -1,0 +1,197 @@
+{
+  "chapter_id": "capitulo-08",
+  "language": "es",
+  "text_source": "original_script",
+  "timing_method": "automatic_word_match_approximate",
+  "segments": [
+    {
+      "text": "Capítulo ocho. Lo que debemos recordar",
+      "start_ms": 0,
+      "end_ms": 3160,
+      "confidence": 0.833,
+      "heading": true
+    },
+    {
+      "text": "Hemos llegado al final del recorrido. La pregunta con la que cerramos es la misma con la que empezamos: ¿quién es Jesús según los cuatro Evangelios, y qué sigue después?",
+      "start_ms": 3160,
+      "end_ms": 14560,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Primero, volvamos a aquella lista que hicimos al comienzo: los acontecimientos más importantes de la vida de Jesús, y en qué orden sucedieron. Ahora podemos ordenarlos con las siete etapas. Uno, la llegada. Dos, la preparación. Tres, el comienzo del ministerio. Cuatro, el gran ministerio. Cinco, el camino a Jerusalén. Seis, la pasión y muerte. Siete, la resurrección y la misión. Corrijan su lista, o comparen mentalmente lo que habían pensado.",
+      "start_ms": 14560,
+      "end_ms": 49640,
+      "confidence": 0.986,
+      "heading": false
+    },
+    {
+      "text": "Segundo, una síntesis: quién es Jesús en cada relato. Mateo destaca a Jesús como hijo de David y cumplimiento de las Escrituras; el texto representativo es Mateo uno, versículo uno, y Mateo cinco, versículo diecisiete. Marcos destaca que Jesús anuncia el reino y da su vida en rescate: Marcos uno, versículo quince, y Marcos diez, versículo cuarenta y cinco. Lucas destaca que Jesús trae buenas noticias y salvación: Lucas cuatro, versículo dieciocho, y Lucas diecinueve, versículo diez. Y Juan destaca que Jesús es el Verbo que era Dios y se hizo carne, Juan uno, versículos uno y catorce; el Cristo, el Hijo de Dios, en cuyo nombre hay vida, Juan veinte, versículos treinta y treinta y uno.",
+      "start_ms": 49640,
+      "end_ms": 100580,
+      "confidence": 0.812,
+      "heading": false
+    },
+    {
+      "text": "Y ahora, la pregunta final, en voz alta: después de estudiar sus diferencias, ¿qué grandes acontecimientos y afirmaciones sobre Jesús aparecen en el conjunto de los cuatro Evangelios?",
+      "start_ms": 100520,
+      "end_ms": 113400,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Su relación con Juan el Bautista, su enseñanza y sus obras, su muerte y su resurrección. Cada Evangelio los cuenta con su propio detalle, y no con las mismas palabras.",
+      "start_ms": 112970,
+      "end_ms": 124960,
+      "confidence": 0.967,
+      "heading": false
+    },
+    {
+      "text": "Tercero, tres ideas para llevar. Una: un evangelio es un anuncio antes de ser un libro. Dos: cuatro relatos dan un solo mensaje sin fundirse. Y tres: el recorrido no termina en la cruz, termina en una misión y una promesa.",
+      "start_ms": 125263,
+      "end_ms": 143433,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Cuarto, el puente a Hechos. Lucas veinticuatro, versículo cuarenta y nueve, anuncia la promesa del Padre y ordena esperar en Jerusalén. Hechos uno, versículos uno al once, retoma la historia con la ascensión y el mandato de esperar la promesa: recibirán poder y serán testigos, Hechos uno, versículo ocho. De Lucas veinticuatro, versículo cuarenta y nueve, a Hechos uno, versículo ocho, y de allí a la Lección tres: Pentecostés y la expansión de la Iglesia.",
+      "start_ms": 143433,
+      "end_ms": 174713,
+      "confidence": 0.747,
+      "heading": false
+    },
+    {
+      "text": "Quien llegó en Belén, enseñó, murió y resucitó, envía a sus discípulos con una promesa.",
+      "start_ms": 174713,
+      "end_ms": 182553,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Antes de despedirnos, cinco errores comunes que conviene evitar.",
+      "start_ms": 182623,
+      "end_ms": 187213,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Primero: creer que evangelio es un libro. En Romanos uno, versículos uno al cuatro, y en Primera de Corintios quince, versículos uno al cuatro, la palabra nombra el mensaje. Llamar Evangelio a cada libro es un uso posterior.",
+      "start_ms": 187213,
+      "end_ms": 202853,
+      "confidence": 0.711,
+      "heading": false
+    },
+    {
+      "text": "Segundo: creer que existe una cronología única de la vida de Jesús. Ningún Evangelio ofrece una cronología exhaustiva y uniforme de toda la vida de Jesús. Las siete etapas son un panorama, no una cronología exacta.",
+      "start_ms": 202853,
+      "end_ms": 218453,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Tercero: creer que toda diferencia entre los Evangelios constituye necesariamente una contradicción. No toda diferencia implica contradicción. Algunas son complementarias; otras requieren un análisis histórico, literario o textual más cuidadoso.",
+      "start_ms": 218453,
+      "end_ms": 235653,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Cuarto: creer que Marcos tiene relato de nacimiento. No lo tiene. Marcos entra directamente con Juan el Bautista, Marcos uno, versículos uno al trece.",
+      "start_ms": 235653,
+      "end_ms": 247688,
+      "confidence": 0.833,
+      "heading": false
+    },
+    {
+      "text": "Y quinto: creer que los Evangelios agotan la vida de Jesús. Juan veinte, versículo treinta, y veintiuno, versículo veinticinco, dicen que hubo mucho más que no se escribió. Los relatos seleccionan.",
+      "start_ms": 247013,
+      "end_ms": 261573,
+      "confidence": 0.871,
+      "heading": false
+    },
+    {
+      "text": "Ahora, para estudiar por su cuenta, aquí van ocho preguntas de repaso.",
+      "start_ms": 261573,
+      "end_ms": 266333,
+      "confidence": 0.917,
+      "heading": false
+    },
+    {
+      "text": "Una: ¿qué significa evangelio, y cómo lo usan Pablo y Marcos en Romanos uno, versículos uno al cuatro, Primera de Corintios quince, versículos uno al cuatro, y Marcos uno, versículo uno?",
+      "start_ms": 266403,
+      "end_ms": 279598,
+      "confidence": 0.71,
+      "heading": false
+    },
+    {
+      "text": "Dos: según Lucas uno, versículos uno al cuatro, ¿cuáles son los eslabones entre los acontecimientos y el relato escrito?",
+      "start_ms": 279693,
+      "end_ms": 288493,
+      "confidence": 0.842,
+      "heading": false
+    },
+    {
+      "text": "Tres: nombren las siete etapas de la vida de Jesús y un episodio de cada una.",
+      "start_ms": 288493,
+      "end_ms": 294493,
+      "confidence": 0.938,
+      "heading": false
+    },
+    {
+      "text": "Cuatro: ¿cuáles son los cinco ejes de la enseñanza de Jesús y su texto central?",
+      "start_ms": 294563,
+      "end_ms": 299613,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Cinco: ¿qué comparten Mateo, Marcos y Lucas, y qué material tiene cada uno por separado?",
+      "start_ms": 299613,
+      "end_ms": 306173,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Seis: ¿qué es texto, qué es inferencia y qué es debate en la autoría y la fecha de cada Evangelio?",
+      "start_ms": 306173,
+      "end_ms": 313533,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Siete: ¿qué tienen en común los cuatro letreros de la cruz, y qué muestra el ejercicio del bautismo?",
+      "start_ms": 313533,
+      "end_ms": 319933,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Y ocho: ¿en qué se distinguen una cita explícita, una alusión, un eco verbal y una conexión canónica? Den un ejemplo de cada una.",
+      "start_ms": 319933,
+      "end_ms": 329613,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Y, para quienes quieran profundizar, el material de estudio incluye una sección llamada Para profundizar, con el problema sinóptico, la discusión sobre Marcos uno, versículo uno, y la limpieza del Templo.",
+      "start_ms": 329613,
+      "end_ms": 342893,
+      "confidence": 0.903,
+      "heading": false
+    },
+    {
+      "text": "Y para terminar, un avance. La próxima clase trata de Pentecostés y Hechos. Hechos uno, versículo uno, retoma el primer tratado de Lucas y lo dirige otra vez a Teófilo. Hoy conocimos al protagonista a través de cuatro relatos. El próximo lunes veremos qué sucedió después de la resurrección.",
+      "start_ms": 342893,
+      "end_ms": 362573,
+      "confidence": 0.939,
+      "heading": false
+    },
+    {
+      "text": "Que este recorrido les haya servido para leer los Evangelios con ojos nuevos. Gracias por escuchar. Y hasta la próxima clase.",
+      "start_ms": 362573,
+      "end_ms": 370373,
+      "confidence": 1.0,
+      "heading": false
+    }
+  ]
+}

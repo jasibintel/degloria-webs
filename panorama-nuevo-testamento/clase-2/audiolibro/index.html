@@ -7,9 +7,9 @@
   <meta name="description" content="Audiolibro: Panorama del Nuevo Testamento, clase 2.">
   <title>Panorama del Nuevo Testamento — Clase 2 | Escuela de Gloria</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./player.css">
+  <link rel="stylesheet" href="./player.css?v=2">
   <script src="./config.js"></script>
-  <script src="./player.js" defer></script>
+  <script src="./player.js?v=2" defer></script>
 </head>
 <body>
   <main class="page-shell">
@@ -46,6 +46,12 @@
         </div>
         <p id="status" class="status" role="status" aria-live="polite">Preparando el audio…</p>
       </section>
+    </section>
+
+    <section class="reader-section" aria-labelledby="reader-heading">
+      <div class="section-heading"><div><p class="eyebrow">SIGUE LA CLASE</p><h2 id="reader-heading">Lectura sincronizada</h2></div></div>
+      <p id="reader-status" class="reader-status" role="status" aria-live="polite">El texto aparecerá al cargar el capítulo.</p>
+      <div id="reader-content" class="reader-content" aria-label="Texto del capítulo"></div>
     </section>
 
     <section class="chapter-section" aria-labelledby="chapter-heading">

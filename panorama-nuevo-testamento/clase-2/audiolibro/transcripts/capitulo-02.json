@@ -1,0 +1,176 @@
+{
+  "chapter_id": "capitulo-02",
+  "language": "es",
+  "text_source": "original_script",
+  "timing_method": "automatic_word_match_approximate",
+  "segments": [
+    {
+      "text": "Capítulo dos. Qué es un evangelio",
+      "start_ms": 60,
+      "end_ms": 2270,
+      "confidence": 0.667,
+      "heading": true
+    },
+    {
+      "text": "Empezamos con una pregunta que parece sencilla: ¿qué es un evangelio, y cómo llegaron estas historias a ser libros?",
+      "start_ms": 3240,
+      "end_ms": 10800,
+      "confidence": 0.947,
+      "heading": false
+    },
+    {
+      "text": "La idea central de este capítulo cabe en una frase: antes de ser libros, los Evangelios fueron anuncio. Los libros conservan esa forma. Son relatos con propósito, y por eso seleccionan.",
+      "start_ms": 10800,
+      "end_ms": 24360,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Primero, la palabra misma. En griego, la palabra es euangelion, y significa buena noticia, o anuncio. Y aquí hay una sorpresa para muchos: en el Nuevo Testamento, evangelio nombra primero un mensaje, no un libro.",
+      "start_ms": 24360,
+      "end_ms": 40320,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Escuchemos Marcos, capítulo uno, versículos catorce y quince. Allí vemos a Jesús llegando a Galilea y proclamando el evangelio de Dios. Anuncia que el tiempo se ha cumplido, que el reino de Dios se ha acercado, y llama a arrepentirse y a creer en el evangelio. Fíjense: Jesús proclama el evangelio. Todavía no hay ningún libro.",
+      "start_ms": 40320,
+      "end_ms": 63040,
+      "confidence": 0.929,
+      "heading": false
+    },
+    {
+      "text": "Pablo usa la palabra de la misma manera. En Romanos, capítulo uno, versículos uno al cuatro, habla del evangelio de Dios, prometido por los profetas en las Escrituras y centrado en su Hijo. Y en Primera de Corintios, capítulo quince, versículos uno al cuatro, lo resume: Cristo murió por nuestros pecados, fue sepultado y resucitó al tercer día, conforme a las Escrituras. Eso es el evangelio: un mensaje que se anuncia.",
+      "start_ms": 63040,
+      "end_ms": 91800,
+      "confidence": 0.915,
+      "heading": false
+    },
+    {
+      "text": "Y hay un tercer texto. Marcos, capítulo uno, versículo uno, abre con una frase: el principio del evangelio de Jesucristo, Hijo de Dios. El relato que sigue es el comienzo de esa buena noticia. Los estudiosos discuten si esa frase funciona como título del libro o como una descripción de lo que comienza. El texto no lo decide, y nosotros tampoco.",
+      "start_ms": 91880,
+      "end_ms": 115400,
+      "confidence": 0.934,
+      "heading": false
+    },
+    {
+      "text": "Entonces, una distinción clave. En estos pasajes, evangelio es el mensaje proclamado. Llamar Evangelio a cada libro es un uso posterior. Ese uso es legítimo, y lo seguiremos usando, pero conviene saber de dónde viene.",
+      "start_ms": 115400,
+      "end_ms": 130960,
+      "confidence": 0.971,
+      "heading": false
+    },
+    {
+      "text": "Ahora, la segunda pregunta: ¿cómo llegaron estas historias a ser libros? Y para responderla no necesitamos buscar fuera de la Biblia, porque Lucas nos lo cuenta. Abramos Lucas, capítulo uno, versículos uno al cuatro. Les propongo algo: voy a describir lo que dice, y ustedes dibujan la cadena en su mente.",
+      "start_ms": 130960,
+      "end_ms": 151200,
+      "confidence": 0.922,
+      "heading": false
+    },
+    {
+      "text": "Eslabón uno: los acontecimientos. Lucas habla de las cosas que entre nosotros han sido ciertísimas.",
+      "start_ms": 151200,
+      "end_ms": 158840,
+      "confidence": 0.933,
+      "heading": false
+    },
+    {
+      "text": "Eslabón dos: los testigos. Son quienes desde el principio lo vieron con sus ojos y fueron ministros de la palabra.",
+      "start_ms": 158840,
+      "end_ms": 166840,
+      "confidence": 0.95,
+      "heading": false
+    },
+    {
+      "text": "Eslabón tres: muchos. Lucas dice que muchos han tratado de poner en orden esa historia.",
+      "start_ms": 166840,
+      "end_ms": 173240,
+      "confidence": 0.933,
+      "heading": false
+    },
+    {
+      "text": "Eslabón cuatro: Lucas mismo, que dice haber investigado con diligencia desde su origen, y escribir ordenadamente.",
+      "start_ms": 173240,
+      "end_ms": 181400,
+      "confidence": 0.938,
+      "heading": false
+    },
+    {
+      "text": "Y eslabón cinco: Teófilo, a quien escribe para que conozca bien la verdad de las cosas en las que ha sido instruido.",
+      "start_ms": 181400,
+      "end_ms": 189200,
+      "confidence": 0.955,
+      "heading": false
+    },
+    {
+      "text": "Una aclaración importante: estos cinco eslabones no son cinco períodos históricos consecutivos. Representan relaciones entre los acontecimientos, los testimonios, los relatos y la investigación. Lucas no afirma que los relatos escritos aparecieran solo después de que terminara la actividad de los testigos, ni que la transmisión oral y la escritura fueran etapas completamente separadas.",
+      "start_ms": 189200,
+      "end_ms": 214000,
+      "confidence": 0.963,
+      "heading": false
+    },
+    {
+      "text": "Acabamos de ver, en cinco eslabones, cómo se relacionan los testigos, los relatos y la investigación detrás de un Evangelio. Y fíjense en lo que dice el texto: Lucas se coloca después de los testigos, declara una investigación y un orden, y declara un propósito, en el versículo cuatro. Esto es texto.",
+      "start_ms": 214000,
+      "end_ms": 235920,
+      "confidence": 0.942,
+      "heading": false
+    },
+    {
+      "text": "Ahora, una precisión importante. El texto dice que Teófilo fue instruido, pero no dice por qué medio. No conviene afirmar que esa instrucción fue exclusivamente oral. Lo que sí podemos inferir es que la enseñanza oral y los escritos pudieron coexistir, porque Lucas menciona que muchos ya habían tratado de ordenar la historia. Esto es inferencia, no dato del texto. Y sobre las fechas: el texto no registra fechas de composición. Las propuestas hacen pensar en un intervalo de décadas entre los hechos y los primeros escritos, pero eso, otra vez, es inferencia.",
+      "start_ms": 235920,
+      "end_ms": 274840,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Pasemos a la tercera idea de este capítulo. Los Evangelios, ¿son biografías? Escuchemos con atención.",
+      "start_ms": 274900,
+      "end_ms": 282600,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Juan, capítulo veinte, versículos treinta y treinta y uno, dice que Jesús hizo muchas otras señales que no están escritas, y que las escritas lo fueron para que se crea que Jesús es el Cristo, el Hijo de Dios, y para que, creyendo, se tenga vida en su nombre. Y Juan, capítulo veintiuno, versículo veinticinco, agrega que si se escribiera todo, el mundo no podría contener los libros. Los Evangelios seleccionan.",
+      "start_ms": 282600,
+      "end_ms": 311160,
+      "confidence": 0.901,
+      "heading": false
+    },
+    {
+      "text": "Entonces, ¿son biografías? Aquí conviene ser precisos. Los Evangelios presentan rasgos de las biografías antiguas, pero no son biografías exhaustivas ni siguen necesariamente las convenciones de una biografía moderna. Tienen carácter biográfico, porque cuentan la vida de una persona, pero no pretenden registrar todos los acontecimientos. Cuentan lo necesario para cumplir su propósito.",
+      "start_ms": 311160,
+      "end_ms": 336560,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Ahora un pequeño ejercicio. Respondan mentalmente, o anótenlo en una libreta. Según la cadena de Lucas, uno, uno al cuatro: ¿quién viene primero y quién después, y dónde se ubica Lucas?",
+      "start_ms": 336736,
+      "end_ms": 351466,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "La respuesta: primero los acontecimientos; luego los testigos y ministros de la palabra; luego muchos relatos; luego la investigación de Lucas; y al final, Teófilo. Lucas se ubica después de los testigos.",
+      "start_ms": 351466,
+      "end_ms": 367306,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Con esto cerramos el capítulo. Un evangelio es primero un anuncio. Los libros lo recogen con un orden y un propósito, y no pretenden agotar la vida de Jesús.",
+      "start_ms": 367306,
+      "end_ms": 378426,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Ahora conozcamos a los cuatro relatos: qué comparten y qué hace distinto a cada uno.",
+      "start_ms": 378426,
+      "end_ms": 384986,
+      "confidence": 1.0,
+      "heading": false
+    }
+  ]
+}

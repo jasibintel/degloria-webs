@@ -1,0 +1,155 @@
+{
+  "chapter_id": "capitulo-06",
+  "language": "es",
+  "text_source": "original_script",
+  "timing_method": "automatic_word_match_approximate",
+  "segments": [
+    {
+      "text": "Capítulo seis. Cómo interpretar las diferencias",
+      "start_ms": 0,
+      "end_ms": 4080,
+      "confidence": 0.833,
+      "heading": true
+    },
+    {
+      "text": "Seguramente se han dado cuenta de algo: cuando comparamos los Evangelios, aparecen diferencias. Y eso nos inquieta un poco. Pero las diferencias no son una amenaza. Son una invitación a leer con cuidado. La pregunta de este capítulo es: ¿cómo leer cuatro relatos de una misma vida sin forzarlos?",
+      "start_ms": 4160,
+      "end_ms": 24320,
+      "confidence": 0.98,
+      "heading": false
+    },
+    {
+      "text": "Y la idea central es esta: primero se comprende cada relato en su propio contexto; después se compara. No se obliga a aceptar una armonización, ni se promete que toda diferencia tenga una explicación sencilla.",
+      "start_ms": 24320,
+      "end_ms": 38200,
+      "confidence": 0.971,
+      "heading": false
+    },
+    {
+      "text": "Veamos cinco clases de diferencias.",
+      "start_ms": 38200,
+      "end_ms": 41000,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "La primera es de selección. Juan no narra el bautismo de Jesús, ni la tentación, ni la institución de la Cena. Y no presenta las parábolas narrativas características de los sinópticos, aunque usa figuras como el buen pastor y la vid verdadera. Lo que un autor no cuenta no está negado; simplemente no lo seleccionó.",
+      "start_ms": 41000,
+      "end_ms": 62160,
+      "confidence": 0.945,
+      "heading": false
+    },
+    {
+      "text": "La segunda es de orden. La segunda y la tercera tentación aparecen en orden distinto en Mateo, capítulo cuatro, y en Lucas, capítulo cuatro.",
+      "start_ms": 62160,
+      "end_ms": 71810,
+      "confidence": 0.917,
+      "heading": false
+    },
+    {
+      "text": "La tercera es de detalles. En Jericó, Mateo habla de dos ciegos, Mateo veinte, versículo treinta, mientras que Marcos y Lucas nombran a uno, Marcos diez, versículo cuarenta y seis, y Lucas dieciocho, versículo treinta y cinco. Ojo: ninguno dice solo uno. Y hay además una diferencia de lugar, si fue a la salida o al acercarse a Jericó, que es distinta del número. Son dos asuntos que esta clase no resuelve.",
+      "start_ms": 71640,
+      "end_ms": 100520,
+      "confidence": 0.806,
+      "heading": false
+    },
+    {
+      "text": "La cuarta es de formulación. El Padrenuestro tiene distinta extensión en Mateo seis, versículos nueve al trece, y Lucas once, versículos dos al cuatro.",
+      "start_ms": 100520,
+      "end_ms": 110840,
+      "confidence": 0.708,
+      "heading": false
+    },
+    {
+      "text": "Y la quinta es de énfasis. Mateo destaca el cumplimiento; Marcos, la autoridad y el rescate; Lucas, la salvación; y Juan, creer para tener vida.",
+      "start_ms": 110920,
+      "end_ms": 122960,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Ahora vamos a practicar con dos ejercicios. El primero es el bautismo de Jesús. Les propongo leer los tres textos uno junto al otro: Mateo tres, versículos trece al diecisiete; Marcos uno, versículos nueve al once; y Lucas tres, versículos veintiuno y veintidós. Y preguntarnos: ¿qué coincide, qué cambia y qué destaca cada relato?",
+      "start_ms": 122960,
+      "end_ms": 147400,
+      "confidence": 0.778,
+      "heading": false
+    },
+    {
+      "text": "Veamos qué encontramos. Sobre la voz del cielo: en los tres relatos lo llama Hijo amado y expresa complacencia. Pero la forma cambia. Mateo la presenta en forma indirecta, en tercera persona: la voz habla de Jesús y declara quién es. Marcos y Lucas la presentan en forma directa: la voz le habla a Jesús, de tú. Es una diferencia de formulación narrativa.",
+      "start_ms": 147400,
+      "end_ms": 174040,
+      "confidence": 0.952,
+      "heading": false
+    },
+    {
+      "text": "Sobre el Espíritu: en los tres desciende como paloma. En Mateo viene sobre él; en Marcos desciende sobre él; en Lucas desciende en forma corporal, como paloma.",
+      "start_ms": 174040,
+      "end_ms": 187240,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Y cada relato destaca un detalle propio. Mateo destaca el diálogo entre Juan y Jesús, Mateo tres, versículos catorce y quince. Marcos destaca que Jesús viene de Nazaret de Galilea, Marcos uno, versículo nueve. Y Lucas destaca que Jesús está orando cuando se abre el cielo, Lucas tres, versículo veintiuno.",
+      "start_ms": 187240,
+      "end_ms": 208885,
+      "confidence": 0.86,
+      "heading": false
+    },
+    {
+      "text": "La lectura es esta: los tres cuentan el mismo episodio con la misma estructura. Cada uno destaca un detalle propio. Y el detalle destacado no significa que los otros desconozcan ese dato. Una distinción final: Juan uno, versículos treinta y dos al treinta y cuatro, es el testimonio del Bautista de haber visto al Espíritu. No es una narración del bautismo como la de los sinópticos.",
+      "start_ms": 209120,
+      "end_ms": 234890,
+      "confidence": 0.864,
+      "heading": false
+    },
+    {
+      "text": "El segundo ejercicio es el letrero de la cruz. Cuatro textos: Mateo veintisiete, versículo treinta y siete; Marcos quince, versículo veintiséis; Lucas veintitrés, versículo treinta y ocho; y Juan diecinueve, versículo diecinueve. ¿Qué dice el letrero en cada uno?",
+      "start_ms": 235800,
+      "end_ms": 255200,
+      "confidence": 0.692,
+      "heading": false
+    },
+    {
+      "text": "Mateo incluye una fórmula de identificación, el nombre Jesús y el título Rey de los judíos. Marcos trae solo el título Rey de los judíos. Lucas trae una fórmula de identificación y el título, sin el nombre. Y Juan trae el nombre Jesús con su procedencia, el Nazareno, y el título Rey de los judíos.",
+      "start_ms": 255280,
+      "end_ms": 278240,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "¿Qué leemos aquí? Los cuatro coinciden en el título Rey de los judíos, y difieren en el resto. Se ha propuesto que el letrero estaba escrito en tres idiomas, Juan diecinueve, versículo veinte, y que cada autor recoge una forma. Pero atención: Juan diecinueve, versículo veinte, afirma que había tres idiomas, pero no identifica qué formulación utilizó cada autor. Por eso esa explicación es una hipótesis, no una conclusión demostrada ni un dato del texto. Lo importante es que la diferencia en las palabras exactas no obliga a elegir una versión ni a fundirlas en una sola.",
+      "start_ms": 278240,
+      "end_ms": 316080,
+      "confidence": 0.959,
+      "heading": false
+    },
+    {
+      "text": "Con todo esto, podemos formular cuatro reglas de lectura. Uno: un Evangelio a la vez. Dos: comparar sin fundir. Tres: distinguir el arreglo, es decir, no construir una cronología única. Y cuatro: leer cada recurso según su género.",
+      "start_ms": 316301,
+      "end_ms": 335811,
+      "confidence": 0.895,
+      "heading": false
+    },
+    {
+      "text": "Y una advertencia que aparece en el material de estudio. Alguien podría decir: toda diferencia entre los Evangelios constituye necesariamente una contradicción. Pues no. No toda diferencia implica contradicción. Algunas son complementarias, y otras requieren un análisis histórico, literario o textual más cuidadoso. Así evitamos tanto la armonización forzada como la negación automática de las dificultades.",
+      "start_ms": 335811,
+      "end_ms": 363331,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Resumamos: las diferencias no obligan a descartar a ningún Evangelio. Muestran qué destaca cada autor.",
+      "start_ms": 363331,
+      "end_ms": 371631,
+      "confidence": 1.0,
+      "heading": false
+    },
+    {
+      "text": "Y ahora, veamos cómo estos relatos conectan con las promesas del Antiguo Testamento.",
+      "start_ms": 371701,
+      "end_ms": 378331,
+      "confidence": 1.0,
+      "heading": false
+    }
+  ]
+}

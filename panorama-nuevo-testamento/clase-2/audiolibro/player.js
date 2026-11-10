@@ -3,7 +3,7 @@
   const $ = (id) => document.getElementById(id);
   const audio = $("audio"), status = $("status"), list = $("chapters");
   const stateKey = "escuela-gloria:audiobook:panorama-nt-clase-02:v1";
-  let manifest, chapters = [], current = 0, saveTimer, manifestUrl, initialized = false;
+  let manifest, chapters = [], current = 0, saveTimer, manifestUrl, initialized = false, transcriptItems = [], activeParagraph = -1, transcriptRequest = 0;
   const fmt = (s) => { if (!Number.isFinite(s) || s < 0) s = 0; const h=Math.floor(s/3600),m=Math.floor(s%3600/60),sec=Math.floor(s%60).toString().padStart(2,"0"); return h ? `${h}:${m.toString().padStart(2,"0")}:${sec}` : `${m}:${sec}`; };
   const bytes = (n) => n >= 1e9 ? `${(n/1e9).toFixed(2)} GB` : `${(n/1e6).toFixed(1)} MB`;
   const getState = () => { try { return JSON.parse(localStorage.getItem(stateKey) || "{}"); } catch { return {}; } };
@@ -11,6 +11,35 @@
   const setStatus = (text) => { status.textContent=text; };
   const baseForAssets = (manifestUrl) => { const configured=window.AUDIOBOOK_BASE_URL; return configured ? new URL(configured.endsWith("/")?configured:`${configured}/`,document.baseURI) : new URL("./",manifestUrl); };
   const trackUrl = (chapter) => new URL(chapter.file,baseForAssets(manifestUrl)).href;
+  async function loadTranscript(chapter){
+    const request=++transcriptRequest, content=$("reader-content"), label=$("reader-status");
+    transcriptItems=[];activeParagraph=-1;content.replaceChildren();
+    if(!chapter.transcript_file){label.textContent="El texto de lectura no está disponible para este capítulo.";return;}
+    label.textContent="Cargando el texto…";
+    try{
+      const url=new URL(chapter.transcript_file,baseForAssets(manifestUrl));
+      const response=await fetch(url);if(!response.ok)throw new Error(`HTTP ${response.status}`);
+      const data=await response.json();if(request!==transcriptRequest)return;
+      if(data.chapter_id!==chapter.id||!Array.isArray(data.segments))throw new Error("El texto no corresponde al capítulo.");
+      const fragment=document.createDocumentFragment();
+      data.segments.forEach((segment,index)=>{
+        const p=document.createElement("p");p.className="reader-paragraph";p.textContent=segment.text;
+        p.dataset.start=String(segment.start_ms/1000);p.dataset.end=String(segment.end_ms/1000);
+        fragment.append(p);transcriptItems.push({element:p,start:segment.start_ms/1000,end:segment.end_ms/1000});
+      });
+      content.append(fragment);label.textContent="Texto original del guion; el párrafo se resalta conforme avanza el audio.";updateTranscript(audio.currentTime,false);
+    }catch(error){if(request===transcriptRequest)label.textContent="No se pudo cargar la lectura sincronizada. Puedes seguir escuchando el audio.";}
+  }
+  function updateTranscript(time,scroll=true){
+    if(!transcriptItems.length)return;
+    let lo=0,hi=transcriptItems.length-1,found=-1;
+    while(lo<=hi){const mid=(lo+hi)>>1,item=transcriptItems[mid];if(time<item.start)hi=mid-1;else if(time>=item.end)lo=mid+1;else{found=mid;break;}}
+    if(found<0){found=Math.max(0,Math.min(transcriptItems.length-1,lo-1));}
+    if(found===activeParagraph)return;
+    if(activeParagraph>=0){transcriptItems[activeParagraph].element.classList.remove("is-active");transcriptItems[activeParagraph].element.removeAttribute("aria-current");}
+    activeParagraph=found;const active=transcriptItems[found].element;active.classList.add("is-active");active.setAttribute("aria-current","true");
+    if(scroll)active.scrollIntoView({block:"nearest",behavior:"smooth"});
+  }
   function renderList(){
     list.replaceChildren();
     chapters.forEach((chapter,i)=>{
@@ -28,6 +57,7 @@
     $("current-title").textContent=chapter.title;$("seek").value="0";$("elapsed").textContent="0:00";$("remaining").textContent=`−${fmt(chapter.duration_ms/1000)}`;
     document.querySelectorAll(".chapter-select").forEach((b,i)=>b.setAttribute("aria-current",i===index?"true":"false"));
     setStatus("Cargando capítulo…");
+    loadTranscript(chapter);
     const onMetadata=()=>{audio.removeEventListener("loadedmetadata",onMetadata);if(resume>0&&resume<audio.duration)audio.currentTime=resume;if(autoplay)audio.play().catch(()=>setStatus("Pulsa reproducir para iniciar el audio."));else setStatus("Listo para reproducir.");};
     audio.addEventListener("loadedmetadata",onMetadata);audio.load();
   }
@@ -52,7 +82,7 @@
   audio.addEventListener("pause",()=>{$("play").textContent="▶";$("play").setAttribute("aria-label","Reproducir");$("play").title="Reproducir";});
   audio.addEventListener("waiting",()=>setStatus("Cargando audio…"));audio.addEventListener("canplay",()=>setStatus("Reproducción disponible."));
   audio.addEventListener("error",()=>setStatus("No se pudo cargar este capítulo. Comprueba tu conexión o vuelve a intentarlo."));
-  audio.addEventListener("timeupdate",()=>{const d=audio.duration||0,t=audio.currentTime||0;$("seek").value=d?String(Math.round(t/d*1000)):"0";$("elapsed").textContent=fmt(t);$("remaining").textContent=`−${fmt(Math.max(0,d-t))}`;if(!saveTimer)saveTimer=setTimeout(()=>{saveState();saveTimer=null;},3000);});
+  audio.addEventListener("timeupdate",()=>{const d=audio.duration||0,t=audio.currentTime||0;$("seek").value=d?String(Math.round(t/d*1000)):"0";$("elapsed").textContent=fmt(t);$("remaining").textContent=`−${fmt(Math.max(0,d-t))}`;updateTranscript(t);if(!saveTimer)saveTimer=setTimeout(()=>{saveState();saveTimer=null;},3000);});
   audio.addEventListener("loadedmetadata",()=>{const d=audio.duration||0;$("remaining").textContent=`−${fmt(d-audio.currentTime)}`;});
   audio.addEventListener("ended",()=>{if(current+1<chapters.length)selectChapter(current+1,0,true);else{setStatus("Audiolibro terminado.");saveState();}});
   $("seek").addEventListener("input",()=>{if(Number.isFinite(audio.duration))audio.currentTime=Number($("seek").value)/1000*audio.duration;});
