@@ -3,61 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0F2342">
-  <meta name="description" content="Audiolibro: Panorama del Nuevo Testamento, clase 2.">
+  <meta name="theme-color" content="#fbfaf7">
+  <meta name="description" content="Lee y escucha el audiolibro Panorama del Nuevo Testamento, clase 2.">
   <title>Panorama del Nuevo Testamento — Clase 2 | Escuela de Gloria</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./player.css?v=4">
+  <link rel="stylesheet" href="./player.css?v=5">
   <script src="./config.js"></script>
-  <script src="./player.js?v=4" defer></script>
+  <script src="./player.js?v=5" defer></script>
 </head>
 <body>
   <main class="page-shell">
-    <header class="brand"><span class="brand-mark" aria-hidden="true">EG</span><span>ESCUELA DE GLORIA</span></header>
-    <section class="book-card" aria-labelledby="book-title">
-      <div class="book-intro">
-        <img id="cover" class="cover" alt="Portada del audiolibro" width="280" height="280">
-        <div class="book-copy">
-          <p class="eyebrow" id="collection">PANORAMA DEL NUEVO TESTAMENTO</p>
-          <h1 id="book-title">Cargando audiolibro…</h1>
-          <p id="subtitle" class="subtitle"></p>
-          <p id="description" class="description"></p>
-          <p class="book-meta"><span id="chapter-count"></span><span aria-hidden="true"> · </span><span id="total-duration"></span></p>
+    <header class="book-header">
+      <img id="cover" class="cover" alt="" width="56" height="56">
+      <div class="book-copy">
+        <p class="eyebrow" id="collection">ESCUELA DE GLORIA</p>
+        <h1 id="book-title">Cargando audiolibro…</h1>
+        <p id="subtitle" class="subtitle"></p>
+      </div>
+      <details class="contents">
+        <summary>Contenido</summary>
+        <ol id="chapters" class="chapter-list"></ol>
+      </details>
+    </header>
+
+    <section class="reader-section" aria-label="Lectura continua">
+      <div class="reader-toolbar">
+        <div class="chapter-label"><span class="eyebrow">AHORA LEYENDO</span><p id="current-title">Preparando audiolibro…</p></div>
+        <div class="font-controls" aria-label="Tamaño de letra">
+          <button id="font-decrease" type="button" aria-label="Reducir tamaño de letra" title="Reducir letra">A−</button>
+          <button id="font-increase" type="button" aria-label="Aumentar tamaño de letra" title="Aumentar letra">A+</button>
         </div>
       </div>
-
-      <section class="player" aria-label="Reproductor">
-        <div class="now-playing"><span class="eyebrow">LIBRO COMPLETO</span><p id="current-title">Preparando audiolibro…</p></div>
-        <audio id="audio" preload="metadata"></audio>
-        <label class="sr-only" for="seek">Posición de reproducción</label>
-        <input id="seek" class="seek" type="range" min="0" max="1000" value="0" aria-label="Posición de reproducción">
-        <div class="time-row"><span id="elapsed">0:00</span><span id="remaining">−0:00</span></div>
-        <div class="controls">
-          <button id="previous" class="icon-button" type="button" aria-label="Capítulo anterior" title="Capítulo anterior">|◀</button>
-          <button id="back" class="icon-button" type="button" aria-label="Retroceder 15 segundos" title="Retroceder 15 segundos">−15</button>
-          <button id="play" class="play-button" type="button" aria-label="Reproducir" title="Reproducir">▶</button>
-          <button id="forward" class="icon-button" type="button" aria-label="Adelantar 15 segundos" title="Adelantar 15 segundos">+15</button>
-          <button id="next" class="icon-button" type="button" aria-label="Siguiente capítulo" title="Siguiente capítulo">▶|</button>
-          <label class="speed-label" for="speed">Velocidad</label>
-          <select id="speed" aria-label="Velocidad de reproducción">
-            <option value="0.75">0,75×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option>
-          </select>
-        </div>
-        <p id="status" class="status" role="status" aria-live="polite">Preparando el audio…</p>
-      </section>
-    </section>
-
-    <section class="chapter-section" aria-labelledby="chapter-heading">
-      <div class="section-heading"><div><p class="eyebrow">NAVEGACIÓN DEL LIBRO</p><h2 id="chapter-heading">Contenido</h2></div><span id="contents-count" class="size-note"></span></div>
-      <ol id="chapters" class="chapter-list"></ol>
-    </section>
-
-    <section class="reader-section" aria-labelledby="reader-heading">
-      <div class="section-heading"><div><p class="eyebrow">LECTURA CONTINUA</p><h2 id="reader-heading">Texto del audiolibro</h2></div></div>
-      <p id="reader-status" class="reader-status" role="status" aria-live="polite">El libro aparecerá al cargar.</p>
+      <p id="reader-status" class="reader-status" role="status" aria-live="polite">Toca una palabra para empezar a escuchar desde ahí.</p>
       <div id="reader-content" class="reader-content" aria-label="Texto completo del audiolibro"></div>
     </section>
-    <footer>Un solo audiolibro, con sus capítulos integrados en una lectura continua.</footer>
   </main>
+
+  <section class="player-dock" aria-label="Controles del audiolibro">
+    <div class="player-inner">
+      <div class="player-title"><span id="dock-title">Audiolibro completo</span><span id="status" role="status" aria-live="polite">Preparando audio…</span></div>
+      <audio id="audio" preload="metadata"></audio>
+      <label class="sr-only" for="seek">Posición de reproducción</label>
+      <input id="seek" class="seek" type="range" min="0" max="1000" value="0" aria-label="Posición de reproducción">
+      <div class="time-row"><span id="elapsed">0:00</span><span id="remaining">−0:00</span></div>
+      <div class="controls">
+        <button id="back" class="icon-button" type="button" aria-label="Retroceder 15 segundos" title="Retroceder 15 segundos">−15</button>
+        <button id="play" class="play-button" type="button" aria-label="Reproducir" title="Reproducir">▶</button>
+        <button id="forward" class="icon-button" type="button" aria-label="Adelantar 15 segundos" title="Adelantar 15 segundos">+15</button>
+        <label class="speed-label" for="speed">Velocidad</label>
+        <select id="speed" aria-label="Velocidad de reproducción">
+          <option value="0.75">0,75×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option><option value="2">2×</option>
+        </select>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

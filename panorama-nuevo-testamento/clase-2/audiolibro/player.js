@@ -5,7 +5,7 @@
   const stateKey = "escuela-gloria:audiobook:panorama-nt-clase-02:v2";
   const legacyStateKey = "escuela-gloria:audiobook:panorama-nt-clase-02:v1";
   let manifest, chapters = [], chapterStarts = [], current = 0, saveTimer, manifestUrl, initialized = false;
-  let transcriptItems = [], wordItems = [], activeParagraph = -1, activeWord = -1, lastSpokenWord = -1, wordFrame = 0, pendingSeek = 0;
+  let transcriptItems = [], wordItems = [], activeParagraph = -1, activeWord = -1, wordFrame = 0, pendingSeek = 0;
   const fmt = (s) => { if (!Number.isFinite(s) || s < 0) s = 0; const h=Math.floor(s/3600),m=Math.floor(s%3600/60),sec=Math.floor(s%60).toString().padStart(2,"0"); return h ? `${h}:${m.toString().padStart(2,"0")}:${sec}` : `${m}:${sec}`; };
   const getState = (key=stateKey) => { try { return JSON.parse(localStorage.getItem(key) || "{}"); } catch { return {}; } };
   const setStatus = (text) => { status.textContent=text; };
@@ -73,7 +73,7 @@
       data.segments.forEach((segment,index)=>{const rendered=renderParagraph(segment,index),element=rendered.element;fragment.append(element);transcriptItems.push({element,start:segment.start_ms/1000,end:segment.end_ms/1000,chapterId:segment.chapter_id});
         if(!Array.isArray(segment.words)||rendered.wordEls.length!==segment.words.length)invalidWordRows++;
         rendered.wordEls.forEach((wordElement,wordIndex)=>{const timing=segment.words[wordIndex];wordItems.push({element:wordElement,start:timing.start_ms/1000,end:timing.end_ms/1000,paragraph:index,chapterId:timing.chapter_id||segment.chapter_id});});});
-      content.append(fragment);label.textContent=invalidWordRows?"Algunos párrafos no tienen tiempos palabra por palabra; su texto permanece disponible.":"Guion original. La palabra actual se subraya; toca cualquier palabra para comenzar desde allí.";updateTranscript(audio.currentTime,false);updateActiveWord(audio.currentTime);
+      content.append(fragment);label.textContent=invalidWordRows?"Algunos párrafos no tienen tiempos palabra por palabra; su texto permanece disponible.":"Toca una palabra para escuchar desde ahí. La lectura seguirá el audio.";updateTranscript(audio.currentTime,false);updateActiveWord(audio.currentTime);
     }catch(error){label.textContent="No se pudo cargar el texto. El audiolibro sigue disponible para escuchar.";}
   }
   function updateTranscript(time,scroll=true){
@@ -87,17 +87,16 @@
     const chapterIndex=chapters.findIndex(c=>c.id===transcriptItems[found].chapterId);
     if(chapterIndex>=0&&chapterIndex!==current)setCurrentChapter(chapterIndex);
   }
-  function clearSpokenWords(){for(let i=0;i<=lastSpokenWord;i++)wordItems[i]?.element.classList.remove("is-spoken");if(activeWord>=0)wordItems[activeWord]?.element.classList.remove("is-current-word");activeWord=-1;lastSpokenWord=-1;}
+  function clearSpokenWords(){if(activeWord>=0)wordItems[activeWord]?.element.classList.remove("is-current-word");activeWord=-1;}
   function updateActiveWord(time){
     if(!wordItems.length)return;let lo=0,hi=wordItems.length-1,found=-1;
     while(lo<=hi){const mid=(lo+hi)>>1,word=wordItems[mid];if(time<word.start)hi=mid-1;else if(time>=word.end)lo=mid+1;else{found=mid;break;}}
     if(found<0){const targetId=chapters[chapterAt(time)]?.id,next=wordItems[lo],previous=wordItems[lo-1];if(next?.chapterId===targetId)found=lo;else if(previous?.chapterId===targetId)found=lo-1;else found=Math.max(0,Math.min(wordItems.length-1,lo-1));}
     const chapterIndex=chapters.findIndex(chapter=>chapter.id===wordItems[found].chapterId);if(chapterIndex>=0&&chapterIndex!==current)setCurrentChapter(chapterIndex);
     if(found===activeWord)return;
-    if(found<lastSpokenWord)clearSpokenWords();
-    if(lastSpokenWord>=0)for(let i=lastSpokenWord;i<found;i++)wordItems[i]?.element.classList.add("is-spoken");
     if(activeWord>=0)wordItems[activeWord].element.classList.remove("is-current-word");
-    activeWord=found;lastSpokenWord=found;wordItems[found].element.classList.add("is-current-word");
+    activeWord=found;const active=wordItems[found].element;active.classList.add("is-current-word");
+    const rect=active.getBoundingClientRect();if(rect.top<72||rect.bottom>window.innerHeight-190)active.scrollIntoView({block:"center",behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});
   }
   function startAtWord(word){
     if(!word||!Number.isFinite(audio.duration))return;clearSpokenWords();pendingSeek=word.start;audio.currentTime=word.start;updateTranscript(word.start);updateActiveWord(word.start);
@@ -105,7 +104,7 @@
   }
   function followAudioWords(){if(audio.paused||audio.ended){wordFrame=0;return;}updateActiveWord(audio.currentTime);wordFrame=requestAnimationFrame(followAudioWords);}
   function setCurrentChapter(index){
-    current=index;const chapter=chapters[index];$("current-title").textContent=chapter.title;
+    current=index;const chapter=chapters[index];$("current-title").textContent=chapter.title;$("dock-title").textContent=chapter.title;
     document.querySelectorAll(".chapter-select").forEach((button,i)=>button.setAttribute("aria-current",i===index?"true":"false"));
   }
   function jumpToChapter(index){
@@ -122,9 +121,8 @@
       const response=await fetch(manifestUrl);if(!response.ok)throw new Error(`No se pudo cargar el audiolibro (${response.status}).`);
       manifest=await response.json();chapters=[...manifest.chapters].sort((a,b)=>a.order-b.order);
       let cursor=0;chapters.forEach(chapter=>{chapterStarts.push(cursor);cursor+=chapter.duration_ms;});
-      $("book-title").textContent=manifest.title;$("subtitle").textContent=manifest.subtitle||"";$("description").textContent=manifest.description||"";
-      $("collection").textContent=(manifest.collection_id||"").replaceAll("-"," ").toUpperCase();$("cover").src=new URL(manifest.cover,baseForAssets(manifestUrl)).href;
-      $("chapter-count").textContent=`${chapters.length} capítulos`;$("total-duration").textContent=`${fmt(manifest.total_duration_ms/1000)} en total`;
+      $("book-title").textContent=manifest.title;$("subtitle").textContent=manifest.subtitle||"";
+      $("collection").textContent=(manifest.collection_id||"escuela-de-gloria").replaceAll("-"," ").toUpperCase();$("cover").src=new URL(manifest.cover,baseForAssets(manifestUrl)).href;
       renderList();const saved=getStateForRestore();$("speed").value=String(saved.speed||1);audio.playbackRate=Number($("speed").value);pendingSeek=Math.max(0,Number(saved.position)||0);
       audio.src=bookUrl();audio.load();await loadBookText();initialized=true;setCurrentChapter(chapterAt(pendingSeek));
     }catch(error){setStatus(error.message||"No se pudo cargar el audiolibro.");}
@@ -144,6 +142,11 @@
   $("previous").addEventListener("click",()=>jumpToChapter(Math.max(0,current-1)));$("next").addEventListener("click",()=>jumpToChapter(Math.min(chapters.length-1,current+1)));
   $("back").addEventListener("click",()=>{audio.currentTime=Math.max(0,audio.currentTime-15);});$("forward").addEventListener("click",()=>{audio.currentTime=Math.min(audio.duration||0,audio.currentTime+15);});
   $("speed").addEventListener("change",event=>{audio.playbackRate=Number(event.target.value);saveState();});
+  const fontKey="escuela-gloria:audiobook:panorama-nt-clase-02:font-size";
+  let fontSize=Number(localStorage.getItem(fontKey))||20;
+  const applyFontSize=()=>{fontSize=Math.max(16,Math.min(30,fontSize));document.documentElement.style.setProperty("--font-size",`${fontSize}px`);try{localStorage.setItem(fontKey,String(fontSize));}catch{}};
+  $("font-decrease").addEventListener("click",()=>{fontSize-=2;applyFontSize();});
+  $("font-increase").addEventListener("click",()=>{fontSize+=2;applyFontSize();});applyFontSize();
   document.addEventListener("keydown",event=>{if(event.target.matches("input,select,textarea,button,a"))return;if(event.code==="Space"){event.preventDefault();$("play").click();}else if(event.code==="ArrowLeft"){audio.currentTime=Math.max(0,audio.currentTime-15);}else if(event.code==="ArrowRight"){audio.currentTime=Math.min(audio.duration||0,audio.currentTime+15);}});
   window.addEventListener("pagehide",saveState);
   init();
