@@ -10,7 +10,7 @@
   "language": "es",
   "description": "Audiolibro de enseñanza sobre los cuatro Evangelios, la vida de Jesús y la lectura de sus relatos.",
   "cover": "cover.webp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "published_at": "2026-11-10",
   "total_duration_ms": 4735477,
   "total_size_bytes": 25473306,

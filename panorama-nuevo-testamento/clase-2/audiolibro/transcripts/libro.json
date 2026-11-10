@@ -1,0 +1,1907 @@
+{
+  "book_id": "panorama-nt-clase-02",
+  "language": "es",
+  "text_source": "original_script",
+  "timing_method": "automatic_word_match_approximate",
+  "duration_ms": 4735477,
+  "contents": [
+    {
+      "id": "capitulo-01",
+      "title": "¿Quién es Jesús?",
+      "start_ms": 0,
+      "duration_ms": 347011
+    },
+    {
+      "id": "capitulo-02",
+      "title": "Qué es un evangelio",
+      "start_ms": 347011,
+      "duration_ms": 384986
+    },
+    {
+      "id": "capitulo-03",
+      "title": "Cuatro relatos, una sola persona",
+      "start_ms": 731997,
+      "duration_ms": 807142
+    },
+    {
+      "id": "capitulo-04",
+      "title": "La vida de Jesús en siete etapas",
+      "start_ms": 1539139,
+      "duration_ms": 1588642
+    },
+    {
+      "id": "capitulo-05",
+      "title": "Las grandes enseñanzas de Jesús",
+      "start_ms": 3127781,
+      "duration_ms": 359834
+    },
+    {
+      "id": "capitulo-06",
+      "title": "Cómo interpretar las diferencias",
+      "start_ms": 3487615,
+      "duration_ms": 378331
+    },
+    {
+      "id": "capitulo-07",
+      "title": "El Antiguo Testamento y la Triple Mirada",
+      "start_ms": 3865946,
+      "duration_ms": 499101
+    },
+    {
+      "id": "capitulo-08",
+      "title": "Lo que debemos recordar",
+      "start_ms": 4365047,
+      "duration_ms": 370430
+    }
+  ],
+  "segments": [
+    {
+      "text": "Capítulo uno. ¿Quién es Jesús?",
+      "start_ms": 60,
+      "end_ms": 3280,
+      "match_ratio": 0.8,
+      "heading": true,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Bienvenidos a la segunda clase del módulo Panorama del Nuevo Testamento, de la Escuela de Teología DeGloria. Como la vez anterior, les propongo algo sencillo: acomódense, respiren hondo y escuchen esta clase como se escucha una buena historia. Porque hoy vamos a recorrer, de principio a fin, la vida de Jesús.",
+      "start_ms": 3280,
+      "end_ms": 25240,
+      "match_ratio": 0.98,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "La clase pasada terminó con un mensajero en el desierto. Hablamos de Juan el Bautista y de Marcos, capítulo uno, versículos uno al cuatro: una voz que prepara el camino. Esa relación con Malaquías, capítulo tres, versículo uno, y con Isaías, capítulo cuarenta, versículo tres, ya la estudiamos. Hoy solo la enlazamos, porque el escenario ya está preparado. Hoy llega el protagonista.",
+      "start_ms": 25240,
+      "end_ms": 51920,
+      "match_ratio": 0.855,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Toda la clase gira alrededor de una pregunta. La voy a leer despacio y quiero que la guarden en la mente: ¿quién es Jesús y cómo lo presentan los cuatro Evangelios?",
+      "start_ms": 51920,
+      "end_ms": 64360,
+      "match_ratio": 0.968,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Tres textos atraviesan toda la clase, y los vamos a escuchar varias veces. El primero está en Marcos, capítulo cuatro, versículo cuarenta y uno. Jesús acaba de calmar una tempestad, y los discípulos, asombrados, se preguntan unos a otros quién es este que hasta el viento y el mar le obedecen. El segundo está en Mateo, capítulo dieciséis, versículos quince y dieciséis. Allí es Jesús quien pregunta a sus discípulos quién dicen ellos que es, y Pedro responde. Y el tercero está en Juan, capítulo veinte, versículos treinta y treinta y uno, donde el autor declara para qué escribió su libro. Primero, la pregunta de los discípulos. Luego, la pregunta de Jesús. Y al final, la respuesta del autor.",
+      "start_ms": 64360,
+      "end_ms": 112720,
+      "match_ratio": 0.882,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Hoy no preguntamos primero cómo se escribió cada libro. Preguntamos de quién hablan. Recorreremos lo que cuentan, lo que enseñó su protagonista, y cómo cada autor lo presenta.",
+      "start_ms": 112780,
+      "end_ms": 125360,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Ahora bien, ¿qué queremos lograr al terminar? Seis cosas concretas. Primera, que puedan narrar las siete etapas de la vida de Jesús. Segunda, que puedan nombrar los cinco ejes de su enseñanza. Tercera, que puedan explicar qué es un evangelio y quiénes son los sinópticos. Cuarta, que sepan leer las diferencias entre relatos paralelos sin forzarlas. Quinta, que puedan relacionar la vida de Jesús con las promesas del Antiguo Testamento. Y sexta, que entiendan cómo el final de los Evangelios abre el libro de Hechos.",
+      "start_ms": 125360,
+      "end_ms": 162970,
+      "match_ratio": 0.976,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Pensemos en dónde estamos y adónde vamos. Muchos de nosotros llegamos a esta clase sabiendo algunos episodios de la vida de Jesús, pero sin un orden general. Y es muy común que los cuatro Evangelios nos parezcan cuatro copias del mismo libro. Esperamos que al terminar puedan recorrer la vida de Jesús en siete etapas, nombrar cinco ejes de su enseñanza, y leer cada Evangelio como un relato propio. Los cuatro presentan a la misma persona, y el recorrido termina en una misión y una promesa.",
+      "start_ms": 163600,
+      "end_ms": 196600,
+      "match_ratio": 0.988,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Antes de seguir, unas indicaciones para escuchar bien esta clase.",
+      "start_ms": 196660,
+      "end_ms": 200920,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Primera: si pueden, lean Lucas, capítulo veinticuatro, versículos treinta y seis al cuarenta y nueve, antes o después de escuchar. Y tengan su Biblia a mano. Aquí mencionaremos muchos pasajes, y lo mejor es que los abran ustedes mismos y los lean completos.",
+      "start_ms": 200920,
+      "end_ms": 217960,
+      "match_ratio": 0.814,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Segunda: esta clase es un panorama, no una cronología. Las siete etapas son un recorrido general de la vida y el ministerio de Jesús. No pretenden ser una cronología exacta de todos los acontecimientos. Cada evangelista selecciona y organiza su material según sus propósitos.",
+      "start_ms": 217960,
+      "end_ms": 237080,
+      "match_ratio": 0.977,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Tercera: vamos a usar cuatro etiquetas para que sepan qué tan firme es cada afirmación. Cuando digamos texto, nos referimos a lo que dice el pasaje. Cuando digamos inferencia, a lo que se deduce razonablemente. Cuando digamos tradición, a lo que afirma el testimonio antiguo. Y cuando digamos debatido, a lo que sigue en discusión entre los estudiosos. Texto, inferencia, tradición y debatido. Cuatro niveles que nos ayudan a no decir más de lo que se puede decir.",
+      "start_ms": 237080,
+      "end_ms": 270840,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Y ahora, un ejercicio. Antes de aprender nada, quiero saber cuánto sabemos. Les pido que lo anoten en una libreta, o que lo piensen en voz alta, y si lo desean, pausen la grabación un momento: ¿cuáles son los acontecimientos más importantes de la vida de Jesucristo y en qué orden sucedieron?",
+      "start_ms": 270840,
+      "end_ms": 291120,
+      "match_ratio": 0.981,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "No se preocupen por acertar. No vamos a corregir sus respuestas todavía. Guárdenlas, porque al final de la clase volveremos a esa lista para ver cuánto hemos aprendido.",
+      "start_ms": 291120,
+      "end_ms": 302480,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Un último dato de ubicación. Este módulo tiene cinco clases, una por cada lunes del mes. La primera fue el puente de Malaquías a Cristo. Esta, la segunda, es Un solo evangelio, cuatro relatos. La tercera será Pentecostés y Hechos. La cuarta, las cartas apostólicas. Y la quinta, el Apocalipsis y los grandes hilos de toda la Biblia.",
+      "start_ms": 302540,
+      "end_ms": 327780,
+      "match_ratio": 0.983,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Y para cerrar este primer capítulo, una frase que resume lo que viene: los cuatro Evangelios responden, cada uno a su manera, a una misma pregunta. ¿Quién es Jesús?",
+      "start_ms": 328420,
+      "end_ms": 340960,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Pero antes de recorrer su vida, hay que saber qué clase de libros nos la cuentan. Vamos con eso.",
+      "start_ms": 340960,
+      "end_ms": 347011,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-01"
+    },
+    {
+      "text": "Capítulo dos. Qué es un evangelio",
+      "start_ms": 347071,
+      "end_ms": 349281,
+      "match_ratio": 0.667,
+      "heading": true,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Empezamos con una pregunta que parece sencilla: ¿qué es un evangelio, y cómo llegaron estas historias a ser libros?",
+      "start_ms": 350251,
+      "end_ms": 357811,
+      "match_ratio": 0.947,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "La idea central de este capítulo cabe en una frase: antes de ser libros, los Evangelios fueron anuncio. Los libros conservan esa forma. Son relatos con propósito, y por eso seleccionan.",
+      "start_ms": 357811,
+      "end_ms": 371371,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Primero, la palabra misma. En griego, la palabra es euangelion, y significa buena noticia, o anuncio. Y aquí hay una sorpresa para muchos: en el Nuevo Testamento, evangelio nombra primero un mensaje, no un libro.",
+      "start_ms": 371371,
+      "end_ms": 387331,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Escuchemos Marcos, capítulo uno, versículos catorce y quince. Allí vemos a Jesús llegando a Galilea y proclamando el evangelio de Dios. Anuncia que el tiempo se ha cumplido, que el reino de Dios se ha acercado, y llama a arrepentirse y a creer en el evangelio. Fíjense: Jesús proclama el evangelio. Todavía no hay ningún libro.",
+      "start_ms": 387331,
+      "end_ms": 410051,
+      "match_ratio": 0.929,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Pablo usa la palabra de la misma manera. En Romanos, capítulo uno, versículos uno al cuatro, habla del evangelio de Dios, prometido por los profetas en las Escrituras y centrado en su Hijo. Y en Primera de Corintios, capítulo quince, versículos uno al cuatro, lo resume: Cristo murió por nuestros pecados, fue sepultado y resucitó al tercer día, conforme a las Escrituras. Eso es el evangelio: un mensaje que se anuncia.",
+      "start_ms": 410051,
+      "end_ms": 438811,
+      "match_ratio": 0.915,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Y hay un tercer texto. Marcos, capítulo uno, versículo uno, abre con una frase: el principio del evangelio de Jesucristo, Hijo de Dios. El relato que sigue es el comienzo de esa buena noticia. Los estudiosos discuten si esa frase funciona como título del libro o como una descripción de lo que comienza. El texto no lo decide, y nosotros tampoco.",
+      "start_ms": 438891,
+      "end_ms": 462411,
+      "match_ratio": 0.934,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Entonces, una distinción clave. En estos pasajes, evangelio es el mensaje proclamado. Llamar Evangelio a cada libro es un uso posterior. Ese uso es legítimo, y lo seguiremos usando, pero conviene saber de dónde viene.",
+      "start_ms": 462411,
+      "end_ms": 477971,
+      "match_ratio": 0.971,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Ahora, la segunda pregunta: ¿cómo llegaron estas historias a ser libros? Y para responderla no necesitamos buscar fuera de la Biblia, porque Lucas nos lo cuenta. Abramos Lucas, capítulo uno, versículos uno al cuatro. Les propongo algo: voy a describir lo que dice, y ustedes dibujan la cadena en su mente.",
+      "start_ms": 477971,
+      "end_ms": 498211,
+      "match_ratio": 0.922,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Eslabón uno: los acontecimientos. Lucas habla de las cosas que entre nosotros han sido ciertísimas.",
+      "start_ms": 498211,
+      "end_ms": 505851,
+      "match_ratio": 0.933,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Eslabón dos: los testigos. Son quienes desde el principio lo vieron con sus ojos y fueron ministros de la palabra.",
+      "start_ms": 505851,
+      "end_ms": 513851,
+      "match_ratio": 0.95,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Eslabón tres: muchos. Lucas dice que muchos han tratado de poner en orden esa historia.",
+      "start_ms": 513851,
+      "end_ms": 520251,
+      "match_ratio": 0.933,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Eslabón cuatro: Lucas mismo, que dice haber investigado con diligencia desde su origen, y escribir ordenadamente.",
+      "start_ms": 520251,
+      "end_ms": 528411,
+      "match_ratio": 0.938,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Y eslabón cinco: Teófilo, a quien escribe para que conozca bien la verdad de las cosas en las que ha sido instruido.",
+      "start_ms": 528411,
+      "end_ms": 536211,
+      "match_ratio": 0.955,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Una aclaración importante: estos cinco eslabones no son cinco períodos históricos consecutivos. Representan relaciones entre los acontecimientos, los testimonios, los relatos y la investigación. Lucas no afirma que los relatos escritos aparecieran solo después de que terminara la actividad de los testigos, ni que la transmisión oral y la escritura fueran etapas completamente separadas.",
+      "start_ms": 536211,
+      "end_ms": 561011,
+      "match_ratio": 0.963,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Acabamos de ver, en cinco eslabones, cómo se relacionan los testigos, los relatos y la investigación detrás de un Evangelio. Y fíjense en lo que dice el texto: Lucas se coloca después de los testigos, declara una investigación y un orden, y declara un propósito, en el versículo cuatro. Esto es texto.",
+      "start_ms": 561011,
+      "end_ms": 582931,
+      "match_ratio": 0.942,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Ahora, una precisión importante. El texto dice que Teófilo fue instruido, pero no dice por qué medio. No conviene afirmar que esa instrucción fue exclusivamente oral. Lo que sí podemos inferir es que la enseñanza oral y los escritos pudieron coexistir, porque Lucas menciona que muchos ya habían tratado de ordenar la historia. Esto es inferencia, no dato del texto. Y sobre las fechas: el texto no registra fechas de composición. Las propuestas hacen pensar en un intervalo de décadas entre los hechos y los primeros escritos, pero eso, otra vez, es inferencia.",
+      "start_ms": 582931,
+      "end_ms": 621851,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Pasemos a la tercera idea de este capítulo. Los Evangelios, ¿son biografías? Escuchemos con atención.",
+      "start_ms": 621911,
+      "end_ms": 629611,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Juan, capítulo veinte, versículos treinta y treinta y uno, dice que Jesús hizo muchas otras señales que no están escritas, y que las escritas lo fueron para que se crea que Jesús es el Cristo, el Hijo de Dios, y para que, creyendo, se tenga vida en su nombre. Y Juan, capítulo veintiuno, versículo veinticinco, agrega que si se escribiera todo, el mundo no podría contener los libros. Los Evangelios seleccionan.",
+      "start_ms": 629611,
+      "end_ms": 658171,
+      "match_ratio": 0.901,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Entonces, ¿son biografías? Aquí conviene ser precisos. Los Evangelios presentan rasgos de las biografías antiguas, pero no son biografías exhaustivas ni siguen necesariamente las convenciones de una biografía moderna. Tienen carácter biográfico, porque cuentan la vida de una persona, pero no pretenden registrar todos los acontecimientos. Cuentan lo necesario para cumplir su propósito.",
+      "start_ms": 658171,
+      "end_ms": 683571,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Ahora un pequeño ejercicio. Respondan mentalmente, o anótenlo en una libreta. Según la cadena de Lucas, uno, uno al cuatro: ¿quién viene primero y quién después, y dónde se ubica Lucas?",
+      "start_ms": 683747,
+      "end_ms": 698477,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "La respuesta: primero los acontecimientos; luego los testigos y ministros de la palabra; luego muchos relatos; luego la investigación de Lucas; y al final, Teófilo. Lucas se ubica después de los testigos.",
+      "start_ms": 698477,
+      "end_ms": 714317,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Con esto cerramos el capítulo. Un evangelio es primero un anuncio. Los libros lo recogen con un orden y un propósito, y no pretenden agotar la vida de Jesús.",
+      "start_ms": 714317,
+      "end_ms": 725437,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Ahora conozcamos a los cuatro relatos: qué comparten y qué hace distinto a cada uno.",
+      "start_ms": 725437,
+      "end_ms": 731997,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-02"
+    },
+    {
+      "text": "Capítulo tres. Cuatro relatos, una sola persona",
+      "start_ms": 731997,
+      "end_ms": 736917,
+      "match_ratio": 0.857,
+      "heading": true,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Pregunta de este capítulo: ¿qué comparten los cuatro relatos y qué hace distinto a cada uno?",
+      "start_ms": 736987,
+      "end_ms": 743797,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "La idea central: tres relatos se pueden poner en columnas, y uno mira distinto. Cada autor entra por una puerta propia, y la puerta ya anuncia su énfasis.",
+      "start_ms": 743797,
+      "end_ms": 755477,
+      "match_ratio": 0.964,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Empecemos por los tres que miran juntos. Mateo, Marcos y Lucas se llaman sinópticos. Sinóptico significa que se ve en conjunto, porque pueden ponerse en columnas paralelas y compararse. Siguen un recorrido común: Juan el Bautista y el bautismo, el ministerio en Galilea, el camino a Jerusalén, la pasión, la muerte y la resurrección.",
+      "start_ms": 755477,
+      "end_ms": 780357,
+      "match_ratio": 0.944,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Pero ojo: no lo organizan de manera idéntica. Lucas desarrolla el viaje a Jerusalén de modo mucho más extenso y estructurado, desde Lucas, capítulo nueve, versículo cincuenta y uno. Marcos y Mateo lo presentan con mucha menos extensión.",
+      "start_ms": 780357,
+      "end_ms": 796557,
+      "match_ratio": 0.895,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Y hay algo curioso. Los tres citan Isaías, capítulo cuarenta, versículo tres, al presentar a Juan el Bautista: Mateo tres, versículo tres; Marcos uno, versículo tres; Lucas tres, versículo cuatro. Pero cada uno tiene también material propio. Los magos aparecen solo en Mateo, capítulo dos. La infancia de Jesús, y las parábolas del buen samaritano y del hijo pródigo, aparecen solo en Lucas, capítulos uno y dos, capítulo diez, versículos veinticinco al treinta y siete, y capítulo quince, versículos once al treinta y dos. Y la parábola de la semilla que crece en secreto está solo en Marcos, capítulo cuatro, versículos veintiséis al veintinueve.",
+      "start_ms": 796557,
+      "end_ms": 842132,
+      "match_ratio": 0.76,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "¿Cómo se relacionan estos tres escritos? Los estudiosos han propuesto varias explicaciones. Algunos dicen que Marcos se escribió primero y que Mateo y Lucas lo usaron. Otros siguen una larga tradición que pone a Mateo primero. Y otros ponen el acento en la enseñanza oral común. Esto es debatido. La clase no elige entre estas explicaciones, y ustedes tampoco necesitan elegir hoy. Lo que sí afirman los textos es que los tres seleccionaron y ordenaron con intención, y que ninguno declara que copió de otro.",
+      "start_ms": 842557,
+      "end_ms": 877117,
+      "match_ratio": 0.976,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Ahora, un ejercicio de observación. Fíjense en cómo empieza cada Evangelio.",
+      "start_ms": 877117,
+      "end_ms": 883517,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Mateo, capítulo uno, versículo uno, empieza con una genealogía. Marcos, capítulo uno, versículo uno, empieza con el principio del evangelio. Lucas, capítulo uno, versículos uno al cuatro, empieza con un prólogo de método. Y Juan, capítulo uno, versículo uno, empieza con un comienzo en el principio. Cuatro entradas distintas. ¿Qué diferencia ven?",
+      "start_ms": 883517,
+      "end_ms": 910717,
+      "match_ratio": 0.827,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Cuatro puertas distintas. Y esa es la verdad que ayuda a descubrir: la puerta ya anuncia el énfasis.",
+      "start_ms": 910717,
+      "end_ms": 919437,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Pasemos ahora a los cuatro, uno por uno. Voy a presentarlos en seis aspectos: comienzo, estructura, énfasis, episodios característicos, propósito y relación con los otros.",
+      "start_ms": 919437,
+      "end_ms": 933477,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Mateo. Su comienzo es una genealogía que presenta a Jesús como hijo de David, hijo de Abraham, Mateo uno, versículo uno. Su estructura se organiza en bloques de enseñanza: el Sermón del Monte, capítulos cinco al siete, y las parábolas del reino, capítulo trece. Su énfasis es el cumplimiento de las Escrituras, Mateo uno, versículos veintidós y veintitrés, y presenta a Jesús como rey, hijo de David. Entre sus episodios característicos están los magos, en el capítulo dos, y la gran comisión, Mateo veintiocho, versículos dieciséis al veinte. Su propósito no lo declara; lo inferimos por su énfasis.",
+      "start_ms": 933477,
+      "end_ms": 977357,
+      "match_ratio": 0.867,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Marcos. Su comienzo es el principio del evangelio, y no tiene relato de nacimiento. Su relato es breve y directo, y dedica una proporción considerable a los acontecimientos finales de la vida de Jesús. Su énfasis es la autoridad, y el siervo que da su vida en rescate, Marcos diez, versículo cuarenta y cinco. Entre sus episodios característicos están la semilla que crece en secreto, y las órdenes de reserva que Jesús da en Marcos uno, versículo cuarenta y cuatro, cinco, versículo cuarenta y tres, y siete, versículo treinta y seis. Su propósito tampoco lo declara con una frase, y lo inferimos. Buena parte de su material tiene paralelo en Mateo y en Lucas.",
+      "start_ms": 977357,
+      "end_ms": 1023797,
+      "match_ratio": 0.842,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Lucas. Su comienzo es el prólogo a Teófilo y los relatos de infancia. Su estructura es una narración ordenada, con un amplio viaje hacia Jerusalén.",
+      "start_ms": 1023797,
+      "end_ms": 1034031,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Su énfasis son las buenas noticias y la salvación, con atención a los pobres, los marginados y las mujeres, Lucas cuatro, versículo dieciocho, y diecinueve, versículo diez. Entre sus episodios característicos están el buen samaritano, el hijo pródigo y Zaqueo, Lucas diecinueve, versículos uno al diez. Y su propósito sí lo declara: Lucas uno, versículo cuatro.",
+      "start_ms": 1034271,
+      "end_ms": 1059931,
+      "match_ratio": 0.786,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Juan. Su comienzo es un prólogo sobre el Verbo, Juan uno, versículos uno al dieciocho. Su estructura se basa en señales y discursos, con Jesús en Jerusalén con motivo de varias fiestas, como se ve en Juan dos, versículo trece, seis, versículo cuatro, y once, versículo cincuenta y cinco. Su énfasis es creer para tener vida, Juan veinte, versículos treinta y treinta y uno, con Jesús como el Cristo, el Hijo de Dios. Entre sus episodios característicos están Nicodemo, en el capítulo tres, la samaritana, en el capítulo cuatro, y el lavamiento de pies, en el capítulo trece. Su propósito también lo declara, Juan veinte, versículo treinta y uno. Y su relación con los otros es especial: su material es mayormente propio. Juan no narra el bautismo de Jesús, ni la tentación, ni la institución de la Cena. Tampoco presenta las parábolas narrativas de los sinópticos, aunque usa figuras como el buen pastor y la vid verdadera.",
+      "start_ms": 1059791,
+      "end_ms": 1124671,
+      "match_ratio": 0.841,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Un resumen oído en una línea. Mateo presenta a Jesús como hijo de David; Marcos, como el que da su vida en rescate; Lucas, como portador de buenas noticias; y Juan, como el Cristo en cuyo nombre hay vida.",
+      "start_ms": 1124671,
+      "end_ms": 1140711,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Pero Juan no solamente explica para qué escribió su Evangelio. También utiliza expresiones especialmente significativas para presentar quién es Jesús. Antes de hablar de los autores, una pausa para escuchar con atención. Esta sección se llama: Las palabras que revelan quién es Jesús. Los Evangelios no presentan su identidad divina con una sola declaración aislada. Lo hacen con títulos, con nombres, con palabras del propio Jesús y con confesiones de sus discípulos. Escojamos tres palabras del Evangelio de Juan y un nombre en Mateo.",
+      "start_ms": 1140711,
+      "end_ms": 1178391,
+      "match_ratio": 0.976,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "La primera palabra es Teós, la palabra griega para Dios. Juan uno, versículo uno, termina así: el Verbo era Dios. En griego, la palabra Teós aparece antes del verbo y sin artículo. Eso no obliga a traducir un dios. La construcción, leída en su contexto, permite destacar la naturaleza divina del Verbo. Y al final del Evangelio, en Juan veinte, versículo veintiocho, Tomás le dice a Jesús: Señor mío, y Dios mío. Al principio, Juan declara que el Verbo era Dios; cerca del final, un discípulo llama Dios a Jesús.",
+      "start_ms": 1178391,
+      "end_ms": 1218631,
+      "match_ratio": 0.956,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "La segunda palabra es Lógos, el Verbo, la Palabra. En Juan uno, el Verbo está en el principio, versículo uno; por él todas las cosas fueron hechas, versículo tres; y el Verbo se hizo carne, versículo catorce. Para nuestra Escuela, leídos juntos, estos versículos afirman la manifestación del único Dios en Jesucristo, en carne.",
+      "start_ms": 1218631,
+      "end_ms": 1242831,
+      "match_ratio": 0.907,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "La tercera expresión son las palabras de Jesús mismo: Egó eimi, que significa Yo soy. En Juan ocho, versículo cincuenta y ocho, Jesús dice: Antes que Abraham fuese, yo soy. Muchos intérpretes relacionan esta expresión con el lenguaje divino del Antiguo Testamento, como Éxodo tres, versículo catorce. Pero cuidado: la expresión yo soy no es, cada vez que aparece, una afirmación de deidad. Depende del contexto. Aquí pesan el contraste con Abraham y la reacción que cuenta el versículo cincuenta y nueve.",
+      "start_ms": 1242831,
+      "end_ms": 1280261,
+      "match_ratio": 0.866,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Y el nombre en Mateo: Emanuel, que Mateo explica como Dios con nosotros, Mateo uno, versículo veintitrés. Mateo cierra su Evangelio con la promesa de Jesús: yo estoy con vosotros todos los días, Mateo veintiocho, versículo veinte. Al comienzo y al final, la presencia de Dios con su pueblo.",
+      "start_ms": 1278471,
+      "end_ms": 1299871,
+      "match_ratio": 0.898,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Una distinción honesta: la fuerza de estas palabras no está en una palabra griega aislada, sino en la lectura conjunta de los pasajes. Que Jesucristo es Dios manifestado en carne es la conclusión que nuestra Escuela confiesa, desde la unicidad de Dios, al leer estos textos juntos.",
+      "start_ms": 1299871,
+      "end_ms": 1318271,
+      "match_ratio": 0.979,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Ahora, una pausa. Si lo desean, detengan la grabación y anoten en una libreta cuatro recursos con los que los Evangelios presentan quién es Jesús.",
+      "start_ms": 1318271,
+      "end_ms": 1328471,
+      "match_ratio": 0.92,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Una declaración sobre el Verbo, un nombre profético, las palabras del propio Jesús y la confesión de un discípulo.",
+      "start_ms": 1328471,
+      "end_ms": 1337071,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Y ahora una pregunta que muchos se hacen: ¿quién escribió cada Evangelio, y cómo lo sabemos? Aquí es donde las cuatro etiquetas nos ayudan, porque cada dato pertenece a un nivel distinto. Vamos Evangelio por Evangelio.",
+      "start_ms": 1337071,
+      "end_ms": 1352071,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Mateo. Lo que dice el texto: el libro no se firma. Mateo, capítulo nueve, versículo nueve, llama Mateo al publicano que Jesús llama. Lo que dice el testimonio antiguo: la tradición asocia el libro con el apóstol Mateo. Papías, citado por Eusebio, habla de Mateo y de una ordenación de los logia, es decir, de los dichos. El sentido exacto de esa frase es debatido.",
+      "start_ms": 1352071,
+      "end_ms": 1379579,
+      "match_ratio": 0.969,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Como identificación tradicional, el apóstol Mateo se asocia con el Leví de Marcos dos, versículo catorce, y Lucas cinco, versículo veintisiete. Y como inferencia, al comparar esos pasajes con Mateo nueve, versículo nueve, vemos que los relatos son paralelos. Pero los textos no dicen expresamente que Mateo y Leví sean la misma persona; esa identificación no está demostrada por los textos. Y lo debatido: si el libro fue una composición anónima en un contexto judeocristiano, y si se escribió antes o después del año setenta.",
+      "start_ms": 1379639,
+      "end_ms": 1414809,
+      "match_ratio": 0.835,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Marcos. El texto no se firma. La tradición: Papías lo presenta como intérprete de Pedro, e Ireneo lo vincula con Pedro. Inferencia: una relación con la predicación de Pedro. Debatido: su fecha, en torno al año setenta, sin dato textual.",
+      "start_ms": 1415499,
+      "end_ms": 1435699,
+      "match_ratio": 0.975,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Lucas. El texto: Lucas uno, versículos uno al cuatro, no nombra al autor, y Hechos uno, versículo uno, remite a un primer tratado. La tradición: Ireneo lo atribuye a Lucas, compañero de Pablo. Inferencia: las secciones en primera persona de Hechos, por ejemplo Hechos dieciséis, versículo diez, sugieren un compañero de viaje. Pero ojo: el uso de la primera persona no demuestra por sí solo la identidad del autor, y los estudiosos ofrecen distintas explicaciones sobre esas secciones. Debatido: la fecha y su relación con Marcos.",
+      "start_ms": 1435699,
+      "end_ms": 1475259,
+      "match_ratio": 0.814,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Juan. El texto: Juan veintiuno, versículo veinticuatro, afirma que el discípulo que da testimonio escribió estas cosas, pero no lo nombra. La tradición: Ireneo lo atribuye a Juan, discípulo del Señor, en Éfeso. Inferencia: un autor ligado al círculo del discípulo amado. Debatido: la identidad del discípulo amado, la redacción y la fecha, que a menudo se propone hacia fines del siglo primero.",
+      "start_ms": 1475259,
+      "end_ms": 1505779,
+      "match_ratio": 0.905,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "¿Qué concluimos? Que la tradición antigua tiene un respaldo testimonial que no es ni una demostración definitiva ni una simple suposición. Y que las fechas son propuestas. Cuando alguien les pregunte quién escribió los Evangelios, ya saben cómo responder con precisión: esto dice el texto, esto afirma la tradición, esto se infiere, y esto se debate.",
+      "start_ms": 1505739,
+      "end_ms": 1530179,
+      "match_ratio": 0.982,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Cuatro relatos, una misma persona. Con los cuatro relatos en la mano, ya podemos recorrer lo que cuentan.",
+      "start_ms": 1530179,
+      "end_ms": 1539139,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-03"
+    },
+    {
+      "text": "Capítulo cuatro. La vida de Jesús en siete etapas",
+      "start_ms": 1539139,
+      "end_ms": 1544019,
+      "match_ratio": 1.0,
+      "heading": true,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Este es el corazón de la clase. Vamos a recorrer la vida de Jesús como quien mira un mapa general. Usaremos siete etapas. Y cada etapa responderá dos preguntas: ¿qué sucedió?, y ¿qué revela sobre quién es Jesús?",
+      "start_ms": 1544019,
+      "end_ms": 1559819,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "La pregunta que guía este capítulo es esta: ¿qué sucedió desde la llegada de Jesús hasta la comisión a sus discípulos, y qué revela cada etapa sobre quién es?",
+      "start_ms": 1559819,
+      "end_ms": 1570979,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Una idea central antes de empezar. Los Evangelios narran lo que Jesús hizo, y a la vez presentan quién es. Algunos afirman su identidad desde el comienzo, como Mateo uno, versículo uno, y Juan uno, versículos uno al dieciocho. Y a lo largo de los relatos, los discípulos y nosotros, los lectores, vamos comprendiendo y respondiendo. No es una revelación gradual y uniforme en los cuatro libros. Cada Evangelio tiene su manera.",
+      "start_ms": 1570979,
+      "end_ms": 1601339,
+      "match_ratio": 0.889,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Y una advertencia que repetiremos: esto es un panorama, no una cronología exacta. Los episodios que mencionemos en cada etapa no sucedieron necesariamente en este orden. Cuando un episodio aparezca en un solo Evangelio, les diremos cuál lo cuenta.",
+      "start_ms": 1601339,
+      "end_ms": 1618979,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Las siete etapas son: uno, la llegada del Mesías. Dos, la preparación del ministerio. Tres, el comienzo del ministerio público. Cuatro, el gran ministerio de Jesús. Cinco, el camino hacia Jerusalén. Seis, la pasión y muerte. Y siete, la resurrección y la misión. Las vamos a recorrer una por una.",
+      "start_ms": 1617559,
+      "end_ms": 1646219,
+      "match_ratio": 0.94,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa uno. La llegada del Mesías.",
+      "start_ms": 1646279,
+      "end_ms": 1649939,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Imaginen que abren el Nuevo Testamento buscando el nacimiento de Jesús. Lo encuentran solo en dos de los cuatro libros. Los Evangelios no comienzan todos en el mismo lugar. Mateo y Lucas cuentan cómo llegó Jesús al mundo. Juan abre con una mirada anterior al nacimiento. Y Marcos entra directamente con Juan el Bautista, y no tiene relato de nacimiento.",
+      "start_ms": 1649939,
+      "end_ms": 1674259,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Mateo comienza con una genealogía que presenta a Jesús como hijo de David, hijo de Abraham, Mateo uno, versículos uno al diecisiete. Luego narra a José, el nombre Emanuel, la visita de los magos a Belén y la huida a Egipto, Mateo uno, versículo dieciocho, hasta el capítulo dos, versículo veintitrés.",
+      "start_ms": 1674319,
+      "end_ms": 1695899,
+      "match_ratio": 0.863,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Lucas, en cambio, relata los anuncios a Zacarías y a María, el nacimiento en Belén, la visita de los pastores, la presentación en el templo, y a Jesús a los doce años entre los maestros, Lucas capítulos uno y dos, y el capítulo dos, versículos cuarenta y uno al cincuenta y dos. Su genealogía aparece más adelante, en Lucas tres, versículos veintitrés al treinta y ocho. Las dos genealogías no coinciden en todo, y aquí no las armonizamos.",
+      "start_ms": 1696139,
+      "end_ms": 1725339,
+      "match_ratio": 0.744,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Y Juan no cuenta el nacimiento. Su prólogo, Juan uno, versículos uno al dieciocho, habla del Verbo, de su venida al mundo y de quienes lo recibieron.",
+      "start_ms": 1726139,
+      "end_ms": 1736908,
+      "match_ratio": 0.889,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "¿Qué revela esta etapa? Mateo y Lucas ligan a Jesús con las promesas hechas a Abraham y a David, Mateo uno, versículo uno, y Lucas uno, versículos treinta y dos y treinta y tres. Y Juan declara con sus palabras que el Verbo estaba en el principio, y que el Verbo era Dios, Juan uno, versículo uno; que el Verbo se hizo carne y habitó entre nosotros, versículo catorce; y que a Dios nadie le vio jamás, pero que el Hijo lo ha dado a conocer, versículo dieciocho. Escuchamos estas afirmaciones tal como están en el texto. Y aquí hay algo que no podemos pasar por alto: si el Verbo era Dios, y el Verbo se hizo carne, quien nace en Belén es Dios manifestado en carne. Esa es la conclusión que nuestra Escuela saca de Juan uno, versículos uno y catorce. Primera de Timoteo tres, versículo dieciséis, en la Reina-Valera mil novecientos sesenta, dice: Dios fue manifestado en carne; otras traducciones leen ese versículo de otra manera, según los manuscritos que siguen, y por eso aquí nos apoyamos sobre todo en Juan. Esa es la confesión de nuestra Escuela, desde la unicidad de Dios: Jesucristo no es solo un profeta, un maestro extraordinario o el Mesías prometido. Es Dios con nosotros.",
+      "start_ms": 1736988,
+      "end_ms": 1819808,
+      "match_ratio": 0.887,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Y aquí empiezan a asomar los hilos del Antiguo Testamento. Dos citas explícitas: Isaías siete, versículo catorce, en Mateo uno, versículos veintidós y veintitrés; y Miqueas cinco, versículo dos, en Mateo dos, versículos cinco y seis. Y una alusión: Mateo uno, versículo uno, y Lucas uno, versículos treinta y dos y treinta y tres, aluden a Segunda de Samuel siete, versículos doce al dieciséis. Los hilos que avanzan aquí son especialmente la descendencia prometida y la presencia de Dios entre su pueblo.",
+      "start_ms": 1819808,
+      "end_ms": 1855208,
+      "match_ratio": 0.646,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Una pregunta rápida: ¿qué destaca Mateo, qué Lucas y qué Juan sobre el origen de Jesús?",
+      "start_ms": 1855208,
+      "end_ms": 1862408,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Cada relato aporta lo suyo: Mateo mira hacia David y Abraham, Lucas hacia María, los pastores y el templo, y Juan hacia el principio de todo. Así, quien llega es el heredero de las promesas hechas a Abraham y a David.",
+      "start_ms": 1862408,
+      "end_ms": 1879108,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa dos. La preparación del ministerio.",
+      "start_ms": 1879108,
+      "end_ms": 1883208,
+      "match_ratio": 0.833,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "¿Qué hace Jesús antes de empezar a enseñar? Antes de narrar ampliamente el ministerio público de Jesús, los sinópticos presentan a Juan el Bautista, el bautismo y la tentación en el desierto. Marcos lo resume en pocas líneas, Marcos uno, versículos uno al trece. Mateo y Lucas la desarrollan, en Mateo capítulos tres y cuatro, y Lucas capítulos tres y cuatro.",
+      "start_ms": 1883208,
+      "end_ms": 1907698,
+      "match_ratio": 0.869,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Juan el Bautista llama al arrepentimiento y anuncia a uno que viene después de él, Marcos uno, versículos cuatro al ocho. Lucas tres, versículos uno al dieciocho, añade respuestas concretas a distintos grupos.",
+      "start_ms": 1908108,
+      "end_ms": 1923108,
+      "match_ratio": 0.818,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Luego Jesús es bautizado. Los tres sinópticos narran que el cielo se abre, que el Espíritu desciende, y que una voz lo llama Hijo amado: Mateo tres, versículos trece al diecisiete; Marcos uno, versículos nueve al once; Lucas tres, versículos veintiuno y veintidós.",
+      "start_ms": 1923108,
+      "end_ms": 1942263,
+      "match_ratio": 0.744,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Enseguida es llevado al desierto y tentado. Marcos lo cuenta en dos versículos, Marcos uno, versículos doce y trece. Mateo y Lucas detallan tres tentaciones, en orden distinto, y Jesús responde con textos de Deuteronomio, Mateo cuatro, versículos uno al once, y Lucas cuatro, versículos uno al trece.",
+      "start_ms": 1943008,
+      "end_ms": 1964028,
+      "match_ratio": 0.812,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Juan ofrece otro ángulo. No narra el bautismo, sino el testimonio del Bautista: que vio al Espíritu descender, y que señala a Jesús como el Cordero de Dios, Juan uno, versículos veintinueve al treinta y cuatro. Una distinción importante: Juan uno, versículos treinta y dos al treinta y cuatro, es el testimonio del Bautista, no una narración del bautismo como la de los sinópticos.",
+      "start_ms": 1964808,
+      "end_ms": 1990438,
+      "match_ratio": 0.797,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "La Lección uno ya estudió a Juan el Bautista con Malaquías tres, versículo uno, e Isaías cuarenta, versículo tres. Aquí solo lo enlazamos.",
+      "start_ms": 1991208,
+      "end_ms": 2001208,
+      "match_ratio": 0.783,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "¿Qué revela esta etapa? El cielo lo identifica como Hijo amado, y el Espíritu desciende sobre él. En la tentación, responde con la Escritura.",
+      "start_ms": 2001208,
+      "end_ms": 2013008,
+      "match_ratio": 0.958,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "En cuanto al Antiguo Testamento: son citas explícitas las respuestas de Jesús en la tentación, que vienen de Deuteronomio ocho, versículo tres, seis, versículo dieciséis, y seis, versículo trece, en Mateo cuatro, versículos cuatro, siete y diez. Y hay además una conexión canónica: Jesús aparece fiel en el desierto, donde el pueblo falló. Es una conexión que establecemos al leer la Biblia como un conjunto, no una cita.",
+      "start_ms": 2013008,
+      "end_ms": 2042708,
+      "match_ratio": 0.838,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Antes de seguir, una pausa: ¿qué desciende y qué voz se oye en el bautismo?",
+      "start_ms": 2042708,
+      "end_ms": 2049808,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Aquí Marcos es breve, Mateo y Lucas detallan la tentación, y Juan prefiere el testimonio del Bautista. Antes de actuar, Jesús es identificado desde el cielo y probado en el desierto. Más adelante, en el capítulo seis, compararemos con calma los tres relatos del bautismo.",
+      "start_ms": 2049808,
+      "end_ms": 2069508,
+      "match_ratio": 0.978,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa tres. El comienzo del ministerio público.",
+      "start_ms": 2069508,
+      "end_ms": 2073339,
+      "match_ratio": 0.857,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Marcos presenta el comienzo del ministerio público de Jesús con un anuncio: Jesús llega a Galilea proclamando el evangelio de Dios, el tiempo se ha cumplido, el reino de Dios se ha acercado, y hay que arrepentirse y creer, Marcos uno, versículos catorce y quince.",
+      "start_ms": 2073389,
+      "end_ms": 2091409,
+      "match_ratio": 0.933,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Enseguida llama a sus primeros discípulos. Marcos uno, versículos dieciséis al veinte, y Mateo cuatro, versículos dieciocho al veintidós, lo cuentan casi con las mismas palabras. Lucas lo ubica en una pesca extraordinaria, Lucas cinco, versículos uno al once. Y Juan narra otros encuentros iniciales, Juan uno, versículos treinta y cinco al cincuenta y uno.",
+      "start_ms": 2091679,
+      "end_ms": 2115999,
+      "match_ratio": 0.709,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Lucas coloca al comienzo la visita a la sinagoga de Nazaret, donde Jesús lee a Isaías y declara que esa Escritura se cumple hoy, Lucas cuatro, versículos dieciséis al veintiuno. Los estudiosos discuten si ese es el mismo episodio de Mateo trece, versículos cincuenta y tres al cincuenta y ocho, y Marcos seis, versículos uno al seis.",
+      "start_ms": 2116019,
+      "end_ms": 2137814,
+      "match_ratio": 0.719,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Marcos muestra las primeras obras: enseñanza con autoridad, un hombre con espíritu inmundo, y sanidades, Marcos uno, versículos veintiuno al cuarenta y cinco. Y Juan presenta su primera señal en Caná, Juan dos, versículos uno al once, que no se puede ubicar con exactitud respecto de los sinópticos.",
+      "start_ms": 2138179,
+      "end_ms": 2159049,
+      "match_ratio": 0.812,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "¿Qué enseña Jesús aquí? El reino, el arrepentimiento y la fe, Marcos uno, versículo quince. ¿Y qué revela? Autoridad en la enseñanza y sobre los espíritus, Marcos uno, versículos veintidós y veintisiete. Y en Lucas cuatro, versículos dieciocho al veintiuno, se presenta como el ungido por el Espíritu para dar buenas nuevas a los pobres.",
+      "start_ms": 2159699,
+      "end_ms": 2185339,
+      "match_ratio": 0.855,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Conexiones con el Antiguo Testamento: una cita explícita, Isaías sesenta y uno, versículos uno y dos, en Lucas cuatro, versículos dieciocho y diecinueve. Y una conexión canónica: Daniel siete, versículos trece y catorce, con el reino de Marcos uno, versículo quince. El hilo que avanza aquí es el reino.",
+      "start_ms": 2185339,
+      "end_ms": 2208539,
+      "match_ratio": 0.714,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Una pregunta: ¿qué dos respuestas pide Jesús en Marcos uno, versículo quince?",
+      "start_ms": 2208539,
+      "end_ms": 2215494,
+      "match_ratio": 0.833,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Arrepentirse y creer. Marcos muestra a Jesús en acción, Lucas lo presenta leyendo a Isaías en Nazaret, y Juan abre con encuentros y una primera señal. Y el ministerio comienza, entonces, con una buena noticia: el reino de Dios se ha acercado.",
+      "start_ms": 2215579,
+      "end_ms": 2235859,
+      "match_ratio": 0.976,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa cuatro. El gran ministerio de Jesús.",
+      "start_ms": 2235859,
+      "end_ms": 2239979,
+      "match_ratio": 0.857,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Esta es la etapa más extensa, y la que más depende de cada evangelista. Los cuatro relatos agrupan aquí lo que Jesús enseñó y lo que hizo, pero no en el mismo orden ni con los mismos episodios. Por eso la explicamos por temas, no por fechas. Cuatro temas.",
+      "start_ms": 2239979,
+      "end_ms": 2257919,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Primer tema: la enseñanza y las parábolas. Mateo reúne la enseñanza en grandes bloques: el Sermón del Monte, Mateo cinco al siete, que termina con la reacción de las multitudes ante su autoridad, Mateo siete, versículos veintiocho y veintinueve; y las parábolas del reino, Mateo trece. Marcos, capítulo cuatro, presenta también parábolas. Y Lucas, capítulo quince, contiene parábolas que solo cuenta Lucas. Juan no presenta las parábolas narrativas características de los sinópticos, pero utiliza figuras, comparaciones y discursos simbólicos, como el buen pastor, Juan diez, y la vid verdadera, Juan quince.",
+      "start_ms": 2257919,
+      "end_ms": 2300479,
+      "match_ratio": 0.879,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Segundo tema: los milagros y las señales. Jesús calma la tempestad, Marcos cuatro, versículos treinta y cinco al cuarenta y uno. Libera a un endemoniado, Marcos cinco, versículos uno al veinte. Y sana y perdona al paralítico, Marcos dos, versículos uno al doce. Juan, por su parte, selecciona señales, entre las cuales destaca la resurrección de Lázaro, narrada en Juan capítulo once, y declara su propósito en Juan veinte, versículos treinta y treinta y uno.",
+      "start_ms": 2300979,
+      "end_ms": 2334054,
+      "match_ratio": 0.72,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Tercer tema: los marginados, el conflicto y los discípulos. Jesús toca al leproso, Marcos uno, versículos cuarenta al cuarenta y cinco. Come con publicanos y pecadores, Marcos dos, versículos trece al diecisiete. Habla con la samaritana, Juan cuatro. Y entra en controversia con las autoridades religiosas, Marcos dos, versículo uno, hasta tres, versículo seis. También forma a los Doce, Marcos tres, versículos trece al diecinueve, y los envía, Marcos seis, versículos siete al trece.",
+      "start_ms": 2333939,
+      "end_ms": 2369664,
+      "match_ratio": 0.716,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Y cuarto tema: ¿quién es éste? Algunos Evangelios afirman la identidad de Jesús desde el comienzo, Mateo uno, versículo uno, y Juan uno, versículos uno al dieciocho. Pero dentro del relato, quienes lo ven se hacen la pregunta de Marcos cuatro, versículo cuarenta y uno: ¿quién es éste, que aun el viento y el mar le obedecen? Y Pedro responde en Mateo dieciséis, versículo dieciséis, con su confesión. El desarrollo es de comprensión de los discípulos y del lector, no una revelación uniforme en los cuatro relatos.",
+      "start_ms": 2370339,
+      "end_ms": 2404979,
+      "match_ratio": 0.862,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "¿Se acuerdan de lo que preguntan los discípulos en Marcos cuatro, versículo cuarenta y uno, y de lo que responde Pedro en Mateo dieciséis, versículo dieciséis? Repítanlo mentalmente.",
+      "start_ms": 2404979,
+      "end_ms": 2416619,
+      "match_ratio": 0.75,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "En esta etapa se nota mucho la voz de cada autor: Mateo agrupa la enseñanza, Marcos narra obras, Lucas se acerca a los marginados y Juan selecciona señales. Conclusión de la etapa cuatro: sus palabras y sus obras plantean la misma pregunta. ¿Quién es éste? El hilo que avanza aquí, nuevamente, es el reino.",
+      "start_ms": 2416913,
+      "end_ms": 2441943,
+      "match_ratio": 0.981,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa cinco. El camino hacia Jerusalén.",
+      "start_ms": 2441943,
+      "end_ms": 2445943,
+      "match_ratio": 0.833,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Hasta aquí, todos se preguntaban quién es Jesús. Ahora la pregunta cambia. El relato da aquí un giro. En Marcos, Jesús pregunta a sus discípulos quién dice la gente que es, y quién dicen ellos. Y Pedro responde que es el Cristo, Marcos ocho, versículos veintisiete al treinta. Mateo dieciséis, versículos trece al veinte, añade palabras de Jesús sobre esa confesión, que aquí no desarrollamos.",
+      "start_ms": 2446033,
+      "end_ms": 2473663,
+      "match_ratio": 0.908,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Desde ese punto, el relato cambia de énfasis. Jesús comienza a anunciar su sufrimiento, su muerte y su resurrección: Marcos ocho, versículo treinta y uno; nueve, versículo treinta y uno; y diez, versículos treinta y tres y treinta y cuatro.",
+      "start_ms": 2473753,
+      "end_ms": 2495475,
+      "match_ratio": 0.575,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "A la vez, enseña el discipulado: quien quiera seguirlo debe negarse a sí mismo y tomar su cruz, Marcos ocho, versículos treinta y cuatro al treinta y ocho, y Lucas nueve, versículo veintitrés. Y Marcos diez, versículo cuarenta y cinco, resume el sentido de su misión: el Hijo del Hombre vino para servir y dar su vida en rescate por muchos.",
+      "start_ms": 2490063,
+      "end_ms": 2513943,
+      "match_ratio": 0.738,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Lucas marca el rumbo con una frase: Jesús afirmó su rostro para ir a Jerusalén, Lucas nueve, versículo cincuenta y uno. Y de allí sigue un amplio bloque con material propio: el buen samaritano y el hijo pródigo, Lucas diez, versículos veinticinco al treinta y siete, y quince, versículos once al treinta y dos; y Zaqueo, Lucas diecinueve, versículos uno al diez. Una nota: los límites de este viaje en Lucas son una convención, y algunos estudiosos lo cierran antes de Lucas diecinueve, versículo veintiocho. Y Juan sitúa a Jesús en Jerusalén en varias fiestas, Juan siete al once.",
+      "start_ms": 2513943,
+      "end_ms": 2554208,
+      "match_ratio": 0.737,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "¿Qué revela esta etapa? Un Mesías que sufre. Hasta aquí la pregunta era quién es; ahora es también qué va a hacer en Jerusalén. En cuanto al Antiguo Testamento, Isaías cincuenta y tres se relaciona con Marcos diez, versículo cuarenta y cinco, como conexión canónica. No es una cita en estos pasajes. Los hilos que avanzan son el sacrificio y la tierra.",
+      "start_ms": 2555103,
+      "end_ms": 2580703,
+      "match_ratio": 0.887,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Lucas es quien más se detiene en este camino; Marcos lo marca con tres anuncios; Juan lo sitúa en las fiestas. Y una pregunta: ¿qué anuncia Jesús tres veces en Marcos, capítulos ocho al diez?",
+      "start_ms": 2580703,
+      "end_ms": 2594333,
+      "match_ratio": 0.886,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Su sufrimiento, su muerte y su resurrección. Por eso, en esta etapa, Jesús se dirige a Jerusalén sabiendo lo que le espera.",
+      "start_ms": 2594903,
+      "end_ms": 2604743,
+      "match_ratio": 0.955,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa seis. La pasión y muerte de Jesús.",
+      "start_ms": 2604743,
+      "end_ms": 2609103,
+      "match_ratio": 0.875,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Los cuatro relatos dedican una proporción considerable a los acontecimientos finales de la vida de Jesús. Eso muestra dónde ponen el peso sus autores. No es una delimitación cronológica exacta de la última semana.",
+      "start_ms": 2609103,
+      "end_ms": 2622703,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Jesús entra en Jerusalén, Marcos once, versículos uno al once. Enseña en el templo y entra en controversia con las autoridades, Marcos once y doce. Comparte la última cena con sus discípulos, Marcos catorce, versículos veintidós al veinticinco, y Lucas veintidós, versículos catorce al veinte. Ora en Getsemaní, Marcos catorce, versículos treinta y dos al cuarenta y dos. Es arrestado, llevado ante las autoridades judías y ante Pilato, y es crucificado, muere y es sepultado, Marcos catorce y quince.",
+      "start_ms": 2622703,
+      "end_ms": 2657828,
+      "match_ratio": 0.684,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Juan no registra la institución de la Cena ni la oración en Getsemaní. En su lugar trae el lavamiento de los pies y los discursos de despedida, Juan trece al diecisiete. Y hay un detalle que los estudiosos comentan: Juan sitúa la limpieza del Templo al comienzo del ministerio, Juan dos, versículos trece al veintidós, y los sinópticos la sitúan en la última semana. Se han propuesto dos explicaciones: dos ocasiones distintas, o un solo episodio colocado en lugares distintos por razones de composición. El texto no lo resuelve.",
+      "start_ms": 2658463,
+      "end_ms": 2693023,
+      "match_ratio": 0.91,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Lo notable es que los relatos mismos interpretan esa muerte. Marcos diez, versículo cuarenta y cinco, habla de dar la vida en rescate. Lucas veintidós, versículo veinte, recoge las palabras sobre el nuevo pacto en la sangre de Jesús. Juan uno, versículo veintinueve, lo presenta como el Cordero de Dios que quita el pecado del mundo. Y en Marcos quince, versículo treinta y nueve, el centurión declara que este era Hijo de Dios.",
+      "start_ms": 2693023,
+      "end_ms": 2720743,
+      "match_ratio": 0.822,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Y aquí el Antiguo Testamento se oye con fuerza. Hay tres citas explícitas: Zacarías nueve, versículo nueve, en Mateo veintiuno, versículos cuatro y cinco; el Salmo veintidós, versículo uno, en Marcos quince, versículo treinta y cuatro; y el Salmo veintidós, versículo dieciocho, en Juan diecinueve, versículo veinticuatro. Hay dos ecos verbales: Lucas veintidós, versículo veinte, con Jeremías treinta y uno, versículos treinta y uno al treinta y cuatro, por la expresión nuevo pacto; y Marcos catorce, versículo veinticuatro, con Éxodo veinticuatro, versículo ocho, por la sangre del pacto. Y una conexión canónica:",
+      "start_ms": 2720743,
+      "end_ms": 2761703,
+      "match_ratio": 0.63,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Juan uno, versículo veintinueve, con el lenguaje sacrificial de la Biblia. Los hilos que avanzan en esta etapa son el pacto y el sacrificio, y también aparecen el templo y el sacerdocio, porque el templo es el escenario de las controversias y los principales sacerdotes intervienen en el juicio de Jesús.",
+      "start_ms": 2762069,
+      "end_ms": 2781899,
+      "match_ratio": 0.961,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Una pausa: ¿qué tres textos explican el sentido de su muerte?",
+      "start_ms": 2781899,
+      "end_ms": 2787499,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Marcos diez, versículo cuarenta y cinco; Lucas veintidós, versículo veinte; y Juan uno, versículo veintinueve. Cada relato ilumina la cruz con su propia luz: Marcos con el rescate, Lucas con el nuevo pacto y Juan con el Cordero.",
+      "start_ms": 2787499,
+      "end_ms": 2805779,
+      "match_ratio": 0.789,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Los Evangelios dedican tanto espacio a estos días porque aquí está el centro de su mensaje. No desarrollamos aquí una doctrina completa de la salvación; solo escuchamos cómo la cuentan los relatos.",
+      "start_ms": 2805779,
+      "end_ms": 2819099,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Etapa siete. La resurrección y la misión.",
+      "start_ms": 2819189,
+      "end_ms": 2823459,
+      "match_ratio": 0.857,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Si el relato terminara en la cruz, sería una historia que se cierra con una tumba. Pero no termina ahí. Esta etapa tiene cinco pasos.",
+      "start_ms": 2823459,
+      "end_ms": 2833539,
+      "match_ratio": 0.96,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Paso uno: el sepulcro vacío. Los cuatro relatos cuentan el hallazgo del sepulcro vacío, y María Magdalena aparece en los cuatro: Mateo veintiocho, versículos uno al diez; Marcos dieciséis, versículos uno al ocho; Lucas veinticuatro, versículos uno al doce; Juan veinte, versículos uno al dieciocho. Mateo, Marcos y Lucas hablan de mujeres que van al sepulcro, y de mensajeros que anuncian que Jesús ha resucitado. Juan desarrolla de modo particular la llegada de María Magdalena, luego la de Pedro y el otro discípulo, Juan veinte, versículos uno al diez, y después el encuentro de ella con Jesús, versículos once al dieciocho. Los relatos difieren en quiénes fueron, a quién vieron y qué dijeron, y no los armonizamos.",
+      "start_ms": 2833539,
+      "end_ms": 2884629,
+      "match_ratio": 0.838,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Paso dos: las apariciones. Jesús se aparece a dos camino de Emaús, Lucas veinticuatro, versículos trece al treinta y cinco; a los reunidos en Jerusalén, Lucas veinticuatro, versículos treinta y seis al cuarenta y tres, y Juan veinte, versículos diecinueve al veintitrés; a Tomás, Juan veinte, versículos veinticuatro al veintinueve; y en Galilea, Mateo veintiocho, versículos dieciséis al veinte, y Juan veintiuno. Primera de Corintios quince, versículos cinco al ocho, añade una lista de testigos. Los relatos difieren en personas, lugares y orden, y los presentamos sin forzar una secuencia única. Y en Juan veinte, versículo veintiocho, Tomás se dirige a Jesús resucitado y exclama: Señor mío, y Dios mío. Es una confesión dirigida directamente a Jesús, y en el versículo veintinueve Jesús habla de la fe de Tomás sin corregir sus palabras. Para nosotros, Tomás confiesa lo que la Iglesia proclamaría después: que Jesucristo es Dios manifestado en carne.",
+      "start_ms": 2886019,
+      "end_ms": 2954339,
+      "match_ratio": 0.787,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Paso tres: por qué la resurrección es fundamental. Pablo la incluye en el resumen del evangelio, Primera de Corintios quince, versículos tres y cuatro, y Romanos uno, versículo cuatro, la vincula con la declaración de Jesús como Hijo de Dios con poder. Los Evangelios la presentan como el cumplimiento de lo que Jesús había anunciado y de las Escrituras, Lucas veinticuatro, versículos cuarenta y cuatro al cuarenta y seis.",
+      "start_ms": 2954339,
+      "end_ms": 2980674,
+      "match_ratio": 0.783,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Y una precisión sobre el final de Marcos. Marcos dieciséis, versículo ocho, constituye el final del relato en algunos de los testimonios manuscritos más antiguos. El final largo, Marcos dieciséis, versículos nueve al veinte, presente en muchas ediciones bíblicas, tiene una historia de transmisión textual debatida. No presentamos ninguna posición como indiscutible. Y esto no significa que la resurrección dependa solo de esos versículos: Marcos dieciséis, versículos uno al ocho, ya contiene el anuncio de la resurrección, y los otros Evangelios presentan relatos adicionales.",
+      "start_ms": 2981099,
+      "end_ms": 3018099,
+      "match_ratio": 0.905,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Paso cuatro: la comisión. Jesús envía a sus discípulos: a hacer discípulos a todas las naciones, Mateo veintiocho, versículos dieciocho al veinte; a ir como el Padre lo envió a él, Juan veinte, versículo veintiuno; y a ser testigos, predicando arrepentimiento y perdón de pecados a todas las naciones, comenzando por Jerusalén, Lucas veinticuatro, versículos cuarenta y siete y cuarenta y ocho.",
+      "start_ms": 3018099,
+      "end_ms": 3047734,
+      "match_ratio": 0.758,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Paso cinco: la promesa del Espíritu y la conexión con Hechos. Lucas veinticuatro, versículo cuarenta y nueve, anuncia la promesa del Padre, y ordena esperar en Jerusalén hasta ser investidos de poder desde lo alto. Juan veinte, versículo veintidós, registra que Jesús sopló sobre los discípulos y dijo que recibieran el Espíritu Santo. Y Hechos uno, versículos uno al once, retoma la historia con la ascensión y el mandato de esperar la promesa, Hechos uno, versículos cuatro, cinco y ocho. La Lección tres estudia lo que sigue. Los hilos que avanzan aquí son la presencia y la tierra.",
+      "start_ms": 3046299,
+      "end_ms": 3086899,
+      "match_ratio": 0.847,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Una última pausa en este capítulo: ¿qué les dice Jesús que esperen en Jerusalén, según Lucas veinticuatro, versículo cuarenta y nueve?",
+      "start_ms": 3086899,
+      "end_ms": 3096581,
+      "match_ratio": 0.81,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "La promesa del Padre. Mateo termina con una comisión, Lucas con una promesa y Juan con un envío. Así, el relato termina con una misión y una promesa. La resurrección abre lo que viene después.",
+      "start_ms": 3096601,
+      "end_ms": 3113501,
+      "match_ratio": 0.943,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Hemos recorrido los acontecimientos. Pero Jesús no solo realizó hechos extraordinarios. También anunció el reino y enseñó a sus discípulos. De eso trata el próximo capítulo.",
+      "start_ms": 3113501,
+      "end_ms": 3127781,
+      "match_ratio": 0.962,
+      "heading": false,
+      "chapter_id": "capitulo-04"
+    },
+    {
+      "text": "Capítulo cinco. Las grandes enseñanzas de Jesús",
+      "start_ms": 3127781,
+      "end_ms": 3132181,
+      "match_ratio": 0.857,
+      "heading": true,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Acabamos de recorrer lo que Jesús hizo. Ahora preguntamos: ¿qué enseñó Jesús que nos ayude a entender los cuatro Evangelios?",
+      "start_ms": 3132181,
+      "end_ms": 3141181,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Una aclaración honesta. Jesús enseñó mucho más de lo que cabe en una clase. No vamos a intentar abarcarlo todo. Vamos a escoger cinco grandes ejes que nos ayudan a comprender el conjunto de los cuatro Evangelios, aunque cada evangelista los desarrolla con su propio énfasis. Cada eje tiene un texto central y una idea, y dedicaremos a cada uno unos minutos. Cinco ejes. Escuchen.",
+      "start_ms": 3141181,
+      "end_ms": 3169021,
+      "match_ratio": 0.969,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Eje uno: el reino de Dios. Los textos son Marcos uno, versículo quince, y Mateo trece. Jesús anuncia que Dios actúa y que su reino se ha acercado. Lo explica con parábolas: el sembrador, el grano de mostaza, la levadura. Y con esto responde a la esperanza del Antiguo Testamento sobre el reinado de Dios y del hijo de David. Una cautela: no conviene reducir el reino a un lugar, ni dejarlo solo en el futuro. Marcos uno, versículo quince, habla de una cercanía presente, y los Evangelios también miran hacia su consumación.",
+      "start_ms": 3169021,
+      "end_ms": 3209061,
+      "match_ratio": 0.914,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Eje dos: el arrepentimiento, la fe y la salvación. Los textos son Marcos uno, versículo quince; Lucas diecinueve, versículo diez; y Juan tres, versículos dieciséis y diecisiete. La buena noticia pide una respuesta: arrepentirse y creer. Y Lucas diecinueve, versículo diez, dice que el Hijo del Hombre vino a buscar y a salvar lo que se había perdido. Esto es un panorama; no es todavía un tratado doctrinal.",
+      "start_ms": 3209061,
+      "end_ms": 3240861,
+      "match_ratio": 0.838,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Eje tres: el discipulado. Los textos son Mateo dieciséis, versículo veinticuatro, y Lucas nueve, versículo veintitrés. Seguir a Jesús implica negarse a sí mismo y tomar la cruz. Y el llamado alcanza a todo el que quiera venir en pos de él. Aquí exponemos el texto; no hacemos una aplicación moral extensa. Y junto con ese llamado, Jesús enseña el amor a Dios y al prójimo, el gran mandamiento, Marcos doce, versículos veintiocho al treinta y cuatro, y Mateo veintidós, versículos treinta y cuatro al cuarenta. Así, el discipulado no consiste solo en negarse a sí mismo y tomar la cruz: es también amar.",
+      "start_ms": 3240861,
+      "end_ms": 3285251,
+      "match_ratio": 0.827,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Eje cuatro: la identidad y la misión de Jesús. Los textos son Marcos diez, versículo cuarenta y cinco; Juan veinte, versículos treinta y treinta y uno; Mateo dieciséis, versículos quince y dieciséis; y Marcos cuatro, versículo cuarenta y uno. Los Evangelios presentan quién es: el Cristo, el Hijo de Dios. Y nuestra Escuela confiesa algo más: que es Dios manifestado en carne. Juan uno, versículos uno y catorce, dice que el Verbo era Dios y se hizo carne. Colosenses dos, versículo nueve, dice que en Cristo habita corporalmente toda la plenitud de la Deidad. Juan catorce, versículo nueve, dice que quien lo ha visto a él ha visto al Padre. Y Juan veinte, versículo veintiocho, recoge la confesión de Tomás: Señor mío, y Dios mío. Cada texto dice lo suyo, y su lectura conjunta se hace aquí desde la unicidad de Dios. Y para qué vino: servir y dar su vida en rescate. Fíjense que aquí vuelven los tres textos que atraviesan toda la clase.",
+      "start_ms": 3285251,
+      "end_ms": 3353991,
+      "match_ratio": 0.8,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Eje cinco: la promesa del Espíritu Santo. Los textos son Juan catorce, versículos dieciséis y diecisiete; Lucas veinticuatro, versículo cuarenta y nueve; y Hechos uno, versículo ocho. Jesús prepara a sus discípulos para continuar su obra. Les promete al Consolador, y les promete ser investidos de poder desde lo alto. Este eje es el puente directo a la próxima clase, y por eso no adelantamos aquí lo que ocurre en Pentecostés.",
+      "start_ms": 3353991,
+      "end_ms": 3385251,
+      "match_ratio": 0.845,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Los cinco ejes, otra vez, en orden: el reino de Dios; el arrepentimiento, la fe y la salvación; el discipulado; la identidad y misión de Jesús; y la promesa del Espíritu Santo.",
+      "start_ms": 3385251,
+      "end_ms": 3398701,
+      "match_ratio": 0.906,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Ahora, un ejercicio. Anoten sus parejas en una libreta, o pausen la grabación y piénsenlas. Voy a nombrar los textos centrales en desorden y ustedes los relacionan con el eje correcto. Primero: Mateo dieciséis, versículo veinticuatro, y Lucas nueve, versículo veintitrés. ¿A qué eje pertenecen?",
+      "start_ms": 3398701,
+      "end_ms": 3420591,
+      "match_ratio": 0.867,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Al discipulado. Segundo: Juan catorce, versículos dieciséis y diecisiete, Lucas veinticuatro, versículo cuarenta y nueve, y Hechos uno, versículo ocho.",
+      "start_ms": 3420591,
+      "end_ms": 3433366,
+      "match_ratio": 0.5,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "A la promesa del Espíritu Santo. Tercero: Marcos uno, versículo quince, y Mateo trece.",
+      "start_ms": 3433221,
+      "end_ms": 3441561,
+      "match_ratio": 0.786,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Al reino de Dios. Y los otros dos: Lucas diecinueve, versículo diez, y Juan tres, versículos dieciséis y diecisiete, al arrepentimiento, la fe y la salvación; y Marcos diez, versículo cuarenta y cinco, con Juan veinte, versículos treinta y treinta y uno, a la identidad y misión de Jesús.",
+      "start_ms": 3441541,
+      "end_ms": 3461901,
+      "match_ratio": 0.673,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Y así resumimos este capítulo: Jesús anunció el reino, llamó a responder, llamó a seguirlo, mostró quién es, dijo para qué vino y prometió el Espíritu.",
+      "start_ms": 3462375,
+      "end_ms": 3474895,
+      "match_ratio": 0.923,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Cada evangelista seleccionó y ordenó este material de manera propia. Y eso nos lleva a una pregunta importante: ¿cómo leemos las diferencias entre ellos? Eso es lo que sigue.",
+      "start_ms": 3474895,
+      "end_ms": 3487615,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-05"
+    },
+    {
+      "text": "Capítulo seis. Cómo interpretar las diferencias",
+      "start_ms": 3487615,
+      "end_ms": 3491695,
+      "match_ratio": 0.833,
+      "heading": true,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Seguramente se han dado cuenta de algo: cuando comparamos los Evangelios, aparecen diferencias. Y eso nos inquieta un poco. Pero las diferencias no son una amenaza. Son una invitación a leer con cuidado. La pregunta de este capítulo es: ¿cómo leer cuatro relatos de una misma vida sin forzarlos?",
+      "start_ms": 3491775,
+      "end_ms": 3511935,
+      "match_ratio": 0.98,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Y la idea central es esta: primero se comprende cada relato en su propio contexto; después se compara. No se obliga a aceptar una armonización, ni se promete que toda diferencia tenga una explicación sencilla.",
+      "start_ms": 3511935,
+      "end_ms": 3525815,
+      "match_ratio": 0.971,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Veamos cinco clases de diferencias.",
+      "start_ms": 3525815,
+      "end_ms": 3528615,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "La primera es de selección. Juan no narra el bautismo de Jesús, ni la tentación, ni la institución de la Cena. Y no presenta las parábolas narrativas características de los sinópticos, aunque usa figuras como el buen pastor y la vid verdadera. Lo que un autor no cuenta no está negado; simplemente no lo seleccionó.",
+      "start_ms": 3528615,
+      "end_ms": 3549775,
+      "match_ratio": 0.945,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "La segunda es de orden. La segunda y la tercera tentación aparecen en orden distinto en Mateo, capítulo cuatro, y en Lucas, capítulo cuatro.",
+      "start_ms": 3549775,
+      "end_ms": 3559425,
+      "match_ratio": 0.917,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "La tercera es de detalles. En Jericó, Mateo habla de dos ciegos, Mateo veinte, versículo treinta, mientras que Marcos y Lucas nombran a uno, Marcos diez, versículo cuarenta y seis, y Lucas dieciocho, versículo treinta y cinco. Ojo: ninguno dice solo uno. Y hay además una diferencia de lugar, si fue a la salida o al acercarse a Jericó, que es distinta del número. Son dos asuntos que esta clase no resuelve.",
+      "start_ms": 3559255,
+      "end_ms": 3588135,
+      "match_ratio": 0.806,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "La cuarta es de formulación. El Padrenuestro tiene distinta extensión en Mateo seis, versículos nueve al trece, y Lucas once, versículos dos al cuatro.",
+      "start_ms": 3588135,
+      "end_ms": 3598455,
+      "match_ratio": 0.708,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Y la quinta es de énfasis. Mateo destaca el cumplimiento; Marcos, la autoridad y el rescate; Lucas, la salvación; y Juan, creer para tener vida.",
+      "start_ms": 3598535,
+      "end_ms": 3610575,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Ahora vamos a practicar con dos ejercicios. El primero es el bautismo de Jesús. Les propongo leer los tres textos uno junto al otro: Mateo tres, versículos trece al diecisiete; Marcos uno, versículos nueve al once; y Lucas tres, versículos veintiuno y veintidós. Y preguntarnos: ¿qué coincide, qué cambia y qué destaca cada relato?",
+      "start_ms": 3610575,
+      "end_ms": 3635015,
+      "match_ratio": 0.778,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Veamos qué encontramos. Sobre la voz del cielo: en los tres relatos lo llama Hijo amado y expresa complacencia. Pero la forma cambia. Mateo la presenta en forma indirecta, en tercera persona: la voz habla de Jesús y declara quién es. Marcos y Lucas la presentan en forma directa: la voz le habla a Jesús, de tú. Es una diferencia de formulación narrativa.",
+      "start_ms": 3635015,
+      "end_ms": 3661655,
+      "match_ratio": 0.952,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Sobre el Espíritu: en los tres desciende como paloma. En Mateo viene sobre él; en Marcos desciende sobre él; en Lucas desciende en forma corporal, como paloma.",
+      "start_ms": 3661655,
+      "end_ms": 3674855,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Y cada relato destaca un detalle propio. Mateo destaca el diálogo entre Juan y Jesús, Mateo tres, versículos catorce y quince. Marcos destaca que Jesús viene de Nazaret de Galilea, Marcos uno, versículo nueve. Y Lucas destaca que Jesús está orando cuando se abre el cielo, Lucas tres, versículo veintiuno.",
+      "start_ms": 3674855,
+      "end_ms": 3696500,
+      "match_ratio": 0.86,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "La lectura es esta: los tres cuentan el mismo episodio con la misma estructura. Cada uno destaca un detalle propio. Y el detalle destacado no significa que los otros desconozcan ese dato. Una distinción final: Juan uno, versículos treinta y dos al treinta y cuatro, es el testimonio del Bautista de haber visto al Espíritu. No es una narración del bautismo como la de los sinópticos.",
+      "start_ms": 3696735,
+      "end_ms": 3722505,
+      "match_ratio": 0.864,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "El segundo ejercicio es el letrero de la cruz. Cuatro textos: Mateo veintisiete, versículo treinta y siete; Marcos quince, versículo veintiséis; Lucas veintitrés, versículo treinta y ocho; y Juan diecinueve, versículo diecinueve. ¿Qué dice el letrero en cada uno?",
+      "start_ms": 3723415,
+      "end_ms": 3742815,
+      "match_ratio": 0.692,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Mateo incluye una fórmula de identificación, el nombre Jesús y el título Rey de los judíos. Marcos trae solo el título Rey de los judíos. Lucas trae una fórmula de identificación y el título, sin el nombre. Y Juan trae el nombre Jesús con su procedencia, el Nazareno, y el título Rey de los judíos.",
+      "start_ms": 3742895,
+      "end_ms": 3765855,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "¿Qué leemos aquí? Los cuatro coinciden en el título Rey de los judíos, y difieren en el resto. Se ha propuesto que el letrero estaba escrito en tres idiomas, Juan diecinueve, versículo veinte, y que cada autor recoge una forma. Pero atención: Juan diecinueve, versículo veinte, afirma que había tres idiomas, pero no identifica qué formulación utilizó cada autor. Por eso esa explicación es una hipótesis, no una conclusión demostrada ni un dato del texto. Lo importante es que la diferencia en las palabras exactas no obliga a elegir una versión ni a fundirlas en una sola.",
+      "start_ms": 3765855,
+      "end_ms": 3803695,
+      "match_ratio": 0.959,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Con todo esto, podemos formular cuatro reglas de lectura. Uno: un Evangelio a la vez. Dos: comparar sin fundir. Tres: distinguir el arreglo, es decir, no construir una cronología única. Y cuatro: leer cada recurso según su género.",
+      "start_ms": 3803916,
+      "end_ms": 3823426,
+      "match_ratio": 0.895,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Y una advertencia que aparece en el material de estudio. Alguien podría decir: toda diferencia entre los Evangelios constituye necesariamente una contradicción. Pues no. No toda diferencia implica contradicción. Algunas son complementarias, y otras requieren un análisis histórico, literario o textual más cuidadoso. Así evitamos tanto la armonización forzada como la negación automática de las dificultades.",
+      "start_ms": 3823426,
+      "end_ms": 3850946,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Resumamos: las diferencias no obligan a descartar a ningún Evangelio. Muestran qué destaca cada autor.",
+      "start_ms": 3850946,
+      "end_ms": 3859246,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Y ahora, veamos cómo estos relatos conectan con las promesas del Antiguo Testamento.",
+      "start_ms": 3859316,
+      "end_ms": 3865946,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-06"
+    },
+    {
+      "text": "Capítulo siete. El Antiguo Testamento y la Triple Mirada",
+      "start_ms": 3865946,
+      "end_ms": 3871146,
+      "match_ratio": 0.778,
+      "heading": true,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Llegamos a una pregunta que une toda la Biblia: ¿cómo presentan los Evangelios el cumplimiento y el desarrollo de las promesas bíblicas? Este capítulo tiene dos movimientos. En el primero veremos cómo los Evangelios usan las Escrituras anteriores. En el segundo aplicaremos la Triple Mirada a un texto concreto: Lucas veinticuatro, versículos cuarenta y cuatro al cuarenta y nueve.",
+      "start_ms": 3871146,
+      "end_ms": 3897016,
+      "match_ratio": 0.881,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Primer movimiento: cómo los Evangelios usan las Escrituras anteriores.",
+      "start_ms": 3896546,
+      "end_ms": 3902746,
+      "match_ratio": 0.889,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Fíjense en la idea central: cuando el Nuevo Testamento cita, hay evidencia textual explícita. Cuando nosotros conectamos, es una lectura canónica. Por eso rotulamos cada conexión, pareja por pareja, y no todo el hilo de una vez.",
+      "start_ms": 3902746,
+      "end_ms": 3919546,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Aprendamos cuatro rótulos. El primero es la cita explícita: el texto del Nuevo Testamento cita al Antiguo. El segundo es la alusión: remite a un pasaje o a un tema sin citarlo. El tercero es el eco verbal: comparte expresiones clave. Y el cuarto es la conexión canónica: una relación que establecemos al leer la Biblia como un conjunto. Cita, alusión, eco y conexión canónica. Cuatro maneras distintas de decir que dos textos se hablan, y cada una afirma algo distinto. Y una aclaración: estas etiquetas son herramientas de análisis, no fronteras absolutas. Algunas relaciones pueden clasificarse de otra manera, según los argumentos textuales que se presenten.",
+      "start_ms": 3919546,
+      "end_ms": 3969546,
+      "match_ratio": 0.981,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Veamos algunos ejemplos, uno por hilo. Del hilo del reino: Marcos uno, versículo quince, con Daniel siete, versículos trece y catorce, es una conexión canónica; y Lucas uno, versículos treinta y dos y treinta y tres, con Segunda de Samuel siete, versículos doce al dieciséis, es una alusión.",
+      "start_ms": 3969546,
+      "end_ms": 3989846,
+      "match_ratio": 0.604,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Del hilo de la descendencia: Mateo uno, versículo uno, con la promesa a Abraham en Génesis doce, versículo tres, y con la promesa a David en Segunda de Samuel siete, es en ambos casos una alusión.",
+      "start_ms": 3989846,
+      "end_ms": 4004146,
+      "match_ratio": 0.778,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Del hilo del pacto: Lucas veintidós, versículo veinte, con Jeremías treinta y uno, versículos treinta y uno al treinta y cuatro, es un eco verbal, por la expresión nuevo pacto. Y Marcos catorce, versículo veinticuatro, con Éxodo veinticuatro, versículo ocho, también es un eco verbal, por la sangre del pacto.",
+      "start_ms": 4004146,
+      "end_ms": 4024946,
+      "match_ratio": 0.62,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Del hilo de la presencia: Mateo uno, versículos veintidós y veintitrés, con Isaías siete, versículo catorce, es una cita explícita. Y Juan uno, versículo catorce, con Éxodo cuarenta, versículos treinta y cuatro y treinta y cinco, es una conexión canónica.",
+      "start_ms": 4024946,
+      "end_ms": 4043046,
+      "match_ratio": 0.6,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Y del hilo del sacrificio: Marcos diez, versículo cuarenta y cinco, con Isaías cincuenta y tres, es una conexión canónica; y Marcos quince, versículo treinta y cuatro, con el Salmo veintidós, versículo uno, es una cita explícita.",
+      "start_ms": 4043046,
+      "end_ms": 4058746,
+      "match_ratio": 0.595,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Fíjense en algo: dos pasajes del mismo hilo pueden tener rótulos distintos. Por eso la clasificación se hace por pareja de pasajes y no por hilo.",
+      "start_ms": 4058816,
+      "end_ms": 4069746,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Ahora, una síntesis de los ocho hilos que nos acompañan desde el Antiguo Testamento: el pacto, la presencia, el reino, la descendencia, el sacrificio, el templo, la tierra y el sacerdocio. Un hilo es un tema que recorre toda la Biblia y se va desarrollando por etapas. En la clase anterior, cada hilo quedó con un pendiente a las puertas de los Evangelios. Aquí solo vemos, en pocas palabras, qué hace cada uno. Las trayectorias completas y todas las referencias están en la guía escrita.",
+      "start_ms": 4069746,
+      "end_ms": 4104646,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "El pacto: Jesús, en la última cena, habla del nuevo pacto en su sangre. La presencia: Mateo recuerda el nombre Emanuel y Juan dice que el Verbo habitó entre nosotros. El reino: Jesús proclama que el reino de Dios se ha acercado y lo explica con parábolas. La descendencia: Mateo presenta a Jesús como hijo de David e hijo de Abraham, y Lucas anuncia el trono de David. El sacrificio: los relatos interpretan la muerte de Jesús con distintas imágenes, como el rescate y el Cordero de Dios. El nuevo pacto, que ya mencionamos, es un hilo propio, aunque aquí se cruza con el sacrificio en la sangre de la última cena.",
+      "start_ms": 4104646,
+      "end_ms": 4149946,
+      "match_ratio": 0.991,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Quedan tres hilos más, para estudio personal. El templo: Jesús limpia el Templo y habla de alguien mayor que el templo, Mateo doce, versículo seis; y en Juan se refiere a su cuerpo, Juan dos, versículos diecinueve al veintiuno. La tierra: los relatos transcurren en Galilea, Samaria y Judea, y Lucas anuncia un alcance a todas las naciones, Lucas veinticuatro, versículo cuarenta y siete. Y el sacerdocio: Lucas abre con el sacerdote Zacarías en el Templo, y los principales sacerdotes intervienen en la pasión; pero los Evangelios no desarrollan a Jesús en términos sacerdotales, y ese tratamiento lo ofrece la carta a los Hebreos.",
+      "start_ms": 4150107,
+      "end_ms": 4194287,
+      "match_ratio": 0.875,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Ocho hilos, y ninguno se pierde. Todos pasan a Hechos y las cartas.",
+      "start_ms": 4193847,
+      "end_ms": 4201567,
+      "match_ratio": 0.923,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Segundo movimiento: la Triple Mirada sobre un texto. Vamos a leer Lucas, capítulo veinticuatro, versículos cuarenta y cuatro al cuarenta y nueve. Los versículos treinta y seis al cuarenta y tres son el escenario. Les recuerdo qué significan las tres miradas. La mirada histórica pregunta cuándo y dónde sucede. La mirada del autor pregunta cómo y para qué escribe. Y la mirada teológica pregunta qué enseña el pasaje.",
+      "start_ms": 4201567,
+      "end_ms": 4231447,
+      "match_ratio": 0.794,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Mirada histórica. Estamos en Jerusalén. Lucas presenta estos acontecimientos después del regreso de los discípulos de Emaús, en el contexto del día de la resurrección; el texto no precisa la hora. Los discípulos están asustados, versículo treinta y siete. Jesús les muestra manos y pies, versículo treinta y nueve, y come delante de ellos, versículos cuarenta y dos y cuarenta y tres.",
+      "start_ms": 4231447,
+      "end_ms": 4259062,
+      "match_ratio": 0.79,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Mirada del autor. Lucas cierra aquí su Evangelio y abrirá Hechos retomando el mismo tema. El prólogo de Lucas uno, versículos uno al cuatro, y Hechos uno, versículo uno, enmarcan los dos libros. En el versículo cuarenta y cuatro, Lucas menciona lo que está escrito sobre el Cristo en la ley de Moisés, en los profetas y en los salmos. Simplemente leemos esa enumeración; el pasaje no basta por sí solo para afirmar que Lucas esté fijando las tres divisiones formales de las Escrituras hebreas. Y fíjense en esto: el pasaje no cita ningún texto concreto del Antiguo Testamento.",
+      "start_ms": 4258647,
+      "end_ms": 4298407,
+      "match_ratio": 0.909,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Mirada teológica. Cuatro afirmaciones. Primera: todo lo escrito de Cristo debía cumplirse, versículo cuarenta y cuatro. Segunda: era necesario que el Cristo padeciera y resucitara al tercer día, versículo cuarenta y seis. Tercera: en su nombre se predicará el arrepentimiento y el perdón de pecados a todas las naciones, comenzando desde Jerusalén, versículo cuarenta y siete. Y cuarta: los discípulos son testigos y recibirán la promesa del Padre, poder desde lo alto, versículos cuarenta y ocho y cuarenta y nueve.",
+      "start_ms": 4298407,
+      "end_ms": 4338622,
+      "match_ratio": 0.8,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Ahora, su conclusión. Anótenla en una libreta, o díganla en voz alta: según Lucas veinticuatro, versículos cuarenta y cuatro al cuarenta y nueve, ¿en qué descansa la misión?",
+      "start_ms": 4336607,
+      "end_ms": 4348487,
+      "match_ratio": 0.536,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Una respuesta posible: la misión descansa en la Escritura cumplida y en el Cristo que padeció y resucitó, y se sostiene con la promesa del Espíritu.",
+      "start_ms": 4348487,
+      "end_ms": 4359087,
+      "match_ratio": 0.962,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Ya tenemos el recorrido completo. Falta cerrar y mirar hacia Hechos.",
+      "start_ms": 4359087,
+      "end_ms": 4365047,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-07"
+    },
+    {
+      "text": "Capítulo ocho. Lo que debemos recordar",
+      "start_ms": 4365047,
+      "end_ms": 4368207,
+      "match_ratio": 0.833,
+      "heading": true,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Hemos llegado al final del recorrido. La pregunta con la que cerramos es la misma con la que empezamos: ¿quién es Jesús según los cuatro Evangelios, y qué sigue después?",
+      "start_ms": 4368207,
+      "end_ms": 4379607,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Primero, volvamos a aquella lista que hicimos al comienzo: los acontecimientos más importantes de la vida de Jesús, y en qué orden sucedieron. Ahora podemos ordenarlos con las siete etapas. Uno, la llegada. Dos, la preparación. Tres, el comienzo del ministerio. Cuatro, el gran ministerio. Cinco, el camino a Jerusalén. Seis, la pasión y muerte. Siete, la resurrección y la misión. Corrijan su lista, o comparen mentalmente lo que habían pensado.",
+      "start_ms": 4379607,
+      "end_ms": 4414687,
+      "match_ratio": 0.986,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Segundo, una síntesis: quién es Jesús en cada relato. Mateo destaca a Jesús como hijo de David y cumplimiento de las Escrituras; el texto representativo es Mateo uno, versículo uno, y Mateo cinco, versículo diecisiete. Marcos destaca que Jesús anuncia el reino y da su vida en rescate: Marcos uno, versículo quince, y Marcos diez, versículo cuarenta y cinco. Lucas destaca que Jesús trae buenas noticias y salvación: Lucas cuatro, versículo dieciocho, y Lucas diecinueve, versículo diez. Y Juan destaca que Jesús es el Verbo que era Dios y se hizo carne, Juan uno, versículos uno y catorce; el Cristo, el Hijo de Dios, en cuyo nombre hay vida, Juan veinte, versículos treinta y treinta y uno.",
+      "start_ms": 4414687,
+      "end_ms": 4465627,
+      "match_ratio": 0.812,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Y ahora, la pregunta final, en voz alta: después de estudiar sus diferencias, ¿qué grandes acontecimientos y afirmaciones sobre Jesús aparecen en el conjunto de los cuatro Evangelios?",
+      "start_ms": 4465567,
+      "end_ms": 4478447,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Su relación con Juan el Bautista, su enseñanza y sus obras, su muerte y su resurrección. Cada Evangelio los cuenta con su propio detalle, y no con las mismas palabras.",
+      "start_ms": 4478017,
+      "end_ms": 4490007,
+      "match_ratio": 0.967,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Tercero, tres ideas para llevar. Una: un evangelio es un anuncio antes de ser un libro. Dos: cuatro relatos dan un solo mensaje sin fundirse. Y tres: el recorrido no termina en la cruz, termina en una misión y una promesa.",
+      "start_ms": 4490310,
+      "end_ms": 4508480,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Cuarto, el puente a Hechos. Lucas veinticuatro, versículo cuarenta y nueve, anuncia la promesa del Padre y ordena esperar en Jerusalén. Hechos uno, versículos uno al once, retoma la historia con la ascensión y el mandato de esperar la promesa: recibirán poder y serán testigos, Hechos uno, versículo ocho. De Lucas veinticuatro, versículo cuarenta y nueve, a Hechos uno, versículo ocho, y de allí a la Lección tres: Pentecostés y la expansión de la Iglesia.",
+      "start_ms": 4508480,
+      "end_ms": 4539760,
+      "match_ratio": 0.747,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Quien llegó en Belén, enseñó, murió y resucitó, envía a sus discípulos con una promesa.",
+      "start_ms": 4539760,
+      "end_ms": 4547600,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Antes de despedirnos, cinco errores comunes que conviene evitar.",
+      "start_ms": 4547670,
+      "end_ms": 4552260,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Primero: creer que evangelio es un libro. En Romanos uno, versículos uno al cuatro, y en Primera de Corintios quince, versículos uno al cuatro, la palabra nombra el mensaje. Llamar Evangelio a cada libro es un uso posterior.",
+      "start_ms": 4552260,
+      "end_ms": 4567900,
+      "match_ratio": 0.711,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Segundo: creer que existe una cronología única de la vida de Jesús. Ningún Evangelio ofrece una cronología exhaustiva y uniforme de toda la vida de Jesús. Las siete etapas son un panorama, no una cronología exacta.",
+      "start_ms": 4567900,
+      "end_ms": 4583500,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Tercero: creer que toda diferencia entre los Evangelios constituye necesariamente una contradicción. No toda diferencia implica contradicción. Algunas son complementarias; otras requieren un análisis histórico, literario o textual más cuidadoso.",
+      "start_ms": 4583500,
+      "end_ms": 4600700,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Cuarto: creer que Marcos tiene relato de nacimiento. No lo tiene. Marcos entra directamente con Juan el Bautista, Marcos uno, versículos uno al trece.",
+      "start_ms": 4600700,
+      "end_ms": 4612735,
+      "match_ratio": 0.833,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Y quinto: creer que los Evangelios agotan la vida de Jesús. Juan veinte, versículo treinta, y veintiuno, versículo veinticinco, dicen que hubo mucho más que no se escribió. Los relatos seleccionan.",
+      "start_ms": 4612060,
+      "end_ms": 4626620,
+      "match_ratio": 0.871,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Ahora, para estudiar por su cuenta, aquí van ocho preguntas de repaso.",
+      "start_ms": 4626620,
+      "end_ms": 4631380,
+      "match_ratio": 0.917,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Una: ¿qué significa evangelio, y cómo lo usan Pablo y Marcos en Romanos uno, versículos uno al cuatro, Primera de Corintios quince, versículos uno al cuatro, y Marcos uno, versículo uno?",
+      "start_ms": 4631450,
+      "end_ms": 4644645,
+      "match_ratio": 0.71,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Dos: según Lucas uno, versículos uno al cuatro, ¿cuáles son los eslabones entre los acontecimientos y el relato escrito?",
+      "start_ms": 4644740,
+      "end_ms": 4653540,
+      "match_ratio": 0.842,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Tres: nombren las siete etapas de la vida de Jesús y un episodio de cada una.",
+      "start_ms": 4653540,
+      "end_ms": 4659540,
+      "match_ratio": 0.938,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Cuatro: ¿cuáles son los cinco ejes de la enseñanza de Jesús y su texto central?",
+      "start_ms": 4659610,
+      "end_ms": 4664660,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Cinco: ¿qué comparten Mateo, Marcos y Lucas, y qué material tiene cada uno por separado?",
+      "start_ms": 4664660,
+      "end_ms": 4671220,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Seis: ¿qué es texto, qué es inferencia y qué es debate en la autoría y la fecha de cada Evangelio?",
+      "start_ms": 4671220,
+      "end_ms": 4678580,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Siete: ¿qué tienen en común los cuatro letreros de la cruz, y qué muestra el ejercicio del bautismo?",
+      "start_ms": 4678580,
+      "end_ms": 4684980,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Y ocho: ¿en qué se distinguen una cita explícita, una alusión, un eco verbal y una conexión canónica? Den un ejemplo de cada una.",
+      "start_ms": 4684980,
+      "end_ms": 4694660,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Y, para quienes quieran profundizar, el material de estudio incluye una sección llamada Para profundizar, con el problema sinóptico, la discusión sobre Marcos uno, versículo uno, y la limpieza del Templo.",
+      "start_ms": 4694660,
+      "end_ms": 4707940,
+      "match_ratio": 0.903,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Y para terminar, un avance. La próxima clase trata de Pentecostés y Hechos. Hechos uno, versículo uno, retoma el primer tratado de Lucas y lo dirige otra vez a Teófilo. Hoy conocimos al protagonista a través de cuatro relatos. El próximo lunes veremos qué sucedió después de la resurrección.",
+      "start_ms": 4707940,
+      "end_ms": 4727620,
+      "match_ratio": 0.939,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    },
+    {
+      "text": "Que este recorrido les haya servido para leer los Evangelios con ojos nuevos. Gracias por escuchar. Y hasta la próxima clase.",
+      "start_ms": 4727620,
+      "end_ms": 4735420,
+      "match_ratio": 1.0,
+      "heading": false,
+      "chapter_id": "capitulo-08"
+    }
+  ]
+}

@@ -7,9 +7,9 @@
   <meta name="description" content="Audiolibro: Panorama del Nuevo Testamento, clase 2.">
   <title>Panorama del Nuevo Testamento — Clase 2 | Escuela de Gloria</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./player.css?v=2">
+  <link rel="stylesheet" href="./player.css?v=3">
   <script src="./config.js"></script>
-  <script src="./player.js?v=2" defer></script>
+  <script src="./player.js?v=3" defer></script>
 </head>
 <body>
   <main class="page-shell">
@@ -23,12 +23,11 @@
           <p id="subtitle" class="subtitle"></p>
           <p id="description" class="description"></p>
           <p class="book-meta"><span id="chapter-count"></span><span aria-hidden="true"> · </span><span id="total-duration"></span></p>
-          <a id="full-download" class="download-link" hidden>Descargar audiolibro completo</a>
         </div>
       </div>
 
       <section class="player" aria-label="Reproductor">
-        <div class="now-playing"><span class="eyebrow">REPRODUCIENDO</span><p id="current-title">Selecciona un capítulo</p></div>
+        <div class="now-playing"><span class="eyebrow">LIBRO COMPLETO</span><p id="current-title">Preparando audiolibro…</p></div>
         <audio id="audio" preload="metadata"></audio>
         <label class="sr-only" for="seek">Posición de reproducción</label>
         <input id="seek" class="seek" type="range" min="0" max="1000" value="0" aria-label="Posición de reproducción">
@@ -48,17 +47,17 @@
       </section>
     </section>
 
-    <section class="reader-section" aria-labelledby="reader-heading">
-      <div class="section-heading"><div><p class="eyebrow">SIGUE LA CLASE</p><h2 id="reader-heading">Lectura sincronizada</h2></div></div>
-      <p id="reader-status" class="reader-status" role="status" aria-live="polite">El texto aparecerá al cargar el capítulo.</p>
-      <div id="reader-content" class="reader-content" aria-label="Texto del capítulo"></div>
-    </section>
-
     <section class="chapter-section" aria-labelledby="chapter-heading">
-      <div class="section-heading"><div><p class="eyebrow">CONTENIDO</p><h2 id="chapter-heading">Capítulos</h2></div><span id="size-total" class="size-note"></span></div>
+      <div class="section-heading"><div><p class="eyebrow">NAVEGACIÓN DEL LIBRO</p><h2 id="chapter-heading">Contenido</h2></div><span id="contents-count" class="size-note"></span></div>
       <ol id="chapters" class="chapter-list"></ol>
     </section>
-    <footer>El audio se carga por capítulo para cuidar tus datos móviles.</footer>
+
+    <section class="reader-section" aria-labelledby="reader-heading">
+      <div class="section-heading"><div><p class="eyebrow">LECTURA CONTINUA</p><h2 id="reader-heading">Texto del audiolibro</h2></div></div>
+      <p id="reader-status" class="reader-status" role="status" aria-live="polite">El libro aparecerá al cargar.</p>
+      <div id="reader-content" class="reader-content" aria-label="Texto completo del audiolibro"></div>
+    </section>
+    <footer>Un solo audiolibro, con sus capítulos integrados en una lectura continua.</footer>
   </main>
 </body>
 </html>
