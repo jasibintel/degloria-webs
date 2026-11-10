@@ -8,154 +8,154 @@
       "text": "Capítulo siete. El Antiguo Testamento y la Triple Mirada",
       "start_ms": 0,
       "end_ms": 5200,
-      "confidence": 0.778,
+      "match_ratio": 0.778,
       "heading": true
     },
     {
       "text": "Llegamos a una pregunta que une toda la Biblia: ¿cómo presentan los Evangelios el cumplimiento y el desarrollo de las promesas bíblicas? Este capítulo tiene dos movimientos. En el primero veremos cómo los Evangelios usan las Escrituras anteriores. En el segundo aplicaremos la Triple Mirada a un texto concreto: Lucas veinticuatro, versículos cuarenta y cuatro al cuarenta y nueve.",
       "start_ms": 5200,
       "end_ms": 31070,
-      "confidence": 0.881,
+      "match_ratio": 0.881,
       "heading": false
     },
     {
       "text": "Primer movimiento: cómo los Evangelios usan las Escrituras anteriores.",
       "start_ms": 30600,
       "end_ms": 36800,
-      "confidence": 0.889,
+      "match_ratio": 0.889,
       "heading": false
     },
     {
       "text": "Fíjense en la idea central: cuando el Nuevo Testamento cita, hay evidencia textual explícita. Cuando nosotros conectamos, es una lectura canónica. Por eso rotulamos cada conexión, pareja por pareja, y no todo el hilo de una vez.",
       "start_ms": 36800,
       "end_ms": 53600,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Aprendamos cuatro rótulos. El primero es la cita explícita: el texto del Nuevo Testamento cita al Antiguo. El segundo es la alusión: remite a un pasaje o a un tema sin citarlo. El tercero es el eco verbal: comparte expresiones clave. Y el cuarto es la conexión canónica: una relación que establecemos al leer la Biblia como un conjunto. Cita, alusión, eco y conexión canónica. Cuatro maneras distintas de decir que dos textos se hablan, y cada una afirma algo distinto. Y una aclaración: estas etiquetas son herramientas de análisis, no fronteras absolutas. Algunas relaciones pueden clasificarse de otra manera, según los argumentos textuales que se presenten.",
       "start_ms": 53600,
       "end_ms": 103600,
-      "confidence": 0.981,
+      "match_ratio": 0.981,
       "heading": false
     },
     {
       "text": "Veamos algunos ejemplos, uno por hilo. Del hilo del reino: Marcos uno, versículo quince, con Daniel siete, versículos trece y catorce, es una conexión canónica; y Lucas uno, versículos treinta y dos y treinta y tres, con Segunda de Samuel siete, versículos doce al dieciséis, es una alusión.",
       "start_ms": 103600,
       "end_ms": 123900,
-      "confidence": 0.604,
+      "match_ratio": 0.604,
       "heading": false
     },
     {
       "text": "Del hilo de la descendencia: Mateo uno, versículo uno, con la promesa a Abraham en Génesis doce, versículo tres, y con la promesa a David en Segunda de Samuel siete, es en ambos casos una alusión.",
       "start_ms": 123900,
       "end_ms": 138200,
-      "confidence": 0.778,
+      "match_ratio": 0.778,
       "heading": false
     },
     {
       "text": "Del hilo del pacto: Lucas veintidós, versículo veinte, con Jeremías treinta y uno, versículos treinta y uno al treinta y cuatro, es un eco verbal, por la expresión nuevo pacto. Y Marcos catorce, versículo veinticuatro, con Éxodo veinticuatro, versículo ocho, también es un eco verbal, por la sangre del pacto.",
       "start_ms": 138200,
       "end_ms": 159000,
-      "confidence": 0.62,
+      "match_ratio": 0.62,
       "heading": false
     },
     {
       "text": "Del hilo de la presencia: Mateo uno, versículos veintidós y veintitrés, con Isaías siete, versículo catorce, es una cita explícita. Y Juan uno, versículo catorce, con Éxodo cuarenta, versículos treinta y cuatro y treinta y cinco, es una conexión canónica.",
       "start_ms": 159000,
       "end_ms": 177100,
-      "confidence": 0.6,
+      "match_ratio": 0.6,
       "heading": false
     },
     {
       "text": "Y del hilo del sacrificio: Marcos diez, versículo cuarenta y cinco, con Isaías cincuenta y tres, es una conexión canónica; y Marcos quince, versículo treinta y cuatro, con el Salmo veintidós, versículo uno, es una cita explícita.",
       "start_ms": 177100,
       "end_ms": 192800,
-      "confidence": 0.595,
+      "match_ratio": 0.595,
       "heading": false
     },
     {
       "text": "Fíjense en algo: dos pasajes del mismo hilo pueden tener rótulos distintos. Por eso la clasificación se hace por pareja de pasajes y no por hilo.",
       "start_ms": 192870,
       "end_ms": 203800,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Ahora, una síntesis de los ocho hilos que nos acompañan desde el Antiguo Testamento: el pacto, la presencia, el reino, la descendencia, el sacrificio, el templo, la tierra y el sacerdocio. Un hilo es un tema que recorre toda la Biblia y se va desarrollando por etapas. En la clase anterior, cada hilo quedó con un pendiente a las puertas de los Evangelios. Aquí solo vemos, en pocas palabras, qué hace cada uno. Las trayectorias completas y todas las referencias están en la guía escrita.",
       "start_ms": 203800,
       "end_ms": 238700,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "El pacto: Jesús, en la última cena, habla del nuevo pacto en su sangre. La presencia: Mateo recuerda el nombre Emanuel y Juan dice que el Verbo habitó entre nosotros. El reino: Jesús proclama que el reino de Dios se ha acercado y lo explica con parábolas. La descendencia: Mateo presenta a Jesús como hijo de David e hijo de Abraham, y Lucas anuncia el trono de David. El sacrificio: los relatos interpretan la muerte de Jesús con distintas imágenes, como el rescate y el Cordero de Dios. El nuevo pacto, que ya mencionamos, es un hilo propio, aunque aquí se cruza con el sacrificio en la sangre de la última cena.",
       "start_ms": 238700,
       "end_ms": 284000,
-      "confidence": 0.991,
+      "match_ratio": 0.991,
       "heading": false
     },
     {
       "text": "Quedan tres hilos más, para estudio personal. El templo: Jesús limpia el Templo y habla de alguien mayor que el templo, Mateo doce, versículo seis; y en Juan se refiere a su cuerpo, Juan dos, versículos diecinueve al veintiuno. La tierra: los relatos transcurren en Galilea, Samaria y Judea, y Lucas anuncia un alcance a todas las naciones, Lucas veinticuatro, versículo cuarenta y siete. Y el sacerdocio: Lucas abre con el sacerdote Zacarías en el Templo, y los principales sacerdotes intervienen en la pasión; pero los Evangelios no desarrollan a Jesús en términos sacerdotales, y ese tratamiento lo ofrece la carta a los Hebreos.",
       "start_ms": 284161,
       "end_ms": 328341,
-      "confidence": 0.875,
+      "match_ratio": 0.875,
       "heading": false
     },
     {
       "text": "Ocho hilos, y ninguno se pierde. Todos pasan a Hechos y las cartas.",
       "start_ms": 327901,
       "end_ms": 335621,
-      "confidence": 0.923,
+      "match_ratio": 0.923,
       "heading": false
     },
     {
       "text": "Segundo movimiento: la Triple Mirada sobre un texto. Vamos a leer Lucas, capítulo veinticuatro, versículos cuarenta y cuatro al cuarenta y nueve. Los versículos treinta y seis al cuarenta y tres son el escenario. Les recuerdo qué significan las tres miradas. La mirada histórica pregunta cuándo y dónde sucede. La mirada del autor pregunta cómo y para qué escribe. Y la mirada teológica pregunta qué enseña el pasaje.",
       "start_ms": 335621,
       "end_ms": 365501,
-      "confidence": 0.794,
+      "match_ratio": 0.794,
       "heading": false
     },
     {
       "text": "Mirada histórica. Estamos en Jerusalén. Lucas presenta estos acontecimientos después del regreso de los discípulos de Emaús, en el contexto del día de la resurrección; el texto no precisa la hora. Los discípulos están asustados, versículo treinta y siete. Jesús les muestra manos y pies, versículo treinta y nueve, y come delante de ellos, versículos cuarenta y dos y cuarenta y tres.",
       "start_ms": 365501,
       "end_ms": 393116,
-      "confidence": 0.79,
+      "match_ratio": 0.79,
       "heading": false
     },
     {
       "text": "Mirada del autor. Lucas cierra aquí su Evangelio y abrirá Hechos retomando el mismo tema. El prólogo de Lucas uno, versículos uno al cuatro, y Hechos uno, versículo uno, enmarcan los dos libros. En el versículo cuarenta y cuatro, Lucas menciona lo que está escrito sobre el Cristo en la ley de Moisés, en los profetas y en los salmos. Simplemente leemos esa enumeración; el pasaje no basta por sí solo para afirmar que Lucas esté fijando las tres divisiones formales de las Escrituras hebreas. Y fíjense en esto: el pasaje no cita ningún texto concreto del Antiguo Testamento.",
       "start_ms": 392701,
       "end_ms": 432461,
-      "confidence": 0.909,
+      "match_ratio": 0.909,
       "heading": false
     },
     {
       "text": "Mirada teológica. Cuatro afirmaciones. Primera: todo lo escrito de Cristo debía cumplirse, versículo cuarenta y cuatro. Segunda: era necesario que el Cristo padeciera y resucitara al tercer día, versículo cuarenta y seis. Tercera: en su nombre se predicará el arrepentimiento y el perdón de pecados a todas las naciones, comenzando desde Jerusalén, versículo cuarenta y siete. Y cuarta: los discípulos son testigos y recibirán la promesa del Padre, poder desde lo alto, versículos cuarenta y ocho y cuarenta y nueve.",
       "start_ms": 432461,
       "end_ms": 472676,
-      "confidence": 0.8,
+      "match_ratio": 0.8,
       "heading": false
     },
     {
       "text": "Ahora, su conclusión. Anótenla en una libreta, o díganla en voz alta: según Lucas veinticuatro, versículos cuarenta y cuatro al cuarenta y nueve, ¿en qué descansa la misión?",
       "start_ms": 470661,
       "end_ms": 482541,
-      "confidence": 0.536,
+      "match_ratio": 0.536,
       "heading": false
     },
     {
       "text": "Una respuesta posible: la misión descansa en la Escritura cumplida y en el Cristo que padeció y resucitó, y se sostiene con la promesa del Espíritu.",
       "start_ms": 482541,
       "end_ms": 493141,
-      "confidence": 0.962,
+      "match_ratio": 0.962,
       "heading": false
     },
     {
       "text": "Ya tenemos el recorrido completo. Falta cerrar y mirar hacia Hechos.",
       "start_ms": 493141,
       "end_ms": 499101,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     }
   ]

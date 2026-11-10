@@ -8,119 +8,119 @@
       "text": "Capítulo uno. ¿Quién es Jesús?",
       "start_ms": 60,
       "end_ms": 3280,
-      "confidence": 0.8,
+      "match_ratio": 0.8,
       "heading": true
     },
     {
       "text": "Bienvenidos a la segunda clase del módulo Panorama del Nuevo Testamento, de la Escuela de Teología DeGloria. Como la vez anterior, les propongo algo sencillo: acomódense, respiren hondo y escuchen esta clase como se escucha una buena historia. Porque hoy vamos a recorrer, de principio a fin, la vida de Jesús.",
       "start_ms": 3280,
       "end_ms": 25240,
-      "confidence": 0.98,
+      "match_ratio": 0.98,
       "heading": false
     },
     {
       "text": "La clase pasada terminó con un mensajero en el desierto. Hablamos de Juan el Bautista y de Marcos, capítulo uno, versículos uno al cuatro: una voz que prepara el camino. Esa relación con Malaquías, capítulo tres, versículo uno, y con Isaías, capítulo cuarenta, versículo tres, ya la estudiamos. Hoy solo la enlazamos, porque el escenario ya está preparado. Hoy llega el protagonista.",
       "start_ms": 25240,
       "end_ms": 51920,
-      "confidence": 0.855,
+      "match_ratio": 0.855,
       "heading": false
     },
     {
       "text": "Toda la clase gira alrededor de una pregunta. La voy a leer despacio y quiero que la guarden en la mente: ¿quién es Jesús y cómo lo presentan los cuatro Evangelios?",
       "start_ms": 51920,
       "end_ms": 64360,
-      "confidence": 0.968,
+      "match_ratio": 0.968,
       "heading": false
     },
     {
       "text": "Tres textos atraviesan toda la clase, y los vamos a escuchar varias veces. El primero está en Marcos, capítulo cuatro, versículo cuarenta y uno. Jesús acaba de calmar una tempestad, y los discípulos, asombrados, se preguntan unos a otros quién es este que hasta el viento y el mar le obedecen. El segundo está en Mateo, capítulo dieciséis, versículos quince y dieciséis. Allí es Jesús quien pregunta a sus discípulos quién dicen ellos que es, y Pedro responde. Y el tercero está en Juan, capítulo veinte, versículos treinta y treinta y uno, donde el autor declara para qué escribió su libro. Primero, la pregunta de los discípulos. Luego, la pregunta de Jesús. Y al final, la respuesta del autor.",
       "start_ms": 64360,
       "end_ms": 112720,
-      "confidence": 0.882,
+      "match_ratio": 0.882,
       "heading": false
     },
     {
       "text": "Hoy no preguntamos primero cómo se escribió cada libro. Preguntamos de quién hablan. Recorreremos lo que cuentan, lo que enseñó su protagonista, y cómo cada autor lo presenta.",
       "start_ms": 112780,
       "end_ms": 125360,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Ahora bien, ¿qué queremos lograr al terminar? Seis cosas concretas. Primera, que puedan narrar las siete etapas de la vida de Jesús. Segunda, que puedan nombrar los cinco ejes de su enseñanza. Tercera, que puedan explicar qué es un evangelio y quiénes son los sinópticos. Cuarta, que sepan leer las diferencias entre relatos paralelos sin forzarlas. Quinta, que puedan relacionar la vida de Jesús con las promesas del Antiguo Testamento. Y sexta, que entiendan cómo el final de los Evangelios abre el libro de Hechos.",
       "start_ms": 125360,
       "end_ms": 162970,
-      "confidence": 0.976,
+      "match_ratio": 0.976,
       "heading": false
     },
     {
       "text": "Pensemos en dónde estamos y adónde vamos. Muchos de nosotros llegamos a esta clase sabiendo algunos episodios de la vida de Jesús, pero sin un orden general. Y es muy común que los cuatro Evangelios nos parezcan cuatro copias del mismo libro. Esperamos que al terminar puedan recorrer la vida de Jesús en siete etapas, nombrar cinco ejes de su enseñanza, y leer cada Evangelio como un relato propio. Los cuatro presentan a la misma persona, y el recorrido termina en una misión y una promesa.",
       "start_ms": 163600,
       "end_ms": 196600,
-      "confidence": 0.988,
+      "match_ratio": 0.988,
       "heading": false
     },
     {
       "text": "Antes de seguir, unas indicaciones para escuchar bien esta clase.",
       "start_ms": 196660,
       "end_ms": 200920,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Primera: si pueden, lean Lucas, capítulo veinticuatro, versículos treinta y seis al cuarenta y nueve, antes o después de escuchar. Y tengan su Biblia a mano. Aquí mencionaremos muchos pasajes, y lo mejor es que los abran ustedes mismos y los lean completos.",
       "start_ms": 200920,
       "end_ms": 217960,
-      "confidence": 0.814,
+      "match_ratio": 0.814,
       "heading": false
     },
     {
       "text": "Segunda: esta clase es un panorama, no una cronología. Las siete etapas son un recorrido general de la vida y el ministerio de Jesús. No pretenden ser una cronología exacta de todos los acontecimientos. Cada evangelista selecciona y organiza su material según sus propósitos.",
       "start_ms": 217960,
       "end_ms": 237080,
-      "confidence": 0.977,
+      "match_ratio": 0.977,
       "heading": false
     },
     {
       "text": "Tercera: vamos a usar cuatro etiquetas para que sepan qué tan firme es cada afirmación. Cuando digamos texto, nos referimos a lo que dice el pasaje. Cuando digamos inferencia, a lo que se deduce razonablemente. Cuando digamos tradición, a lo que afirma el testimonio antiguo. Y cuando digamos debatido, a lo que sigue en discusión entre los estudiosos. Texto, inferencia, tradición y debatido. Cuatro niveles que nos ayudan a no decir más de lo que se puede decir.",
       "start_ms": 237080,
       "end_ms": 270840,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Y ahora, un ejercicio. Antes de aprender nada, quiero saber cuánto sabemos. Les pido que lo anoten en una libreta, o que lo piensen en voz alta, y si lo desean, pausen la grabación un momento: ¿cuáles son los acontecimientos más importantes de la vida de Jesucristo y en qué orden sucedieron?",
       "start_ms": 270840,
       "end_ms": 291120,
-      "confidence": 0.981,
+      "match_ratio": 0.981,
       "heading": false
     },
     {
       "text": "No se preocupen por acertar. No vamos a corregir sus respuestas todavía. Guárdenlas, porque al final de la clase volveremos a esa lista para ver cuánto hemos aprendido.",
       "start_ms": 291120,
       "end_ms": 302480,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Un último dato de ubicación. Este módulo tiene cinco clases, una por cada lunes del mes. La primera fue el puente de Malaquías a Cristo. Esta, la segunda, es Un solo evangelio, cuatro relatos. La tercera será Pentecostés y Hechos. La cuarta, las cartas apostólicas. Y la quinta, el Apocalipsis y los grandes hilos de toda la Biblia.",
       "start_ms": 302540,
       "end_ms": 327780,
-      "confidence": 0.983,
+      "match_ratio": 0.983,
       "heading": false
     },
     {
       "text": "Y para cerrar este primer capítulo, una frase que resume lo que viene: los cuatro Evangelios responden, cada uno a su manera, a una misma pregunta. ¿Quién es Jesús?",
       "start_ms": 328420,
       "end_ms": 340960,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     },
     {
       "text": "Pero antes de recorrer su vida, hay que saber qué clase de libros nos la cuentan. Vamos con eso.",
       "start_ms": 340960,
       "end_ms": 347011,
-      "confidence": 1.0,
+      "match_ratio": 1.0,
       "heading": false
     }
   ]
