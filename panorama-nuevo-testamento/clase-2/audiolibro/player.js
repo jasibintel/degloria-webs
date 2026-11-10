@@ -34,7 +34,6 @@
       const time=document.createElement("span");time.className="chapter-details";time.textContent=fmt(chapter.duration_ms/1000);
       button.append(num,title,time);li.append(button);list.append(li);
     });
-    $("contents-count").textContent=`${chapters.length} capítulos`;
   }
   const REF_NUMBER = String.raw`(?:uno|una|un|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce|trece|catorce|quince|dieciséis|diecisiete|dieciocho|diecinueve|veinte|veintiuno|veintidós|veintitrés|veinticuatro|veinticinco|veintiséis|veintisiete|veintiocho|veintinueve|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa|cien|ciento|mil)(?:\s+(?:y|al|a)\s+(?:uno|una|un|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce|trece|catorce|quince|dieciséis|diecisiete|dieciocho|diecinueve|veinte|veintiuno|veintidós|veintitrés|veinticuatro|veinticinco|veintiséis|veintisiete|veintiocho|veintinueve|treinta|cuarenta|cincuenta|sesenta|setenta|ochenta|noventa|cien|ciento|mil)){0,4}`;
   const books=["Primera de Corintios","Segunda de Corintios","Primera de Tesalonicenses","Segunda de Tesalonicenses","Primera de Timoteo","Segunda de Timoteo","Primera de Pedro","Segunda de Pedro","Primera de Juan","Segunda de Juan","Tercera de Juan","Cantar de los Cantares","Primera de Samuel","Segunda de Samuel","Primera de Reyes","Segunda de Reyes","Primera de Crónicas","Segunda de Crónicas","Primera a los Corintios","Segunda a los Corintios","Primera a Timoteo","Segunda a Timoteo","Primera a los Tesalonicenses","Segunda a los Tesalonicenses","Génesis","Éxodo","Levítico","Números","Deuteronomio","Josué","Jueces","Rut","Esdras","Nehemías","Ester","Job","Salmos","Salmo","Proverbios","Eclesiastés","Isaías","Jeremías","Lamentaciones","Ezequiel","Daniel","Oseas","Joel","Amós","Abdías","Jonás","Miqueas","Nahúm","Habacuc","Sofonías","Hageo","Zacarías","Malaquías","Mateo","Marcos","Lucas","Juan","Hechos","Romanos","Gálatas","Efesios","Filipenses","Colosenses","Filemón","Hebreos","Santiago","Judas","Apocalipsis"];
@@ -139,7 +138,6 @@
   audio.addEventListener("seeking",clearSpokenWords);audio.addEventListener("seeked",()=>updateActiveWord(audio.currentTime));
   audio.addEventListener("ended",()=>{setStatus("Audiolibro terminado.");saveState();});
   $("seek").addEventListener("input",()=>{if(Number.isFinite(audio.duration)){audio.currentTime=Number($("seek").value)/1000*audio.duration;updateTranscript(audio.currentTime);}});
-  $("previous").addEventListener("click",()=>jumpToChapter(Math.max(0,current-1)));$("next").addEventListener("click",()=>jumpToChapter(Math.min(chapters.length-1,current+1)));
   $("back").addEventListener("click",()=>{audio.currentTime=Math.max(0,audio.currentTime-15);});$("forward").addEventListener("click",()=>{audio.currentTime=Math.min(audio.duration||0,audio.currentTime+15);});
   $("speed").addEventListener("change",event=>{audio.playbackRate=Number(event.target.value);saveState();});
   const fontKey="escuela-gloria:audiobook:panorama-nt-clase-02:font-size";
